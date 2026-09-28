@@ -1,0 +1,50 @@
+{
+  "benchmark": "tnt_edit_gold_dev_v4",
+  "seed": 2026,
+  "protocol": {
+    "seed": 2026,
+    "matched_unique_rows": 3330,
+    "synthetic_epochs": 20.0,
+    "gold_epochs": 20.0,
+    "synthetic_learning_rate": 0.0003,
+    "gold_learning_rate": 0.0001,
+    "synthetic_batch_size": 64,
+    "gold_batch_size": 32,
+    "evaluation_batch_size": 64,
+    "generated_eval_interval_epochs": 5
+  },
+  "selections": {
+    "gold": {
+      "selected_checkpoint": "C:\\Users\\thioy\\Desktop\\School\\PFE\\checkpoints\\m7_seq2seq\\tnt_edit_gold_dev_v4\\gold\\seed_2026\\gold_finetune_continuous\\attempt_001\\best_model",
+      "selected_run_manifest": "C:\\Users\\thioy\\Desktop\\School\\PFE\\checkpoints\\m7_seq2seq\\tnt_edit_gold_dev_v4\\gold\\seed_2026\\gold_finetune_continuous\\attempt_001\\run_manifest.json",
+      "selected_run_manifest_sha256": "79c4e8f624305fac7cb24a726367f9e104ad51f5ccef20b12a3aa25b4198bd2a"
+    },
+    "m1": {
+      "selected_checkpoint": "C:\\Users\\thioy\\Desktop\\School\\PFE\\checkpoints\\m7_seq2seq\\tnt_edit_gold_dev_v4\\m1\\seed_2026\\gold_finetune_continuous\\attempt_001\\best_model",
+      "selected_run_manifest": "C:\\Users\\thioy\\Desktop\\School\\PFE\\checkpoints\\m7_seq2seq\\tnt_edit_gold_dev_v4\\m1\\seed_2026\\gold_finetune_continuous\\attempt_001\\run_manifest.json",
+      "selected_run_manifest_sha256": "243a2f252a63caab53fc337f1969303556faf50988147ad8d2fe7147ecdbd2fa"
+    },
+    "m2": {
+      "selected_checkpoint": "C:\\Users\\thioy\\Desktop\\School\\PFE\\checkpoints\\m7_seq2seq\\tnt_edit_gold_dev_v4\\m2\\seed_2026\\gold_finetune_continuous\\attempt_001\\best_model",
+      "selected_run_manifest": "C:\\Users\\thioy\\Desktop\\School\\PFE\\checkpoints\\m7_seq2seq\\tnt_edit_gold_dev_v4\\m2\\seed_2026\\gold_finetune_continuous\\attempt_001\\run_manifest.json",
+      "selected_run_manifest_sha256": "c3a01fb55d0701b38bec404b29c6a8b7cdc63c06f3f37470e139919d7371a239"
+    },
+    "m3": {
+      "selected_checkpoint": "C:\\Users\\thioy\\Desktop\\School\\PFE\\checkpoints\\m7_seq2seq\\tnt_edit_gold_dev_v4\\m3\\seed_2026\\gold_finetune_continuous\\attempt_001\\best_model",
+      "selected_run_manifest": "C:\\Users\\thioy\\Desktop\\School\\PFE\\checkpoints\\m7_seq2seq\\tnt_edit_gold_dev_v4\\m3\\seed_2026\\gold_finetune_continuous\\attempt_001\\run_manifest.json",
+      "selected_run_manifest_sha256": "dd2e6608f4a7fb0b89f1304c1bc03c2b1ec052b938803c8a25031cf18a2e11f2"
+    },
+    "m4": {
+      "selected_checkpoint": "C:\\Users\\thioy\\Desktop\\School\\PFE\\checkpoints\\m7_seq2seq\\tnt_edit_gold_dev_v4\\m4\\seed_2026\\gold_finetune_continuous\\attempt_001\\best_model",
+      "selected_run_manifest": "C:\\Users\\thioy\\Desktop\\School\\PFE\\checkpoints\\m7_seq2seq\\tnt_edit_gold_dev_v4\\m4\\seed_2026\\gold_finetune_continuous\\attempt_001\\run_manifest.json",
+      "selected_run_manifest_sha256": "299eb1ef9ff763f37433b690741b06a6a813b4e36b57ab159b48c48bab357896"
+    },
+    "m6": {
+      "selected_checkpoint": "C:\\Users\\thioy\\Desktop\\School\\PFE\\checkpoints\\m7_seq2seq\\tnt_edit_gold_dev_v4\\m6\\seed_2026\\gold_finetune_continuous\\attempt_001\\best_model",
+      "selected_run_manifest": "C:\\Users\\thioy\\Desktop\\School\\PFE\\checkpoints\\m7_seq2seq\\tnt_edit_gold_dev_v4\\m6\\seed_2026\\gold_finetune_continuous\\attempt_001\\run_manifest.json",
+      "selected_run_manifest_sha256": "7e27898afe1c57370ed9835e76ed5a5d293c015476dd3be0f314f471ec4bd930"
+    }
+  },
+  "selection_fingerprint": "b3fca292941a02bd95f2eacc1258658b3a089e9ae80c6323163196d19069b564",
+  "evaluated_at_utc": "2026-09-13T08:48:06.000064+00:00"
+}

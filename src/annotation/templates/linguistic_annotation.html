@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Wolof Gold Linguistic Annotation</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='linguistic_annotation.css') }}">
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar">
+      <div>
+        <p class="eyebrow">M6 preparation</p>
+        <h1>Token linguistics</h1>
+        <p class="muted">Classify gold-training token occurrences for the learned generation engine.</p>
+      </div>
+
+      <div class="progress-card">
+        <div><strong id="saved-count">--</strong><span>reviewed occurrences</span></div>
+        <div><strong id="remaining-count">--</strong><span>remaining</span></div>
+        <div class="progress-track"><span id="progress-bar"></span></div>
+        <small id="total-count">Loading gold train...</small>
+      </div>
+
+      <div class="progress-card lookup-card">
+        <p class="progress-title">Formal-token lookup</p>
+        <div><strong id="covered-count">--</strong><span>covered forms</span></div>
+        <div><strong id="missing-count">--</strong><span>missing forms</span></div>
+        <div class="progress-track"><span id="lookup-progress-bar"></span></div>
+        <small id="unique-count">Loading lookup...</small>
+      </div>
+
+      <div class="navigation">
+        <label for="position-input">Occurrence position</label>
+        <div class="position-row">
+          <input id="position-input" type="number" min="0" value="0">
+          <button id="go-position" class="button secondary" type="button">Go</button>
+        </div>
+        <button id="resume-button" class="button secondary wide" type="button">Resume next unreviewed</button>
+        <button id="skip-button" class="button ghost wide" type="button">Skip without saving</button>
+      </div>
+
+      <div class="policy-card">
+        <strong>Keep dimensions separate</strong>
+        <small>POS is grammatical role. Language, named-entity status, protection, and observed error are annotated independently.</small>
+      </div>
+
+      <div class="shortcut-card">
+        <span><kbd>Ctrl</kbd> + <kbd>Enter</kbd></span>
+        <small>save and advance</small>
+      </div>
+    </aside>
+
+    <main class="main-panel">
+      <div id="loading" class="state-card">Preparing gold-training occurrences...</div>
+      <div id="empty-state" class="state-card hidden">
+        <h2>All token occurrences are reviewed</h2>
+        <p>You can still use the position control to revisit and append a corrected classification.</p>
+      </div>
+
+      <form id="annotation-form" class="annotation-card hidden">
+        <header class="record-header">
+          <div>
+            <p class="eyebrow" id="record-number"></p>
+            <div class="badges">
+              <span id="lookup-badge" class="badge"></span>
+              <span id="existing-badge" class="badge warning hidden">Previously reviewed</span>
+            </div>
+          </div>
+          <a id="video-link" class="video-link" target="_blank" rel="noopener">Open source video</a>
+        </header>
+
+        <section class="context-section">
+          <div>
+            <span class="section-label">Informal YouTube comment</span>
+            <p id="comment-text"></p>
+          </div>
+          <div>
+            <span class="section-label">Normalized gold sentence</span>
+            <p id="formal-sentence"></p>
+          </div>
+        </section>
+
+        <section class="token-focus">
+          <div class="token-box informal">
+            <span>Observed informal unit</span>
+            <strong id="informal-token"></strong>
+          </div>
+          <div class="arrow">to</div>
+          <div class="token-box formal">
+            <span>Normalized formal unit</span>
+            <strong id="formal-token"></strong>
+          </div>
+          <div class="automatic-hint">
+            <span>Old automatic category</span>
+            <strong id="automatic-category"></strong>
+            <small>This is only a hint and may be wrong.</small>
+          </div>
+        </section>
+
+        <section>
+          <div class="section-heading">
+            <div>
+              <span class="section-label">Lexical properties</span>
+              <p id="lexical-help">Describe the normalized formal unit. These fields can be reused for later occurrences.</p>
+            </div>
+          </div>
+          <div class="field-grid lexical-grid">
+            <label class="wide-field">
+              <span>Lemma or dictionary form</span>
+              <input id="lemma" type="text" autocomplete="off">
+            </label>
+            <label>
+              <span>Part of speech (POS)</span>
+              <select id="pos"></select>
+            </label>
+            <label>
+              <span>Target language</span>
+              <select id="target-language"></select>
+            </label>
+            <label>
+              <span>Named entity</span>
+              <select id="entity-type"></select>
+            </label>
+            <label>
+              <span>Protect from synthetic errors?</span>
+              <select id="protected"></select>
+            </label>
+          </div>
+          <div id="lookup-evidence" class="lookup-evidence hidden">
+            <div>
+              <strong>Dictionary evidence</strong>
+              <span id="lookup-evidence-status"></span>
+            </div>
+            <dl>
+              <dt>POS candidates</dt><dd id="lookup-pos-candidates"></dd>
+              <dt>Dictionary labels</dt><dd id="lookup-pos-labels"></dd>
+              <dt>Lemma candidates</dt><dd id="lookup-lemmas"></dd>
+              <dt>French translations</dt><dd id="lookup-translations"></dd>
+            </dl>
+          </div>
+          <label class="reuse-row">
+            <input id="lexical-reusable" type="checkbox" checked>
+            <span>Save these lexical fields to the curated lookup and prefill the same formal unit later.</span>
+          </label>
+        </section>
+
+        <section>
+          <div class="section-heading">
+            <div>
+              <span class="section-label">Occurrence-specific properties</span>
+              <p>Confirm the automatically detected formal-to-informal operations and add any linguistic interpretation.</p>
+            </div>
+          </div>
+          <div class="transformation-panel">
+            <div>
+              <strong>Automatically detected edit sequence</strong>
+              <small>The server calculates these character operations; you do not need to enter them.</small>
+            </div>
+            <ol id="transformation-steps"></ol>
+          </div>
+          <div class="error-panel">
+            <div>
+              <strong>Error labels</strong>
+              <small>Multiple labels are allowed. Confirm the preselected labels and add higher-level types when appropriate.</small>
+            </div>
+            <div id="error-types" class="error-type-grid"></div>
+          </div>
+          <div class="field-grid occurrence-grid">
+            <label>
+              <span>Informal source language</span>
+              <select id="source-language"></select>
+            </label>
+            <label>
+              <span>Review status</span>
+              <select id="review-status"></select>
+            </label>
+            <label class="wide-field">
+              <span>Notes or contextual exception</span>
+              <textarea id="notes" rows="3" placeholder="Optional explanation, ambiguity, or correction rationale"></textarea>
+            </label>
+          </div>
+        </section>
+
+        <footer class="form-footer">
+          <span id="save-message" role="status"></span>
+          <button id="save-button" class="button primary" type="submit">Save and next</button>
+        </footer>
+      </form>
+    </main>
+  </div>
+  <script src="{{ url_for('static', filename='linguistic_annotation.js') }}"></script>
+</body>
+</html>

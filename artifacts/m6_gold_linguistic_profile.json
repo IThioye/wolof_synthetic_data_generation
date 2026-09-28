@@ -1,0 +1,315 @@
+{
+  "method": "m6_gold_linguistic_engine",
+  "configuration": {
+    "min_mapping_count": 1,
+    "min_mapping_dominance": 0.5,
+    "min_transformation_count": 2,
+    "min_transformation_dominance": 0.6,
+    "max_edits_per_sentence": null,
+    "seed": 2026,
+    "allowed_target_language": "wo",
+    "allowed_source_language": "wo",
+    "generalizable_error_types": [
+      "diacritic",
+      "deletion",
+      "insertion",
+      "substitution",
+      "repetition"
+    ]
+  },
+  "training_summary": {
+    "annotation_rows": 1315,
+    "eligible_occurrences": 865,
+    "eligible_changed_occurrences": 588,
+    "gold_train_source_count": 142,
+    "mapping_count": 171,
+    "transformation_count": 105,
+    "uses_m5_outputs": false,
+    "uses_m1_rules": false
+  },
+  "edit_budget_distribution": {
+    "1": 15,
+    "2": 32,
+    "3": 29,
+    "4": 15,
+    "5": 21,
+    "6": 8,
+    "7": 9,
+    "8": 4,
+    "10": 1,
+    "12": 4,
+    "13": 1,
+    "14": 2,
+    "15": 1
+  },
+  "pos_error_profile": {
+    "ADJ": {
+      "eligible_occurrences": 1,
+      "changed_occurrences": 1,
+      "change_rate": 1.0,
+      "error_counts": {
+        "diacritic": 1,
+        "phonetic_spelling": 1,
+        "substitution": 1
+      },
+      "error_probabilities": {
+        "diacritic": 0.3333333333333333,
+        "phonetic_spelling": 0.3333333333333333,
+        "substitution": 0.3333333333333333
+      }
+    },
+    "ADP": {
+      "eligible_occurrences": 12,
+      "changed_occurrences": 6,
+      "change_rate": 0.5,
+      "error_counts": {
+        "insertion": 2,
+        "phonetic_spelling": 1,
+        "repetition": 1,
+        "substitution": 4
+      },
+      "error_probabilities": {
+        "insertion": 0.25,
+        "phonetic_spelling": 0.125,
+        "repetition": 0.125,
+        "substitution": 0.5
+      }
+    },
+    "ADV": {
+      "eligible_occurrences": 21,
+      "changed_occurrences": 15,
+      "change_rate": 0.7142857142857143,
+      "error_counts": {
+        "abbreviation": 1,
+        "deletion": 2,
+        "diacritic": 5,
+        "insertion": 4,
+        "phonetic_spelling": 12,
+        "substitution": 10
+      },
+      "error_probabilities": {
+        "abbreviation": 0.029411764705882353,
+        "deletion": 0.058823529411764705,
+        "diacritic": 0.14705882352941177,
+        "insertion": 0.11764705882352941,
+        "phonetic_spelling": 0.35294117647058826,
+        "substitution": 0.29411764705882354
+      }
+    },
+    "CCONJ": {
+      "eligible_occurrences": 37,
+      "changed_occurrences": 19,
+      "change_rate": 0.5135135135135135,
+      "error_counts": {
+        "abbreviation": 2,
+        "deletion": 6,
+        "diacritic": 4,
+        "insertion": 5,
+        "phonetic_spelling": 9,
+        "substitution": 5
+      },
+      "error_probabilities": {
+        "abbreviation": 0.06451612903225806,
+        "deletion": 0.1935483870967742,
+        "diacritic": 0.12903225806451613,
+        "insertion": 0.16129032258064516,
+        "phonetic_spelling": 0.2903225806451613,
+        "substitution": 0.16129032258064516
+      }
+    },
+    "DET": {
+      "eligible_occurrences": 94,
+      "changed_occurrences": 26,
+      "change_rate": 0.2765957446808511,
+      "error_counts": {
+        "deletion": 3,
+        "insertion": 22,
+        "phonetic_spelling": 18,
+        "repetition": 1,
+        "substitution": 2
+      },
+      "error_probabilities": {
+        "deletion": 0.06521739130434782,
+        "insertion": 0.4782608695652174,
+        "phonetic_spelling": 0.391304347826087,
+        "repetition": 0.021739130434782608,
+        "substitution": 0.043478260869565216
+      }
+    },
+    "INTJ": {
+      "eligible_occurrences": 36,
+      "changed_occurrences": 26,
+      "change_rate": 0.7222222222222222,
+      "error_counts": {
+        "abbreviation": 1,
+        "deletion": 16,
+        "diacritic": 4,
+        "insertion": 12,
+        "phonetic_spelling": 11,
+        "repetition": 7,
+        "substitution": 6
+      },
+      "error_probabilities": {
+        "abbreviation": 0.017543859649122806,
+        "deletion": 0.2807017543859649,
+        "diacritic": 0.07017543859649122,
+        "insertion": 0.21052631578947367,
+        "phonetic_spelling": 0.19298245614035087,
+        "repetition": 0.12280701754385964,
+        "substitution": 0.10526315789473684
+      }
+    },
+    "NOUN": {
+      "eligible_occurrences": 122,
+      "changed_occurrences": 106,
+      "change_rate": 0.8688524590163934,
+      "error_counts": {
+        "deletion": 30,
+        "diacritic": 45,
+        "insertion": 53,
+        "phonetic_spelling": 65,
+        "repetition": 6,
+        "substitution": 71
+      },
+      "error_probabilities": {
+        "deletion": 0.1111111111111111,
+        "diacritic": 0.16666666666666666,
+        "insertion": 0.1962962962962963,
+        "phonetic_spelling": 0.24074074074074073,
+        "repetition": 0.022222222222222223,
+        "substitution": 0.26296296296296295
+      }
+    },
+    "NUM": {
+      "eligible_occurrences": 1,
+      "changed_occurrences": 1,
+      "change_rate": 1.0,
+      "error_counts": {
+        "diacritic": 1,
+        "substitution": 1
+      },
+      "error_probabilities": {
+        "diacritic": 0.5,
+        "substitution": 0.5
+      }
+    },
+    "PART": {
+      "eligible_occurrences": 4,
+      "changed_occurrences": 2,
+      "change_rate": 0.5,
+      "error_counts": {
+        "insertion": 2,
+        "phonetic_spelling": 2
+      },
+      "error_probabilities": {
+        "insertion": 0.5,
+        "phonetic_spelling": 0.5
+      }
+    },
+    "PRON": {
+      "eligible_occurrences": 60,
+      "changed_occurrences": 39,
+      "change_rate": 0.65,
+      "error_counts": {
+        "deletion": 15,
+        "diacritic": 11,
+        "insertion": 17,
+        "phonetic_spelling": 20,
+        "repetition": 3,
+        "substitution": 18
+      },
+      "error_probabilities": {
+        "deletion": 0.17857142857142858,
+        "diacritic": 0.13095238095238096,
+        "insertion": 0.20238095238095238,
+        "phonetic_spelling": 0.23809523809523808,
+        "repetition": 0.03571428571428571,
+        "substitution": 0.21428571428571427
+      }
+    },
+    "PUNCT": {
+      "eligible_occurrences": 10,
+      "changed_occurrences": 3,
+      "change_rate": 0.3,
+      "error_counts": {
+        "diacritic": 3,
+        "phonetic_spelling": 3,
+        "substitution": 3
+      },
+      "error_probabilities": {
+        "diacritic": 0.3333333333333333,
+        "phonetic_spelling": 0.3333333333333333,
+        "substitution": 0.3333333333333333
+      }
+    },
+    "UNKNOWN": {
+      "eligible_occurrences": 227,
+      "changed_occurrences": 142,
+      "change_rate": 0.6255506607929515,
+      "error_counts": {
+        "abbreviation": 12,
+        "deletion": 59,
+        "diacritic": 30,
+        "insertion": 49,
+        "phonetic_spelling": 43,
+        "punctuation": 1,
+        "repetition": 4,
+        "spacing_merge": 94,
+        "substitution": 43
+      },
+      "error_probabilities": {
+        "abbreviation": 0.03582089552238806,
+        "deletion": 0.1761194029850746,
+        "diacritic": 0.08955223880597014,
+        "insertion": 0.14626865671641792,
+        "phonetic_spelling": 0.12835820895522387,
+        "punctuation": 0.0029850746268656717,
+        "repetition": 0.011940298507462687,
+        "spacing_merge": 0.28059701492537314,
+        "substitution": 0.12835820895522387
+      }
+    },
+    "VERB": {
+      "eligible_occurrences": 235,
+      "changed_occurrences": 197,
+      "change_rate": 0.8382978723404255,
+      "error_counts": {
+        "abbreviation": 3,
+        "deletion": 54,
+        "diacritic": 66,
+        "insertion": 71,
+        "phonetic_spelling": 105,
+        "repetition": 23,
+        "substitution": 117
+      },
+      "error_probabilities": {
+        "abbreviation": 0.00683371298405467,
+        "deletion": 0.12300683371298406,
+        "diacritic": 0.15034168564920272,
+        "insertion": 0.16173120728929385,
+        "phonetic_spelling": 0.23917995444191345,
+        "repetition": 0.05239179954441914,
+        "substitution": 0.26651480637813213
+      }
+    },
+    "X": {
+      "eligible_occurrences": 5,
+      "changed_occurrences": 5,
+      "change_rate": 1.0,
+      "error_counts": {
+        "deletion": 1,
+        "diacritic": 2,
+        "insertion": 3,
+        "phonetic_spelling": 4,
+        "substitution": 3
+      },
+      "error_probabilities": {
+        "deletion": 0.07692307692307693,
+        "diacritic": 0.15384615384615385,
+        "insertion": 0.23076923076923078,
+        "phonetic_spelling": 0.3076923076923077,
+        "substitution": 0.23076923076923078
+      }
+    }
+  }
+}

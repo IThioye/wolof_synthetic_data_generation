@@ -1,0 +1,89 @@
+{
+  "method": "m6_gold_linguistic_engine",
+  "created_at_utc": "2026-08-29T21:12:46.323787+00:00",
+  "provisional": true,
+  "learning_scope": "finalized locked gold train linguistic annotations only",
+  "uses_m5_outputs": false,
+  "uses_m1_rules": false,
+  "leakage_status": "no development/test annotations or M5 outputs consumed",
+  "rows": 17777,
+  "changed_rows": 14215,
+  "unchanged_rows": 3562,
+  "lexical_mapping_edits": 14809,
+  "transformation_edits": 22119,
+  "configuration": {
+    "min_mapping_count": 1,
+    "min_mapping_dominance": 0.5,
+    "min_transformation_count": 2,
+    "min_transformation_dominance": 0.6,
+    "max_edits_per_sentence": null,
+    "seed": 2026,
+    "allowed_target_language": "wo",
+    "allowed_source_language": "wo",
+    "generalizable_error_types": [
+      "diacritic",
+      "deletion",
+      "insertion",
+      "substitution",
+      "repetition"
+    ]
+  },
+  "training_summary": {
+    "annotation_rows": 1315,
+    "eligible_occurrences": 865,
+    "eligible_changed_occurrences": 588,
+    "gold_train_source_count": 142,
+    "mapping_count": 171,
+    "transformation_count": 105,
+    "uses_m5_outputs": false,
+    "uses_m1_rules": false
+  },
+  "output_path": "C:\\Users\\thioy\\Desktop\\School\\PFE\\data\\synthetic\\m6_gold_linguistic_pairs.csv",
+  "output_sha256": "633f1a86e6ba4c224ee3b427e89cf54b20638bfe3b5947469a381f02223844b3",
+  "review_path": "C:\\Users\\thioy\\Desktop\\School\\PFE\\data\\synthetic\\m6_gold_linguistic_review_sample.csv",
+  "manual_review_rows": 100,
+  "artifacts": {
+    "mappings": {
+      "path": "C:\\Users\\thioy\\Desktop\\School\\PFE\\artifacts\\m6_gold_linguistic_mappings.csv",
+      "sha256": "c9d8e8576ae2f696e74ee879e92d42f9e6819f99e10d984693ff5ece4843c9db"
+    },
+    "transformations": {
+      "path": "C:\\Users\\thioy\\Desktop\\School\\PFE\\artifacts\\m6_gold_linguistic_transformations.csv",
+      "sha256": "c91fd4ba71966205501ba3e4ce99c6c9eb3978948317c1386f64507a6a53cb48"
+    },
+    "profile": {
+      "path": "C:\\Users\\thioy\\Desktop\\School\\PFE\\artifacts\\m6_gold_linguistic_profile.json",
+      "sha256": "f5003923f6eae8e6cfa6019b9b24f04e2346de206d807f3bbbcd66a91545397e"
+    }
+  },
+  "inputs": {
+    "formal_sources": {
+      "path": "C:\\Users\\thioy\\Desktop\\School\\PFE\\data\\translation data\\train-00000-of-00001.parquet",
+      "sha256": "bd4910104fc121ff6924ca9a8b1a0d6bdaa6f28601108703cc9b29b2dc9eb27e"
+    },
+    "gold_train": {
+      "path": "C:\\Users\\thioy\\Desktop\\School\\PFE\\data\\annotations\\splits\\gold_train.csv",
+      "sha256": "5ef420b2d2b4fd29d643fb7d6c1c0bb368b7f6f186c23ab8b03c2c6bac44e955"
+    },
+    "gold_split_manifest": {
+      "path": "C:\\Users\\thioy\\Desktop\\School\\PFE\\data\\annotations\\splits\\split_manifest.json",
+      "sha256": "9f5e8566e5422b3a80b5007bb2a1ff658e579b830cfa4265c7e80dcb71c8b4a0"
+    },
+    "linguistic_annotations": {
+      "path": "C:\\Users\\thioy\\Desktop\\School\\PFE\\data\\annotations\\token_linguistic_annotations.csv",
+      "sha256": "c28b210a3ef27bce73d73899ec1f27a44b46de067f1b323823cf55c2a8c16006"
+    },
+    "curated_lookup": {
+      "path": "C:\\Users\\thioy\\Desktop\\School\\PFE\\data\\annotations\\formal_token_lookup.csv",
+      "sha256": "a0fb85f1cc950e2d34bb7a331d3a038de3ab31088bfc95f4df93be171fbddfd3"
+    },
+    "multilingual_lookup_seed": {
+      "path": "C:\\Users\\thioy\\Desktop\\School\\PFE\\data\\annotations\\formal_token_lookup_seed.csv",
+      "sha256": "2dbd249894bf9031fa3e716f61b58cbd09c8c33b2797d78790f934b596f007a9"
+    }
+  },
+  "finalization_required": [
+    "Complete all M6 manual review fields.",
+    "Finalize the M6 manifest before M7 training."
+  ]
+}

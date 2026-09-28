@@ -1,0 +1,29 @@
+{
+  "method": "m2_eflomal_plus_beqi_rules",
+  "created_at_utc": "2026-08-03T13:13:57.486829+00:00",
+  "input_path": "C:\\Users\\thioy\\Desktop\\School\\PFE\\data\\translation data\\train-00000-of-00001.parquet",
+  "input_sha256": "bd4910104fc121ff6924ca9a8b1a0d6bdaa6f28601108703cc9b29b2dc9eb27e",
+  "output_path": "C:\\Users\\thioy\\Desktop\\School\\PFE\\data\\synthetic\\m2_eflomal_rules_pairs.csv",
+  "output_sha256": "f877313ec17c3f90a57dfbcfae685d7848861e42a86d089341a38fd905d1777e",
+  "rows": 17777,
+  "changed_rows": 17180,
+  "unchanged_rows": 597,
+  "rows_with_alignment_edits": 13661,
+  "alignment_edits": 49063,
+  "spelling_edits": 287274,
+  "artifacts": {
+    "eflomal_lexicon": {
+      "path": "C:\\Users\\thioy\\Desktop\\School\\PFE\\artifacts\\lexicon.pkl",
+      "sha256": "2ab93bb9e3a55fe1e7dca6b431ab85e094d66cd46c41c7b81600631492ee7ea1"
+    }
+  },
+  "parameters": {
+    "benchmark_seed": 2026,
+    "substitution_ratio": 0.2,
+    "use_ner": false,
+    "candidate_constraint": "French tokens from the paired row",
+    "selection": "highest Eflomal probability with lexical tie-break",
+    "postprocessing": "shared M1 Beqi-inspired spelling rules"
+  },
+  "manual_review_rows": 100
+}

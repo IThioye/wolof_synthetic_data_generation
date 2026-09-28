@@ -1,0 +1,32 @@
+{
+  "created_at_utc": "2026-09-13T10:00:15.764142+00:00",
+  "benchmark": "tnt_edit_gold_dev_v4",
+  "conditions": [
+    "gold",
+    "m1",
+    "m2",
+    "m3",
+    "m4",
+    "m6"
+  ],
+  "trained_synthetic_methods": [
+    "m1",
+    "m2",
+    "m3",
+    "m4",
+    "m6"
+  ],
+  "m0_policy": "unchanged-input baseline; no trained synthetic condition",
+  "protocol": {
+    "seed": 2026,
+    "matched_unique_rows": 3330,
+    "synthetic_epochs": 20,
+    "gold_epochs": 20,
+    "synthetic_learning_rate": 0.0003,
+    "gold_learning_rate": 0.0001,
+    "synthetic_batch_size": 64,
+    "gold_batch_size": 32,
+    "evaluation_batch_size": 64,
+    "generated_eval_interval_epochs": 5
+  }
+}

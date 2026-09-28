@@ -1,0 +1,32 @@
+{
+  "method": "m4_oolel_llm_external",
+  "created_at_utc": "2026-08-03T16:36:21.260460+00:00",
+  "dataset_id": "soynade-research/Wolof-Non-Standard-Orthography",
+  "revision": "ce17c80cff6626a91dc4e38b43de12e005bc240a",
+  "license": "CC BY-SA 4.0",
+  "raw_path": "C:\\Users\\thioy\\Desktop\\School\\PFE\\data\\external\\oolel_raw.parquet",
+  "raw_sha256": "f55bdee0e7769e19b987fa4e7eb5bffad422b8ef2184f87749b1f09e3ac06d39",
+  "output_path": "C:\\Users\\thioy\\Desktop\\School\\PFE\\data\\synthetic\\m4_oolel_external_pairs.csv",
+  "output_sha256": "ef435f83795d70833cad728a7867c13c649d6d4f927f42ecbc12a075d36ce351",
+  "raw_rows": 3438,
+  "accepted_rows": 3433,
+  "rejected_rows": 5,
+  "changed_rows": 3433,
+  "rejection_counts": {
+    "duplicate_pair": 5
+  },
+  "wrapper_status_counts": {
+    "valid": 3438
+  },
+  "exact_common_formal_overlap": 3438,
+  "exact_current_gold_formal_overlap": 0,
+  "exact_current_gold_informal_overlap": 0,
+  "manual_review_rows": 100,
+  "manual_review_seed": 2026,
+  "limitations": [
+    "External formal source corpus; not automatically common-source controlled.",
+    "Original generation seed, prompt, decoding parameters, and row-level rules are not reported.",
+    "Automatic validation cannot establish semantic preservation or naturalness.",
+    "Gold-overlap checks must be repeated after the final split is locked."
+  ]
+}

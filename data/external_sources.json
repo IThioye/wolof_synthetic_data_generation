@@ -1,0 +1,43 @@
+{
+  "formal_parallel": {
+    "description": "French-Wolof formal parallel corpus used as the common source pool",
+    "type": "huggingface_file",
+    "repository": "galsenai/french-wolof-translation",
+    "revision": "7ff8a0ae33de84c1088aea7c4f22636bef9e5100",
+    "source_path": "data/train-00000-of-00001.parquet",
+    "target_path": "data/translation data/train-00000-of-00001.parquet",
+    "sha256": "bd4910104fc121ff6924ca9a8b1a0d6bdaa6f28601108703cc9b29b2dc9eb27e",
+    "license": "No licence was declared in the dataset card at the time of the project; download from the source rather than redistributing."
+  },
+  "oolel": {
+    "description": "External LLM-generated standard/non-standard Wolof pairs",
+    "type": "huggingface_dataset",
+    "repository": "soynade-research/Wolof-Non-Standard-Orthography",
+    "revision": "ce17c80cff6626a91dc4e38b43de12e005bc240a",
+    "split": "train",
+    "target_path": "data/external/oolel_raw.parquet",
+    "rows": 3438,
+    "columns": ["en", "wo", "non_standardized"],
+    "content_sha256": "355ac2f9ebca977734c512c596e6edfd58035cb2a2dba805c153546863778768",
+    "license": "CC BY-SA 4.0"
+  },
+  "wolof_translation_csv": {
+    "description": "Additional French-Wolof translation CSV",
+    "type": "http_file",
+    "url": "https://raw.githubusercontent.com/abdouaziz/wolof-translation/505324f8a7c5a91a42e2c775495fc3bdebc8f761/input/wolof.csv",
+    "revision": "505324f8a7c5a91a42e2c775495fc3bdebc8f761",
+    "target_path": "data/translation data/wolof.csv",
+    "sha256": "aa11ad4ddf52f6bd22b3d97a761878152b915bfa9a4618ef6fc1a193cf44592f",
+    "license": "MIT repository; retain upstream attribution."
+  },
+  "lexique4": {
+    "description": "Lexique 4 French lexical database",
+    "type": "git_file",
+    "repository": "https://a3nm.net/git/lexique.git/",
+    "revision": "df3efae3ee181f1059f4ade8c54c39ed558b5949",
+    "source_path": "Lexique4.tsv",
+    "target_path": "data/Lexique400/Lexique4.tsv",
+    "sha256": "fe333b4f9e1797f23922d5863cde28635ee13685813af0f9b4b4b9f7d4610a5a",
+    "license": "CC BY-SA 4.0"
+  }
+}

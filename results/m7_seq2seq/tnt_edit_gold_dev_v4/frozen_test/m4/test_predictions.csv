@@ -1,0 +1,30 @@
+source_id,source_text,reference,prediction
+gold:test:3366,mareme mom dey forcer trop vraiment amoufi place,mareme moom dey forcer trop vraiment amu fi place,mareme mom dey forcer trop vraiment amufi place
+gold:test:3370,serigne lingaye dafe bagn nako serigne yakhe na adouna khalé bi lou takh nga koye takke ti beugo ko,serigne li ngay def bañ naa ko serigne yàq na àdduna xale bi lu tax nga koye takk te bëggo ko,serine lingaye dafe ban nako serine yaxe na aduna kxalé bi lñu taxx nga koye takke ti bëgo ko
+gold:test:3373,asmao dafa niro ak yayam sax,asmao dafa niroo ak yayam sax,asmao dafa niro ak yayam sax
+gold:test:3375,bass miii kou beugue leuffff leu boy biii sonal nga domou diambour dji waay ish.,bass mii ku bëgg lëf la boy bi sonal nga doomu jaambur ji waay ish,bass miii ku bëgëe lëffff lu boy biii sonal nga domu diambur ji waay isx.
+gold:test:3376,khame lan la taye mo nékh,xam lan la tey moo neex,khame lan la taye mo néxh
+gold:test:3377,mareme sofna nekhouma darra,mareme soof na neexu ma dara,mareme sofna nexuma darra
+gold:test:3378,wa sérigne ndiaye es que nitt leu,waa sérigne ndiaye est-ce que nit la,wa sérigne ndiaye es qëe nitt lë
+gold:test:3379,diama daffa tangal ci kaw bass,diama dafa tàngal ci kaw bass,diama daffa tangal ci kaw bass
+gold:test:3380,wayén guise guéne coiffure maréme bi lolou rk cas la mouy topou cas tei am cas thi bop bi ak thi soff lolou rk cas la,waa yeen gis ngeen coiffure maréme bi lolou rek cas la muy topp cas te am cas ci bopp bi ak ci soof loolu rek cas la,wayén guise gëéne coiffure maréme bi lolu rk cas la mouy topu cas tei am cas txi bop bi ak xi soff lolu rk cas la
+gold:test:3385,wa diama koula bayi fipou baxoul,waa diama ku la bàyyi fippu baaxul,wa diama kula bayi fipu baxul
+gold:test:3386,théâtre sans saaga dafa neex bayilene xel si xaleyi,théâtre sans saaga dafa neex bàyyi leen xel ci xale yi,théâtre sans saaga dafa neex bayilene xel si xaleyi
+gold:test:3387,bouko terei nitt leu après tout nieupeuy saga,bu ko teree nit la après tout ñéppay saaga,buko terei nitt lu après tut niëpëy saga
+gold:test:3389,ms serigne ndiaye bon nga di torokhal diabar dji ni,mais serigne ndiaye bon nga di toroxal jabar ji ni,ms serigne ndiaye bon nga di torokhal diabar ji ni
+gold:test:3390,je vous avais dit que mareme dafay topp bass découvrir deug bi mais comme domaram la dafa dem werr ko si digou nit yi . mais wollah elle est mon actrice préférée après asmaou.,je vous avais dit que mareme dafay topp bass découvrir dëgg bi mais comme doomaraam la dafa dem weer ko ci diggu nit yi mais wollah elle est mon actrice préférée gànnaaw asmaou,je vous avais dit qëe mareme dafay topp bass décuvrir dëg bi mais comme domaram la dafa dem werr ko si digu nit yi . mais wollah elle est mon actrice préférée après asmaoë.
+gold:test:3391,hi diama fipou neu way ! akhe il était temps ‍️. barki yallah mareme rek lay toppeu mane,hi diama fippu neu waay ax il était temps barki yallah mareme rek laay topp man,hi diama fipu në way ! axe il était temps ‍️. barki yallah mareme rek lay toppu man
+gold:test:3397,diama dangay saga legui,diama da ngay saaga léegi,diama dangay saga legi
+gold:test:3398,marème vrai mbam la mome mouni dra doukko reuthi té di deff lou gueune pire si souff,marème vrai mbaam la moom mu ni dara du ko rëcc te di def lu gën pire ci suuf,marème vrai mbam la mome mëni dra dëkko rëxi té di deff lu gëëne pire si suff
+gold:test:3399,serigne ndiaye lim def adji kom man lanko def sama khol bi diekhna si li way,serigne ndiaye lim def adji comme man lanu ko def sama xol bi jeex na ci lii waay,serine ndiaye lim def aji kom man lanko def sama xol bi diexhna si li way
+gold:test:3400,lady diama saga na,lady diama saaga na,lady diama saga na
+gold:test:3403,mareme nith day ame soutoura,mareme nit day am sutura,mareme nith day ame sutura
+gold:test:3405,serigne ndiaye douma reukheu ndayam domeram,serigne ndiaye du ma rëkk ndeyam doomaraam,serine ndiaye dñuma rëxë ndayam domeram
+gold:test:3406,mane bass rek la fan,man bass rek la fan,mane bass rek la fan
+gold:test:3409,saga yi mounon nassi niakk dh,saaga yi mënon na ci ñàkk de,saga yi munon nassi niakk dx
+gold:test:3411,li mo guene,lii moo gën,li mo gëenë
+gold:test:3412,diama yagui souka ame foula nak li bakh n'a si bass,diama yaa ngi soog am fulla nak lii baax na ci bass,diama yagi suka ame fula nak li bakh n'a si bass
+gold:test:3417,jigeeni moytulen di seyeul goor boulen noboul ! risque leu d,jigéen yi moytu leen di séyal goor bu leen nobul risque la de,jigeeni moytulen di seyël oor bulen obul ! risëe lu d
+gold:test:3418,lady diama fippouna nak bilay,lady diama fippu na nak bilay,lady diama fippuna nak bilay
+gold:test:3419,bass rk la diepi thimmm,bass rek la jéppi cim,bass rk la diepi tximmm
+gold:test:3420,vérité kéne douko kamouflé dafa warone wakha aladj basse signiez woule mou dieeekh aladjj mo déf un 2 3 fassénala,vérité kenn du ko camouflé dafa waroon wax aladj basse signé wul mu jeex aladjj moo déf un __protected_1__ __protected_0__ fase na la,vérité kéne duko kamuflé dafa warone waxa alaj basse siniez wule mu djeeex alajj mo déf un 2 3 fassenala

@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Wolof Gold Annotation</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='annotation.css') }}">
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar">
+      <div>
+        <p class="eyebrow">PFE annotation</p>
+        <h1>Wolof Gold</h1>
+        <p class="muted">Fast token correction with learned equivalents.</p>
+      </div>
+
+      <div class="progress-card">
+        <div><strong id="saved-count">—</strong><span>saved</span></div>
+        <div><strong id="remaining-count">—</strong><span>remaining</span></div>
+        <div class="progress-track"><span id="progress-bar"></span></div>
+        <small id="total-count">Loading dataset…</small>
+      </div>
+
+      <div class="progress-card gold-progress-card">
+        <p class="progress-title">Minimum gold dataset</p>
+        <div><strong id="kept-count">—</strong><span>kept pairs</span></div>
+        <div><strong id="gold-remaining-count">—</strong><span>pairs needed</span></div>
+        <div class="progress-track"><span id="gold-progress-bar"></span></div>
+        <small id="gold-target-count">Loading target…</small>
+      </div>
+
+      <div class="navigation">
+        <label for="position-input">Comment position</label>
+        <div class="position-row">
+          <input id="position-input" type="number" min="0" value="0">
+          <button id="go-position" class="button secondary" type="button">Go</button>
+        </div>
+        <button id="resume-button" class="button secondary wide" type="button">Resume next unannotated</button>
+        <button id="skip-button" class="button ghost wide" type="button">Skip without saving</button>
+      </div>
+
+      <div class="shortcut-card">
+        <span><kbd>Ctrl</kbd> + <kbd>Enter</kbd></span>
+        <small>save and advance</small>
+      </div>
+    </aside>
+
+    <main class="main-panel">
+      <div id="loading" class="state-card">Preparing annotation resources…</div>
+      <div id="empty-state" class="state-card hidden">
+        <h2>All comments are annotated</h2>
+        <p>You can still use the position control to browse or append an edited annotation.</p>
+      </div>
+
+      <form id="annotation-form" class="annotation-card hidden">
+        <header class="record-header">
+          <div>
+            <p class="eyebrow" id="record-number"></p>
+            <div id="existing-badge" class="existing-badge hidden"></div>
+          </div>
+          <a id="video-link" class="video-link hidden" target="_blank" rel="noopener">Open video ↗</a>
+        </header>
+
+        <section class="source-section">
+          <h2 id="comment-text"></h2>
+        </section>
+
+        <section class="decision-section">
+          <span class="section-label">Annotation decision</span>
+          <div class="decision-grid">
+            <label><input type="radio" name="status" value="keep" checked><span>Keep</span></label>
+            <label><input type="radio" name="status" value="discard_false_positive"><span>False positive</span></label>
+            <label><input type="radio" name="status" value="discard_uninteresting"><span>Uninteresting</span></label>
+            <label><input type="radio" name="status" value="skip_uncertain"><span>Uncertain</span></label>
+          </div>
+        </section>
+
+        <section>
+          <div class="section-heading">
+            <span class="section-label">Token corrections</span>
+            <span class="legend"><i></i> learned from your annotations</span>
+          </div>
+          <div class="token-header">
+            <span>Token</span><span>Category</span><span>Candidate</span><span>Override</span>
+          </div>
+          <div id="token-rows"></div>
+        </section>
+
+        <section class="sentence-section">
+          <label for="manual-sentence" class="section-label">Final formal Wolof sentence</label>
+          <textarea id="manual-sentence" rows="3"></textarea>
+          <p class="auto-note">Initial automatic suggestion: <span id="auto-sentence"></span></p>
+        </section>
+
+        <footer class="form-footer">
+          <span id="save-message" role="status"></span>
+          <button id="save-button" class="button primary" type="submit">Save &amp; next <span>→</span></button>
+        </footer>
+      </form>
+    </main>
+  </div>
+  <script src="{{ url_for('static', filename='annotation.js') }}"></script>
+</body>
+</html>

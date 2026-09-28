@@ -1,0 +1,23 @@
+{
+  "method": "m1_beqi_inspired_rules",
+  "created_at_utc": "2026-08-03T16:24:56.987805+00:00",
+  "input_path": "C:\\Users\\thioy\\Desktop\\School\\PFE\\data\\translation data\\train-00000-of-00001.parquet",
+  "input_sha256": "bd4910104fc121ff6924ca9a8b1a0d6bdaa6f28601108703cc9b29b2dc9eb27e",
+  "output_path": "C:\\Users\\thioy\\Desktop\\School\\PFE\\data\\synthetic\\m1_beqi_rules_pairs.csv",
+  "output_sha256": "ba6c2d671a40f52d78a7376f4aac193a2cb2a680102abd8e5f3f85d44df54aff",
+  "rows": 17777,
+  "unique_sources": 17777,
+  "changed_rows": 17017,
+  "unchanged_rows": 760,
+  "parameters": {
+    "rule_count": 27,
+    "rule_order_is_significant": true,
+    "structural_protection": [
+      "uppercase_acronyms",
+      "numbers"
+    ],
+    "use_ner": true,
+    "ner_model": "Davlan/xlm-roberta-large-ner-hrl",
+    "common_source_pool": true
+  }
+}

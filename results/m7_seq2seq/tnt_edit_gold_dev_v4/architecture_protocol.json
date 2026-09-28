@@ -1,0 +1,20 @@
+{
+  "benchmark": "tnt_edit_gold_dev_v4",
+  "architecture": {
+    "d_model": 192,
+    "attention_heads": 4,
+    "encoder_layers": 3,
+    "feed_forward_size": 768,
+    "dropout": 0.1,
+    "max_position_embeddings": 256,
+    "output_slots_per_source": 32,
+    "operation_loss_weight": 1.0,
+    "character_loss_weight": 1.0,
+    "label_smoothing": 0.1
+  },
+  "architecture_family": "TNT-inspired encoder edit prediction",
+  "synthetic_selection_split": "gold_dev",
+  "transfer_selection_split": "gold_dev",
+  "final_evaluation_split": "frozen_gold_test",
+  "note": "Synthetic-stage Gold-dev metrics are monitoring/selection only; final comparisons use the frozen Gold-test."
+}

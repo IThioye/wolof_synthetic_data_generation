@@ -1,0 +1,38 @@
+{
+  "created_utc": "2026-08-24T18:46:20.636246+00:00",
+  "revision_reason": "Post-annotation corrections approved by project owner",
+  "previous_manifest_sha256": "ab4dc2f1ad693e151f112903b7501bbb0c8a146c231925558922594c6e7ff8a3",
+  "source": "C:\\Users\\thioy\\Desktop\\School\\PFE\\data\\annotations\\gold_annotations.csv",
+  "source_sha256": "1338fc606181aba0d4ae8aadd0116e79c3c4173b3fd89e8aeb396c08bff493ec",
+  "seed": 2026,
+  "ratios": {
+    "train": 0.7,
+    "dev": 0.15,
+    "test": 0.15
+  },
+  "splits": {
+    "train": {
+      "rows": 142,
+      "videos": [
+        "https://www.youtube.com/watch?v=8CAy6LdHR4M",
+        "https://www.youtube.com/watch?v=Myd-Gg4Mhck",
+        "https://www.youtube.com/watch?v=wMOsSBNV-iI"
+      ],
+      "sha256": "5ef420b2d2b4fd29d643fb7d6c1c0bb368b7f6f186c23ab8b03c2c6bac44e955"
+    },
+    "dev": {
+      "rows": 30,
+      "videos": [
+        "https://www.youtube.com/watch?v=qTmXYJn3bTk"
+      ],
+      "sha256": "6cbf86886dba9dc7fa6398526dafc6b69acb8dec80b8564d704ba3f590c3fc92"
+    },
+    "test": {
+      "rows": 29,
+      "videos": [
+        "https://www.youtube.com/watch?v=l6b5aJIqeNo"
+      ],
+      "sha256": "433df4091577b6fa2364b60fa35ab4e8f0176678dbb946d46c4c359d559e336c"
+    }
+  }
+}

@@ -1,0 +1,8 @@
+source_language,target_language,occurrences,changed_occurrences,percent
+fr,fr,215,18,16.34980988593156
+other,other,1,0,0.07604562737642585
+unknown,fr,5,0,0.38022813688212925
+unknown,unknown,185,1,14.068441064638783
+unknown,wo,8,8,0.6083650190114068
+wo,unknown,1,0,0.07604562737642585
+wo,wo,900,599,68.44106463878327

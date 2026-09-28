@@ -1,0 +1,23 @@
+* text=auto
+
+*.bat text eol=crlf
+*.cmd text eol=crlf
+*.ps1 text eol=crlf
+
+*.ipynb text eol=lf
+*.csv text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+*.py text eol=lf
+*.tex text eol=lf
+
+*.model -text -diff -merge
+*.npy -text -diff -merge
+*.npz -text -diff -merge
+*.parquet -text -diff -merge
+*.pdf -text -diff -merge
+*.png -text -diff -merge
+*.jpg -text -diff -merge
+*.jpeg -text -diff -merge
+*.pptx -text -diff -merge
+*.xlsx -text -diff -merge

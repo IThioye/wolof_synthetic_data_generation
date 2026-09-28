@@ -1,0 +1,12 @@
+{
+  "dataset_id": "soynade-research/Wolof-Non-Standard-Orthography",
+  "revision": "ce17c80cff6626a91dc4e38b43de12e005bc240a",
+  "license": "CC BY-SA 4.0",
+  "rows": 3438,
+  "columns": [
+    "en",
+    "wo",
+    "non_standardized"
+  ],
+  "raw_sha256": "f55bdee0e7769e19b987fa4e7eb5bffad422b8ef2184f87749b1f09e3ac06d39"
+}

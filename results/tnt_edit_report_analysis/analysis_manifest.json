@@ -1,0 +1,12 @@
+{
+  "created_from_frozen_benchmark": "results\\m7_seq2seq\\tnt_edit_gold_dev_v4",
+  "analysis_seed": 2026,
+  "bootstrap_samples": 5000,
+  "matched_synthetic_rows_per_method": 3330,
+  "frozen_test_rows": 29,
+  "notes": [
+    "Bootstrap intervals reflect test-sample uncertainty only, not training-seed variance.",
+    "Gold error labels are multi-valued; label counts therefore do not sum to the number of occurrences.",
+    "Source-to-target corpus metrics describe perturbation intensity, not semantic quality."
+  ]
+}

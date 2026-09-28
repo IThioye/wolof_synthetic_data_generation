@@ -1,0 +1,107 @@
+# Python bytecode, caches, and local environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+env/
+
+# Notebook and editor state
+.ipynb_checkpoints/
+.vscode/
+.idea/
+.agents/
+*.code-workspace
+
+# Operating-system and temporary files
+.DS_Store
+Thumbs.db
+~$*
+*.tmp
+*.bak
+*.log
+
+# Model checkpoints and large regenerated binary artifacts
+checkpoints/
+*.ckpt
+*.pt
+*.pth
+*.safetensors
+*.pkl
+*.npy
+artifacts/*.model
+artifacts/*.model.*
+
+# The small frozen M2 lexicon is retained so M2 can be reproduced without
+# rebuilding Eflomal. Other learned binary artifacts are regenerated locally.
+!artifacts/lexicon.pkl
+/artifacts/m5_*
+
+# Optional third-party checkout/build. Eflomal is documented and pinned by
+# commit, but is not embedded as a submodule.
+/eflomal/
+
+# Local safety bundles and archived experiment notebooks.
+/backups/
+/local_archive/
+
+# Raw or externally redistributed data: retain locally, publish only after a
+# privacy/licence decision. Small manifests and derived benchmark tables remain
+# eligible for version control.
+# Data policy: publish only the compact Gold evidence, manifests, and source
+# registry. External downloads and locally generated corpora keep their exact
+# configured paths but are reconstructed on demand.
+/data/**
+!/data/README.md
+!/data/external_sources.json
+!/data/senegalese_surnames.txt
+!/data/annotations/
+/data/annotations/**
+!/data/annotations/gold_annotations.csv
+!/data/annotations/token_corrections.csv
+!/data/annotations/token_linguistic_annotations.csv
+!/data/annotations/splits/
+!/data/annotations/splits/**
+!/data/external/
+/data/external/**
+!/data/external/oolel_raw_metadata.json
+!/data/synthetic/
+/data/synthetic/**
+!/data/synthetic/*_manifest.json
+!/data/translation data/
+/data/translation data/**
+!/data/translation data/data_sources.md
+/scripts/scraping/already_scraped_links.txt
+
+# Superseded experimental result families. The canonical final run is
+# results/m7_seq2seq/tnt_edit_gold_dev_v4/ and the final analysis is
+# results/tnt_edit_report_analysis/.
+/results/m7_seq2seq/**
+!/results/m7_seq2seq/tnt_edit_gold_dev_v4/
+!/results/m7_seq2seq/tnt_edit_gold_dev_v4/**
+/results/report_analysis/
+
+# Private/source-material working folders. Clean publishable copies of the
+# final report and defence are kept under report/ and presentation/.
+/documents/
+/Research Papers/
+/Final Report/
+/Final Presentation/
+
+# LaTeX build products (the named final PDF under report/ is kept).
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.lof
+*.lot
+*.out
+*.run.xml
+*.synctex.gz
+*.toc

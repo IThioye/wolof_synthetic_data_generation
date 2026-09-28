@@ -1,0 +1,919 @@
+source_index,informal_token,formal_token,category,comment
+250,mann,man,informal_wolof,mann buneh weurseuk rek sama hol bi jekh shetete ‍️‍️
+250,buneh,bu ne,informal_wolof,mann buneh weurseuk rek sama hol bi jekh shetete ‍️‍️
+250,weurseuk,wërsëg,informal_wolof,mann buneh weurseuk rek sama hol bi jekh shetete ‍️‍️
+250,hol,xol,informal_wolof,mann buneh weurseuk rek sama hol bi jekh shetete ‍️‍️
+250,jekh,jeex,informal_wolof,mann buneh weurseuk rek sama hol bi jekh shetete ‍️‍️
+250,shetete,séttétét,informal_wolof,mann buneh weurseuk rek sama hol bi jekh shetete ‍️‍️
+253,thi,ci,french_native,tidiane aka wayadi thi dome
+253,dome,doom,informal_wolof,tidiane aka wayadi thi dome
+254,bane,ban,french_native,maman oumy mom bane épisode lay dèwè?
+254,dèwè,dee,informal_wolof,maman oumy mom bane épisode lay dèwè?
+255,mbeuguel,mbëggeel,informal_wolof,mbeuguel mo nekh cou d'accord lalalma
+255,nekh,neex,informal_wolof,mbeuguel mo nekh cou d'accord lalalma
+255,cou,ku,french_native,mbeuguel mo nekh cou d'accord lalalma
+255,lalalma,laalal ma,informal_wolof,mbeuguel mo nekh cou d'accord lalalma
+256,genr,genre,informal_wolof,genr maman oumy yi danio may enervé vraiment
+256,danio,dañu,informal_wolof,genr maman oumy yi danio may enervé vraiment
+256,enervé,énerver,informal_wolof,genr maman oumy yi danio may enervé vraiment
+257,gno,ñoo,wolof_formal,père mor ak bakir gno gana irresponsables ci serie bi
+257,gana,gëna,ambiguous_cognate,père mor ak bakir gno gana irresponsables ci serie bi
+257,serie,série,informal_wolof,père mor ak bakir gno gana irresponsables ci serie bi
+258,yangi,yaa ngi,wolof_formal,khady thiam yangi exagérer vrema nekko si deug bene yoon mareme sa badiene la avant goro donc ua wara baalou akh rk lep diaraat yoon nga goor goor lou 06
+258,vrema,vraiment,informal_wolof,khady thiam yangi exagérer vrema nekko si deug bene yoon mareme sa badiene la avant goro donc ua wara baalou akh rk lep diaraat yoon nga goor goor lou 06
+258,si,ci,ambiguous_cognate,khady thiam yangi exagérer vrema nekko si deug bene yoon mareme sa badiene la avant goro donc ua wara baalou akh rk lep diaraat yoon nga goor goor lou 06
+258,deug,dëgg,informal_wolof,khady thiam yangi exagérer vrema nekko si deug bene yoon mareme sa badiene la avant goro donc ua wara baalou akh rk lep diaraat yoon nga goor goor lou 06
+258,badiene,bàjjen,informal_wolof,khady thiam yangi exagérer vrema nekko si deug bene yoon mareme sa badiene la avant goro donc ua wara baalou akh rk lep diaraat yoon nga goor goor lou 06
+258,donc,kon,french_substituted,khady thiam yangi exagérer vrema nekko si deug bene yoon mareme sa badiene la avant goro donc ua wara baalou akh rk lep diaraat yoon nga goor goor lou 06
+258,ua,nga,ambiguous_cognate,khady thiam yangi exagérer vrema nekko si deug bene yoon mareme sa badiene la avant goro donc ua wara baalou akh rk lep diaraat yoon nga goor goor lou 06
+258,baalou,baalu,informal_wolof,khady thiam yangi exagérer vrema nekko si deug bene yoon mareme sa badiene la avant goro donc ua wara baalou akh rk lep diaraat yoon nga goor goor lou 06
+258,akh,àq,informal_wolof,khady thiam yangi exagérer vrema nekko si deug bene yoon mareme sa badiene la avant goro donc ua wara baalou akh rk lep diaraat yoon nga goor goor lou 06
+258,rk,rek,informal_wolof,khady thiam yangi exagérer vrema nekko si deug bene yoon mareme sa badiene la avant goro donc ua wara baalou akh rk lep diaraat yoon nga goor goor lou 06
+258,lep,lépp,wolof_formal,khady thiam yangi exagérer vrema nekko si deug bene yoon mareme sa badiene la avant goro donc ua wara baalou akh rk lep diaraat yoon nga goor goor lou 06
+258,diaraat,jaarat,informal_wolof,khady thiam yangi exagérer vrema nekko si deug bene yoon mareme sa badiene la avant goro donc ua wara baalou akh rk lep diaraat yoon nga goor goor lou 06
+258,lou,lu,wolof_formal,khady thiam yangi exagérer vrema nekko si deug bene yoon mareme sa badiene la avant goro donc ua wara baalou akh rk lep diaraat yoon nga goor goor lou 06
+259,wakhtanelenko,waxtaan lene ko,informal_wolof,khady thiam elle en demande trop comment tu veut séparer l’unique enfant de sa mère problème amna wakhtanelenko déjà marieme kholou yaye mo wakh mais bonoul dafa dioum rek dafa diar apparemment
+259,kholou,xolu,informal_wolof,khady thiam elle en demande trop comment tu veut séparer l’unique enfant de sa mère problème amna wakhtanelenko déjà marieme kholou yaye mo wakh mais bonoul dafa dioum rek dafa diar apparemment
+259,wakh,wax,french_native,khady thiam elle en demande trop comment tu veut séparer l’unique enfant de sa mère problème amna wakhtanelenko déjà marieme kholou yaye mo wakh mais bonoul dafa dioum rek dafa diar apparemment
+259,bonoul,bonul,informal_wolof,khady thiam elle en demande trop comment tu veut séparer l’unique enfant de sa mère problème amna wakhtanelenko déjà marieme kholou yaye mo wakh mais bonoul dafa dioum rek dafa diar apparemment
+259,dioum,juum,informal_wolof,khady thiam elle en demande trop comment tu veut séparer l’unique enfant de sa mère problème amna wakhtanelenko déjà marieme kholou yaye mo wakh mais bonoul dafa dioum rek dafa diar apparemment
+259,diar,jar,informal_wolof,khady thiam elle en demande trop comment tu veut séparer l’unique enfant de sa mère problème amna wakhtanelenko déjà marieme kholou yaye mo wakh mais bonoul dafa dioum rek dafa diar apparemment
+261,guiss,gis,ambiguous_cognate,série sénégal yi ngay guiss kou am diom si début bi ak fouleu moudjer gnakeu diome ndakh djiguene domou bb maréme bi tmt legui dagnouko yilif sim
+261,kou,ku,informal_wolof,série sénégal yi ngay guiss kou am diom si début bi ak fouleu moudjer gnakeu diome ndakh djiguene domou bb maréme bi tmt legui dagnouko yilif sim
+261,diom,jom,informal_wolof,série sénégal yi ngay guiss kou am diom si début bi ak fouleu moudjer gnakeu diome ndakh djiguene domou bb maréme bi tmt legui dagnouko yilif sim
+261,si,ci,ambiguous_cognate,série sénégal yi ngay guiss kou am diom si début bi ak fouleu moudjer gnakeu diome ndakh djiguene domou bb maréme bi tmt legui dagnouko yilif sim
+261,fouleu,fulla,informal_wolof,série sénégal yi ngay guiss kou am diom si début bi ak fouleu moudjer gnakeu diome ndakh djiguene domou bb maréme bi tmt legui dagnouko yilif sim
+261,moudjer,mujjee,informal_wolof,série sénégal yi ngay guiss kou am diom si début bi ak fouleu moudjer gnakeu diome ndakh djiguene domou bb maréme bi tmt legui dagnouko yilif sim
+261,gnakeu,ñàkk,informal_wolof,série sénégal yi ngay guiss kou am diom si début bi ak fouleu moudjer gnakeu diome ndakh djiguene domou bb maréme bi tmt legui dagnouko yilif sim
+261,diome,jom,french_native,série sénégal yi ngay guiss kou am diom si début bi ak fouleu moudjer gnakeu diome ndakh djiguene domou bb maréme bi tmt legui dagnouko yilif sim
+261,ndakh,ndax,informal_wolof,série sénégal yi ngay guiss kou am diom si début bi ak fouleu moudjer gnakeu diome ndakh djiguene domou bb maréme bi tmt legui dagnouko yilif sim
+261,djiguene,jigéen,french_native,série sénégal yi ngay guiss kou am diom si début bi ak fouleu moudjer gnakeu diome ndakh djiguene domou bb maréme bi tmt legui dagnouko yilif sim
+261,domou,doomu,informal_wolof,série sénégal yi ngay guiss kou am diom si début bi ak fouleu moudjer gnakeu diome ndakh djiguene domou bb maréme bi tmt legui dagnouko yilif sim
+261,tmt,tamit,informal_wolof,série sénégal yi ngay guiss kou am diom si début bi ak fouleu moudjer gnakeu diome ndakh djiguene domou bb maréme bi tmt legui dagnouko yilif sim
+261,legui,léegi,wolof_formal,série sénégal yi ngay guiss kou am diom si début bi ak fouleu moudjer gnakeu diome ndakh djiguene domou bb maréme bi tmt legui dagnouko yilif sim
+261,dagnouko,dañu ko,informal_wolof,série sénégal yi ngay guiss kou am diom si début bi ak fouleu moudjer gnakeu diome ndakh djiguene domou bb maréme bi tmt legui dagnouko yilif sim
+265,sof,soof,wolof_formal,mama oumy mo sof kou d’ accord rèk lala j
+265,kou,ku,informal_wolof,mama oumy mo sof kou d’ accord rèk lala j
+265,rèk,rek,informal_wolof,mama oumy mo sof kou d’ accord rèk lala j
+265,lala,laal,ambiguous_cognate,mama oumy mo sof kou d’ accord rèk lala j
+262,lanegua,lan nga,informal_wolof,mareme thiam à fin lanegua beugue
+262,beugue,bëgg,french_native,mareme thiam à fin lanegua beugue
+263,momay,moomay,informal_wolof,mane aida momay ray
+263,ray,rey,ambiguous_cognate,mane aida momay ray
+267,la,laa,ambiguous_cognate,maman oumy la beug quoi
+267,beug,bëgg,wolof_formal,maman oumy la beug quoi
+268,moy,mooy,wolof_formal,khalika moy djiguénou diam ak salam yoyou bilahi daniou laye topato bangay mire
+268,djiguénou,jigéenu,informal_wolof,khalika moy djiguénou diam ak salam yoyou bilahi daniou laye topato bangay mire
+268,diam,jàmm,ambiguous_cognate,khalika moy djiguénou diam ak salam yoyou bilahi daniou laye topato bangay mire
+268,yoyou,yooyu,informal_wolof,khalika moy djiguénou diam ak salam yoyou bilahi daniou laye topato bangay mire
+268,daniou,dañu,informal_wolof,khalika moy djiguénou diam ak salam yoyou bilahi daniou laye topato bangay mire
+268,topato,toppato,informal_wolof,khalika moy djiguénou diam ak salam yoyou bilahi daniou laye topato bangay mire
+268,mire,miir,french_native,khalika moy djiguénou diam ak salam yoyou bilahi daniou laye topato bangay mire
+269,bis,bés,ambiguous_cognate,tidiane bis boo dof dof lo ba khadi thiam took sa boop bi yakhou nga goor daye deugeur waay
+269,lo,loo,ambiguous_cognate,tidiane bis boo dof dof lo ba khadi thiam took sa boop bi yakhou nga goor daye deugeur waay
+269,took,toog,wolof_formal,tidiane bis boo dof dof lo ba khadi thiam took sa boop bi yakhou nga goor daye deugeur waay
+269,boop,bopp,wolof_formal,tidiane bis boo dof dof lo ba khadi thiam took sa boop bi yakhou nga goor daye deugeur waay
+269,yakhou,yàqu,informal_wolof,tidiane bis boo dof dof lo ba khadi thiam took sa boop bi yakhou nga goor daye deugeur waay
+269,deugeur,dëgër,informal_wolof,tidiane bis boo dof dof lo ba khadi thiam took sa boop bi yakhou nga goor daye deugeur waay
+270,légui,léegi,wolof_formal,légui djiguéne gni mére yi laniouy seuyeul goor gni sakh bégeutou niou contana touniou ndakh mére yi tass naniou keur yép
+270,djiguéne,jigéen,informal_wolof,légui djiguéne gni mére yi laniouy seuyeul goor gni sakh bégeutou niou contana touniou ndakh mére yi tass naniou keur yép
+270,gni,ñi,wolof_formal,légui djiguéne gni mére yi laniouy seuyeul goor gni sakh bégeutou niou contana touniou ndakh mére yi tass naniou keur yép
+270,laniouy,lañuy,informal_wolof,légui djiguéne gni mére yi laniouy seuyeul goor gni sakh bégeutou niou contana touniou ndakh mére yi tass naniou keur yép
+270,seuyeul,séyël,informal_wolof,légui djiguéne gni mére yi laniouy seuyeul goor gni sakh bégeutou niou contana touniou ndakh mére yi tass naniou keur yép
+270,gni,ñi,wolof_formal,légui djiguéne gni mére yi laniouy seuyeul goor gni sakh bégeutou niou contana touniou ndakh mére yi tass naniou keur yép
+270,sakh,sax,informal_wolof,légui djiguéne gni mére yi laniouy seuyeul goor gni sakh bégeutou niou contana touniou ndakh mére yi tass naniou keur yép
+270,bégeutou,bëggëtu,informal_wolof,légui djiguéne gni mére yi laniouy seuyeul goor gni sakh bégeutou niou contana touniou ndakh mére yi tass naniou keur yép
+270,niou,ñu,ambiguous_cognate,légui djiguéne gni mére yi laniouy seuyeul goor gni sakh bégeutou niou contana touniou ndakh mére yi tass naniou keur yép
+270,contana,kontaana,informal_wolof,légui djiguéne gni mére yi laniouy seuyeul goor gni sakh bégeutou niou contana touniou ndakh mére yi tass naniou keur yép
+270,touniou,tuñu,informal_wolof,légui djiguéne gni mére yi laniouy seuyeul goor gni sakh bégeutou niou contana touniou ndakh mére yi tass naniou keur yép
+270,ndakh,ndax,informal_wolof,légui djiguéne gni mére yi laniouy seuyeul goor gni sakh bégeutou niou contana touniou ndakh mére yi tass naniou keur yép
+270,tass,tas,wolof_formal,légui djiguéne gni mére yi laniouy seuyeul goor gni sakh bégeutou niou contana touniou ndakh mére yi tass naniou keur yép
+270,naniou,nañu,informal_wolof,légui djiguéne gni mére yi laniouy seuyeul goor gni sakh bégeutou niou contana touniou ndakh mére yi tass naniou keur yép
+270,keur,kër,ambiguous_cognate,légui djiguéne gni mére yi laniouy seuyeul goor gni sakh bégeutou niou contana touniou ndakh mére yi tass naniou keur yép
+270,yép,yépp,wolof_formal,légui djiguéne gni mére yi laniouy seuyeul goor gni sakh bégeutou niou contana touniou ndakh mére yi tass naniou keur yép
+271,sofna,soof na,informal_wolof,khady thiam mi sofna deh ishh…
+272,djiteul,jiitël,informal_wolof,pourtant mareme thiam ya djiteul nidiaye mor tay niou djiteul sa dome nga mér voilà famme
+272,nidiaye,nijaay,informal_wolof,pourtant mareme thiam ya djiteul nidiaye mor tay niou djiteul sa dome nga mér voilà famme
+272,djiteul,jiitël,informal_wolof,pourtant mareme thiam ya djiteul nidiaye mor tay niou djiteul sa dome nga mér voilà famme
+272,dome,doom,informal_wolof,pourtant mareme thiam ya djiteul nidiaye mor tay niou djiteul sa dome nga mér voilà famme
+272,mér,mer,informal_wolof,pourtant mareme thiam ya djiteul nidiaye mor tay niou djiteul sa dome nga mér voilà famme
+272,famme,femme,informal_wolof,pourtant mareme thiam ya djiteul nidiaye mor tay niou djiteul sa dome nga mér voilà famme
+274,sof,soof,wolof_formal,ahhh vraiment rôle maman oumy mii sof nañou ça énerve enfin
+274,nañou,nañu,informal_wolof,ahhh vraiment rôle maman oumy mii sof nañou ça énerve enfin
+282,genou,genrou,french_native,genou goro yi maman oumy souma ko.amone damakoye raye mou de bilahi
+282,souma,suma,informal_wolof,genou goro yi maman oumy souma ko.amone damakoye raye mou de bilahi
+282,amone,amoon,wolof_formal,genou goro yi maman oumy souma ko.amone damakoye raye mou de bilahi
+282,damakoye,dama key,informal_wolof,genou goro yi maman oumy souma ko.amone damakoye raye mou de bilahi
+282,raye,rey,ambiguous_cognate,genou goro yi maman oumy souma ko.amone damakoye raye mou de bilahi
+282,mou,mu,ambiguous_cognate,genou goro yi maman oumy souma ko.amone damakoye raye mou de bilahi
+282,de,dee,ambiguous_cognate,genou goro yi maman oumy souma ko.amone damakoye raye mou de bilahi
+283,tieuye,céy,informal_wolof,tieuye khallil problème sur problème
+284,migui,mingui,informal_wolof,tidiane migui commencer gniak fayda nak
+284,gniak,ñàkk,informal_wolof,tidiane migui commencer gniak fayda nak
+291,güent,gént,informal_wolof,khalil dey güent dé mohhhh
+292,niaw,ñaaw,informal_wolof,maman oumy dafa niaw pour nakharal nou
+292,nakharal,naqaral,informal_wolof,maman oumy dafa niaw pour nakharal nou
+292,nou,ñu,french_native,maman oumy dafa niaw pour nakharal nou
+293,wah,wa,informal_wolof,"wah mére bi kagne la teudj gatam gui , marodi deff lén ko mou paralysé guir yallah"
+293,kagne,kañ,informal_wolof,"wah mére bi kagne la teudj gatam gui , marodi deff lén ko mou paralysé guir yallah"
+293,la,lay,ambiguous_cognate,"wah mére bi kagne la teudj gatam gui , marodi deff lén ko mou paralysé guir yallah"
+293,teudj,tëj,informal_wolof,"wah mére bi kagne la teudj gatam gui , marodi deff lén ko mou paralysé guir yallah"
+293,deff,def,ambiguous_cognate,"wah mére bi kagne la teudj gatam gui , marodi deff lén ko mou paralysé guir yallah"
+293,lén,leen,informal_wolof,"wah mére bi kagne la teudj gatam gui , marodi deff lén ko mou paralysé guir yallah"
+293,guir,ngir,informal_wolof,"wah mére bi kagne la teudj gatam gui , marodi deff lén ko mou paralysé guir yallah"
+300,sonne,sonn,french_native,marichou sonne gua menone na geuna simple
+300,gua,nga,informal_wolof,marichou sonne gua menone na geuna simple
+300,menone,mënoon,informal_wolof,marichou sonne gua menone na geuna simple
+300,geuna,gëna,informal_wolof,marichou sonne gua menone na geuna simple
+303,sokhna,soxna,french_substituted,sokhna djalika djabar la. gnikoy khasse fiire dongue moléne djape.ne soyez pas égoïstes à la fin
+303,djabar,jabar,informal_wolof,sokhna djalika djabar la. gnikoy khasse fiire dongue moléne djape.ne soyez pas égoïstes à la fin
+303,gnikoy,ñi koy,informal_wolof,sokhna djalika djabar la. gnikoy khasse fiire dongue moléne djape.ne soyez pas égoïstes à la fin
+303,khasse,xas,informal_wolof,sokhna djalika djabar la. gnikoy khasse fiire dongue moléne djape.ne soyez pas égoïstes à la fin
+303,fiire,fiir,wolof_formal,sokhna djalika djabar la. gnikoy khasse fiire dongue moléne djape.ne soyez pas égoïstes à la fin
+303,dongue,dong,informal_wolof,sokhna djalika djabar la. gnikoy khasse fiire dongue moléne djape.ne soyez pas égoïstes à la fin
+303,moléne,moo leen,informal_wolof,sokhna djalika djabar la. gnikoy khasse fiire dongue moléne djape.ne soyez pas égoïstes à la fin
+303,djape,jàpp,informal_wolof,sokhna djalika djabar la. gnikoy khasse fiire dongue moléne djape.ne soyez pas égoïstes à la fin
+305,yaw,yow,ambiguous_cognate,khali yaw mom baby mounèla ne m'appelee pas baby ngay kotinè ay mo romantiques do nopi khamna di ngène wakhe barina wah mai deuk la wah
+305,mounèla,mu ne la,informal_wolof,khali yaw mom baby mounèla ne m'appelee pas baby ngay kotinè ay mo romantiques do nopi khamna di ngène wakhe barina wah mai deuk la wah
+305,khamna,xamna,informal_wolof,khali yaw mom baby mounèla ne m'appelee pas baby ngay kotinè ay mo romantiques do nopi khamna di ngène wakhe barina wah mai deuk la wah
+305,ngène,ngeen,informal_wolof,khali yaw mom baby mounèla ne m'appelee pas baby ngay kotinè ay mo romantiques do nopi khamna di ngène wakhe barina wah mai deuk la wah
+305,wakhe,wax,informal_wolof,khali yaw mom baby mounèla ne m'appelee pas baby ngay kotinè ay mo romantiques do nopi khamna di ngène wakhe barina wah mai deuk la wah
+305,barina,bari na,wolof_formal,khali yaw mom baby mounèla ne m'appelee pas baby ngay kotinè ay mo romantiques do nopi khamna di ngène wakhe barina wah mai deuk la wah
+305,wah,wax,informal_wolof,khali yaw mom baby mounèla ne m'appelee pas baby ngay kotinè ay mo romantiques do nopi khamna di ngène wakhe barina wah mai deuk la wah
+305,mai,mais,ambiguous_cognate,khali yaw mom baby mounèla ne m'appelee pas baby ngay kotinè ay mo romantiques do nopi khamna di ngène wakhe barina wah mai deuk la wah
+305,deuk,dëgg,ambiguous_cognate,khali yaw mom baby mounèla ne m'appelee pas baby ngay kotinè ay mo romantiques do nopi khamna di ngène wakhe barina wah mai deuk la wah
+305,wah,wax,informal_wolof,khali yaw mom baby mounèla ne m'appelee pas baby ngay kotinè ay mo romantiques do nopi khamna di ngène wakhe barina wah mai deuk la wah
+306,weurseuk,wërsëg,informal_wolof,weurseuk mon dieu marichou kagne gañou wath nak
+306,kagne,kañ,informal_wolof,weurseuk mon dieu marichou kagne gañou wath nak
+306,gañou,nga ñuy,informal_wolof,weurseuk mon dieu marichou kagne gañou wath nak
+306,wath,wàcc,informal_wolof,weurseuk mon dieu marichou kagne gañou wath nak
+308,mo,moo,ambiguous_cognate,maman oumy mo sof rek ta bari wakh
+308,ta,te,ambiguous_cognate,maman oumy mo sof rek ta bari wakh
+308,wakh,wax,french_native,maman oumy mo sof rek ta bari wakh
+307,daye,day,informal_wolof,"tidjane goor daye ame foula,boule nangue koula séparé ak yaye"
+307,ame,am,ambiguous_cognate,"tidjane goor daye ame foula,boule nangue koula séparé ak yaye"
+307,foula,fulla,french_native,"tidjane goor daye ame foula,boule nangue koula séparé ak yaye"
+307,boule,bul,ambiguous_cognate,"tidjane goor daye ame foula,boule nangue koula séparé ak yaye"
+307,nangue,nangu,informal_wolof,"tidjane goor daye ame foula,boule nangue koula séparé ak yaye"
+307,koula,ku la,french_native,"tidjane goor daye ame foula,boule nangue koula séparé ak yaye"
+312,bénne,benn,informal_wolof,tidiane mii amoul bénne foulla bilahi
+312,foulla,fulla,informal_wolof,tidiane mii amoul bénne foulla bilahi
+314,sofga,soof nga,informal_wolof,khady thiam sofga bonega
+314,bonega,bon nga,informal_wolof,khady thiam sofga bonega
+318,fékhal,féexal,informal_wolof,lékhou fékhal n'a sama khol bi
+318,n'a,na,french_native,lékhou fékhal n'a sama khol bi
+318,khol,xol,informal_wolof,lékhou fékhal n'a sama khol bi
+322,rew,reew,wolof_formal,bilahi khady thiame dafa rew tidiane mom. amoul foula
+322,foula,fulla,french_native,bilahi khady thiame dafa rew tidiane mom. amoul foula
+327,sofna,soof na,informal_wolof,khady thiam sofna nk ahhhhh duull wayyy
+327,nk,nak,informal_wolof,khady thiam sofna nk ahhhhh duull wayyy
+327,ahhhhh,ah,informal_wolof,khady thiam sofna nk ahhhhh duull wayyy
+327,duull,duul,informal_wolof,khady thiam sofna nk ahhhhh duull wayyy
+327,wayyy,waay,informal_wolof,khady thiam sofna nk ahhhhh duull wayyy
+331,weurseuk,wërsëg,informal_wolof,weurseuk mom moyi lane
+331,moyi,mooy,informal_wolof,weurseuk mom moyi lane
+331,lane,lan,wolof_formal,weurseuk mom moyi lane
+332,mbeuguéll,mbëggeel,informal_wolof,tidiane mbeuguéll kenn douko forcé
+332,douko,du ko,informal_wolof,tidiane mbeuguéll kenn douko forcé
+335,niata,ñaata,informal_wolof,niata diabar gua am
+335,diabar,jabar,informal_wolof,niata diabar gua am
+335,gua,nga,informal_wolof,niata diabar gua am
+336,lii,li,ambiguous_cognate,lii dhé la wakhno vraiment maman oumy barina wax
+336,dhé,dé,informal_wolof,lii dhé la wakhno vraiment maman oumy barina wax
+336,wakhno,waxone,informal_wolof,lii dhé la wakhno vraiment maman oumy barina wax
+336,barina,bari na,wolof_formal,lii dhé la wakhno vraiment maman oumy barina wax
+338,nekhna,neex na,informal_wolof,juboo ak say goro nekhna deh. bravo sokhna djalika.
+343,sof,soof,wolof_formal,mere bii sof nama
+343,nama,na ma,ambiguous_cognate,mere bii sof nama
+344,thiey,céy,french_native,thiey homme khalil dafay metti sama khol ou mane ma fiire
+344,khol,xol,informal_wolof,thiey homme khalil dafay metti sama khol ou mane ma fiire
+344,mane,man,ambiguous_cognate,thiey homme khalil dafay metti sama khol ou mane ma fiire
+345,niata,ñaata,informal_wolof,wa goor niata khol la am
+345,khol,xol,informal_wolof,wa goor niata khol la am
+346,féthe,fecc,informal_wolof,maman oumy mi féthe ba paré tok ni day dioy
+346,paré,pare,ambiguous_cognate,maman oumy mi féthe ba paré tok ni day dioy
+346,tok,toog,ambiguous_cognate,maman oumy mi féthe ba paré tok ni day dioy
+346,dioy,jooy,informal_wolof,maman oumy mi féthe ba paré tok ni day dioy
+347,diarna,jar na,informal_wolof,mo diarna lathe dal
+347,lathe,laajte,informal_wolof,mo diarna lathe dal
+347,dal,daal,ambiguous_cognate,mo diarna lathe dal
+348,yennneu,yeen,informal_wolof,maman oumy mi yennneu warou wolen si mome
+348,warou,waaru,informal_wolof,maman oumy mi yennneu warou wolen si mome
+348,wolen,woo leen,informal_wolof,maman oumy mi yennneu warou wolen si mome
+348,mome,moom,informal_wolof,maman oumy mi yennneu warou wolen si mome
+349,khôl,xol,french_native,sama khôl bi jalika dinako guéné ak weursseuk tchimm
+349,dinako,di naa ko,wolof_formal,sama khôl bi jalika dinako guéné ak weursseuk tchimm
+349,guéné,génne,wolof_formal,sama khôl bi jalika dinako guéné ak weursseuk tchimm
+349,weursseuk,wërsëg,informal_wolof,sama khôl bi jalika dinako guéné ak weursseuk tchimm
+349,tchimm,cim,informal_wolof,sama khôl bi jalika dinako guéné ak weursseuk tchimm
+351,nanga,na nga,wolof_formal,wa key sohna dialika nanga féhé ba linga commencer nga yéggali ko balaa mouy heuy béne jour nguen dioté moulay hass
+351,féhé,fexe,informal_wolof,wa key sohna dialika nanga féhé ba linga commencer nga yéggali ko balaa mouy heuy béne jour nguen dioté moulay hass
+351,linga,li nga,ambiguous_cognate,wa key sohna dialika nanga féhé ba linga commencer nga yéggali ko balaa mouy heuy béne jour nguen dioté moulay hass
+351,yéggali,yeggali,informal_wolof,wa key sohna dialika nanga féhé ba linga commencer nga yéggali ko balaa mouy heuy béne jour nguen dioté moulay hass
+351,balaa,bala,wolof_formal,wa key sohna dialika nanga féhé ba linga commencer nga yéggali ko balaa mouy heuy béne jour nguen dioté moulay hass
+351,mouy,muy,informal_wolof,wa key sohna dialika nanga féhé ba linga commencer nga yéggali ko balaa mouy heuy béne jour nguen dioté moulay hass
+351,heuy,xéy,informal_wolof,wa key sohna dialika nanga féhé ba linga commencer nga yéggali ko balaa mouy heuy béne jour nguen dioté moulay hass
+351,béne,benn,informal_wolof,wa key sohna dialika nanga féhé ba linga commencer nga yéggali ko balaa mouy heuy béne jour nguen dioté moulay hass
+351,nguen,ngeen,informal_wolof,wa key sohna dialika nanga féhé ba linga commencer nga yéggali ko balaa mouy heuy béne jour nguen dioté moulay hass
+351,dioté,jote,informal_wolof,wa key sohna dialika nanga féhé ba linga commencer nga yéggali ko balaa mouy heuy béne jour nguen dioté moulay hass
+351,moulay,mu lay,informal_wolof,wa key sohna dialika nanga féhé ba linga commencer nga yéggali ko balaa mouy heuy béne jour nguen dioté moulay hass
+351,hass,xas,informal_wolof,wa key sohna dialika nanga féhé ba linga commencer nga yéggali ko balaa mouy heuy béne jour nguen dioté moulay hass
+354,wooooouuuyaaayyyy,wuyyay,informal_wolof,wooooouuuyaaayyyy yooooyyyy ndidiaye mor neina bbeiii mareme mangui dead
+354,yooooyyyy,yooy,informal_wolof,wooooouuuyaaayyyy yooooyyyy ndidiaye mor neina bbeiii mareme mangui dead
+354,ndidiaye,nijaay,informal_wolof,wooooouuuyaaayyyy yooooyyyy ndidiaye mor neina bbeiii mareme mangui dead
+354,neina,nee na,informal_wolof,wooooouuuyaaayyyy yooooyyyy ndidiaye mor neina bbeiii mareme mangui dead
+354,mangui,ma ngi,wolof_formal,wooooouuuyaaayyyy yooooyyyy ndidiaye mor neina bbeiii mareme mangui dead
+355,guis,gis,french_native,maman oumy guis dognou maye diam sheuut akh sa model you gnaw
+355,dognou,doo ñu,informal_wolof,maman oumy guis dognou maye diam sheuut akh sa model you gnaw
+355,maye,may,ambiguous_cognate,maman oumy guis dognou maye diam sheuut akh sa model you gnaw
+355,diam,jàmm,ambiguous_cognate,maman oumy guis dognou maye diam sheuut akh sa model you gnaw
+355,sheuut,séttétét,informal_wolof,maman oumy guis dognou maye diam sheuut akh sa model you gnaw
+355,akh,ak,informal_wolof,maman oumy guis dognou maye diam sheuut akh sa model you gnaw
+355,gnaw,ñaaw,wolof_formal,maman oumy guis dognou maye diam sheuut akh sa model you gnaw
+356,wëroul,wérul,informal_wolof,maman oumy mom wëroul wayei khady thiam yagui may beug soff nk ish
+356,wayei,waaye,informal_wolof,maman oumy mom wëroul wayei khady thiam yagui may beug soff nk ish
+356,yagui,yaa ngi,informal_wolof,maman oumy mom wëroul wayei khady thiam yagui may beug soff nk ish
+356,beug,bëgg,wolof_formal,maman oumy mom wëroul wayei khady thiam yagui may beug soff nk ish
+356,soff,soof,informal_wolof,maman oumy mom wëroul wayei khady thiam yagui may beug soff nk ish
+356,nk,nak,informal_wolof,maman oumy mom wëroul wayei khady thiam yagui may beug soff nk ish
+357,soff,soof,informal_wolof,khady thiamm soff guama
+357,guama,nga ma,informal_wolof,khady thiamm soff guama
+363,djiepy,jéppi,informal_wolof,mame oumy djiepy nako
+363,nako,naa ko,wolof_formal,mame oumy djiepy nako
+364,ndidiaye,nijaay,informal_wolof,ndidiaye mor bb maréme la wakh wala ma dégoul
+364,wakh,wax,french_native,ndidiaye mor bb maréme la wakh wala ma dégoul
+364,ma,maa,ambiguous_cognate,ndidiaye mor bb maréme la wakh wala ma dégoul
+364,dégoul,déggul,informal_wolof,ndidiaye mor bb maréme la wakh wala ma dégoul
+365,daguene,dangeen,informal_wolof,wa mère bi daguene kofi bayi pour moumay metital wala
+365,kofi,ko fi,ambiguous_cognate,wa mère bi daguene kofi bayi pour moumay metital wala
+365,bayi,bàyyi,wolof_formal,wa mère bi daguene kofi bayi pour moumay metital wala
+365,moumay,mu may,informal_wolof,wa mère bi daguene kofi bayi pour moumay metital wala
+365,metital,mettital,wolof_formal,wa mère bi daguene kofi bayi pour moumay metital wala
+368,khamoul,xamul,informal_wolof,khady thiam khamoul bopam
+368,bopam,boppam,wolof_formal,khady thiam khamoul bopam
+369,kham,xam,informal_wolof,kham nga loutakh khaleyou djguen yi marichou nékhoulén dalén guina paré rek
+369,loutakh,lu tax,informal_wolof,kham nga loutakh khaleyou djguen yi marichou nékhoulén dalén guina paré rek
+369,khaleyou,xalé yu,informal_wolof,kham nga loutakh khaleyou djguen yi marichou nékhoulén dalén guina paré rek
+369,djguen,jigéen,informal_wolof,kham nga loutakh khaleyou djguen yi marichou nékhoulén dalén guina paré rek
+369,nékhoulén,neexuleen,informal_wolof,kham nga loutakh khaleyou djguen yi marichou nékhoulén dalén guina paré rek
+369,dalén,da leen,informal_wolof,kham nga loutakh khaleyou djguen yi marichou nékhoulén dalén guina paré rek
+369,guina,gëna,informal_wolof,kham nga loutakh khaleyou djguen yi marichou nékhoulén dalén guina paré rek
+369,paré,pare,ambiguous_cognate,kham nga loutakh khaleyou djguen yi marichou nékhoulén dalén guina paré rek
+370,khôl,xol,french_native,sama khôl bi métina si maman oumy
+370,métina,metti na,french_native,sama khôl bi métina si maman oumy
+370,si,ci,ambiguous_cognate,sama khôl bi métina si maman oumy
+373,khétou,xeetu,informal_wolof,sokhna dialika khétou seuyeum lanela
+373,seuyeum,séyam,informal_wolof,sokhna dialika khétou seuyeum lanela
+373,lanela,lan la,informal_wolof,sokhna dialika khétou seuyeum lanela
+377,kaname,kanam,informal_wolof,maman oumy kaname bi comme bamélou mbame
+377,bamélou,bàmmeelu,informal_wolof,maman oumy kaname bi comme bamélou mbame
+377,mbame,mbaam,informal_wolof,maman oumy kaname bi comme bamélou mbame
+379,si,ci,ambiguous_cognate,"casting si maman oumy kane moko def, dinako porté plainte m ki sofna elle interprète mal son rôle qu'à même ?"
+379,dinako,di naa ko,wolof_formal,"casting si maman oumy kane moko def, dinako porté plainte m ki sofna elle interprète mal son rôle qu'à même ?"
+379,sofna,soof na,informal_wolof,"casting si maman oumy kane moko def, dinako porté plainte m ki sofna elle interprète mal son rôle qu'à même ?"
+379,qu'à,quand,french_native,"casting si maman oumy kane moko def, dinako porté plainte m ki sofna elle interprète mal son rôle qu'à même ?"
+380,guent,gént,informal_wolof,yalna nek guent
+382,sofena,soof na,informal_wolof,khadi thiame sofena té tidiane amoul foula ni yayame soné si mome béne dome mouy khalate bayikofi ndakhe diabarame
+382,foula,fulla,french_native,khadi thiame sofena té tidiane amoul foula ni yayame soné si mome béne dome mouy khalate bayikofi ndakhe diabarame
+382,yayame,yaayam,informal_wolof,khadi thiame sofena té tidiane amoul foula ni yayame soné si mome béne dome mouy khalate bayikofi ndakhe diabarame
+382,soné,sonnee,informal_wolof,khadi thiame sofena té tidiane amoul foula ni yayame soné si mome béne dome mouy khalate bayikofi ndakhe diabarame
+382,si,ci,ambiguous_cognate,khadi thiame sofena té tidiane amoul foula ni yayame soné si mome béne dome mouy khalate bayikofi ndakhe diabarame
+382,mome,moom,informal_wolof,khadi thiame sofena té tidiane amoul foula ni yayame soné si mome béne dome mouy khalate bayikofi ndakhe diabarame
+382,béne,benn,informal_wolof,khadi thiame sofena té tidiane amoul foula ni yayame soné si mome béne dome mouy khalate bayikofi ndakhe diabarame
+382,dome,doom,informal_wolof,khadi thiame sofena té tidiane amoul foula ni yayame soné si mome béne dome mouy khalate bayikofi ndakhe diabarame
+382,mouy,muy,informal_wolof,khadi thiame sofena té tidiane amoul foula ni yayame soné si mome béne dome mouy khalate bayikofi ndakhe diabarame
+382,khalate,xalaat,informal_wolof,khadi thiame sofena té tidiane amoul foula ni yayame soné si mome béne dome mouy khalate bayikofi ndakhe diabarame
+382,bayikofi,bàyyi ko fi,informal_wolof,khadi thiame sofena té tidiane amoul foula ni yayame soné si mome béne dome mouy khalate bayikofi ndakhe diabarame
+382,ndakhe,ndax,informal_wolof,khadi thiame sofena té tidiane amoul foula ni yayame soné si mome béne dome mouy khalate bayikofi ndakhe diabarame
+382,diabarame,jabaram,informal_wolof,khadi thiame sofena té tidiane amoul foula ni yayame soné si mome béne dome mouy khalate bayikofi ndakhe diabarame
+383,kou,ku,informal_wolof,kou beugueu seydina mohamed psl
+383,beugueu,bëgg,informal_wolof,kou beugueu seydina mohamed psl
+384,amale,amal,wolof_formal,tidiane amale foula khady mongui laye traverser nekhale khilifa yayou khady mongui seuye si keur famille bo ammei nga wouti appartement
+384,foula,fulla,french_native,tidiane amale foula khady mongui laye traverser nekhale khilifa yayou khady mongui seuye si keur famille bo ammei nga wouti appartement
+384,mongui,moo ngi,informal_wolof,tidiane amale foula khady mongui laye traverser nekhale khilifa yayou khady mongui seuye si keur famille bo ammei nga wouti appartement
+384,laye,lay,ambiguous_cognate,tidiane amale foula khady mongui laye traverser nekhale khilifa yayou khady mongui seuye si keur famille bo ammei nga wouti appartement
+384,nekhale,neexal,informal_wolof,tidiane amale foula khady mongui laye traverser nekhale khilifa yayou khady mongui seuye si keur famille bo ammei nga wouti appartement
+384,khilifa,kilifa,informal_wolof,tidiane amale foula khady mongui laye traverser nekhale khilifa yayou khady mongui seuye si keur famille bo ammei nga wouti appartement
+384,yayou,yaayu,informal_wolof,tidiane amale foula khady mongui laye traverser nekhale khilifa yayou khady mongui seuye si keur famille bo ammei nga wouti appartement
+384,mongui,moo ngi,informal_wolof,tidiane amale foula khady mongui laye traverser nekhale khilifa yayou khady mongui seuye si keur famille bo ammei nga wouti appartement
+384,seuye,séy,informal_wolof,tidiane amale foula khady mongui laye traverser nekhale khilifa yayou khady mongui seuye si keur famille bo ammei nga wouti appartement
+384,si,ci,ambiguous_cognate,tidiane amale foula khady mongui laye traverser nekhale khilifa yayou khady mongui seuye si keur famille bo ammei nga wouti appartement
+384,keur,kër,ambiguous_cognate,tidiane amale foula khady mongui laye traverser nekhale khilifa yayou khady mongui seuye si keur famille bo ammei nga wouti appartement
+384,ammei,ame,informal_wolof,tidiane amale foula khady mongui laye traverser nekhale khilifa yayou khady mongui seuye si keur famille bo ammei nga wouti appartement
+384,wouti,wuti,informal_wolof,tidiane amale foula khady mongui laye traverser nekhale khilifa yayou khady mongui seuye si keur famille bo ammei nga wouti appartement
+390,ndidiaye,nijaay,informal_wolof,ndidiaye mor mo diongué waybb marième
+390,mo,moo,ambiguous_cognate,ndidiaye mor mo diongué waybb marième
+390,diongué,jonge,informal_wolof,ndidiaye mor mo diongué waybb marième
+390,waybb,waay,informal_wolof,ndidiaye mor mo diongué waybb marième
+391,nalènne,na leen,informal_wolof,yalla nalènne yalla douggeul adjana
+391,douggeul,dugal,informal_wolof,yalla nalènne yalla douggeul adjana
+391,adjana,aljana,informal_wolof,yalla nalènne yalla douggeul adjana
+393,way,waay,wolof_formal,mama omou way komo nekh rkk lalal j'aime
+393,komo,ku mu,french_native,mama omou way komo nekh rkk lalal j'aime
+393,nekh,neex,informal_wolof,mama omou way komo nekh rkk lalal j'aime
+393,rkk,rek,informal_wolof,mama omou way komo nekh rkk lalal j'aime
+393,lalal,laalal,wolof_formal,mama omou way komo nekh rkk lalal j'aime
+394,mon,moo,french_substituted,maman oumi fialika mon waron nk woudiou diam
+394,waron,waroon,informal_wolof,maman oumi fialika mon waron nk woudiou diam
+394,nk,nek,informal_wolof,maman oumi fialika mon waron nk woudiou diam
+394,woudiou,wujju,informal_wolof,maman oumi fialika mon waron nk woudiou diam
+394,diam,jàmm,ambiguous_cognate,maman oumi fialika mon waron nk woudiou diam
+395,wa,waa,ambiguous_cognate,wa cheikh tidian tamit loko dall bamoy and ak khady thiam nan appartement ki soof na deh
+395,loko,lu ko,informal_wolof,wa cheikh tidian tamit loko dall bamoy and ak khady thiam nan appartement ki soof na deh
+395,dall,dal,wolof_formal,wa cheikh tidian tamit loko dall bamoy and ak khady thiam nan appartement ki soof na deh
+395,bamoy,ba muy,informal_wolof,wa cheikh tidian tamit loko dall bamoy and ak khady thiam nan appartement ki soof na deh
+395,and,ànd,ambiguous_cognate,wa cheikh tidian tamit loko dall bamoy and ak khady thiam nan appartement ki soof na deh
+395,nan,naan,ambiguous_cognate,wa cheikh tidian tamit loko dall bamoy and ak khady thiam nan appartement ki soof na deh
+395,deh,de,informal_wolof,wa cheikh tidian tamit loko dall bamoy and ak khady thiam nan appartement ki soof na deh
+396,wa,waa,ambiguous_cognate,wa ki ni lagne koy bayi
+396,lagne,lañ,informal_wolof,wa ki ni lagne koy bayi
+396,bayi,bàyyi,wolof_formal,wa ki ni lagne koy bayi
+397,weurseuk,wërsëg,informal_wolof,weurseuk damay d ma oumy sincèrement weroul elle assure son rôle
+397,ma,maa,ambiguous_cognate,weurseuk damay d ma oumy sincèrement weroul elle assure son rôle
+397,weroul,wérul,informal_wolof,weurseuk damay d ma oumy sincèrement weroul elle assure son rôle
+398,motakhe,mo tax,informal_wolof,maman oumy motakhe dotouma sétane babel ndakh bari wakhe
+398,dotouma,dootuma,informal_wolof,maman oumy motakhe dotouma sétane babel ndakh bari wakhe
+398,sétane,seetaan,informal_wolof,maman oumy motakhe dotouma sétane babel ndakh bari wakhe
+398,ndakh,ndax,informal_wolof,maman oumy motakhe dotouma sétane babel ndakh bari wakhe
+398,wakhe,wax,informal_wolof,maman oumy motakhe dotouma sétane babel ndakh bari wakhe
+400,mane,man,ambiguous_cognate,mane ma degoul wala nidiay mor bb la wowé maréme
+400,ma,maa,ambiguous_cognate,mane ma degoul wala nidiay mor bb la wowé maréme
+400,degoul,déggul,informal_wolof,mane ma degoul wala nidiay mor bb la wowé maréme
+400,nidiay,nijaay,informal_wolof,mane ma degoul wala nidiay mor bb la wowé maréme
+400,wowé,woo we,informal_wolof,mane ma degoul wala nidiay mor bb la wowé maréme
+402,wa,waa,ambiguous_cognate,bb marém key wa dialy ka sa fourno keurigne lay dieul
+402,fourno,furno,informal_wolof,bb marém key wa dialy ka sa fourno keurigne lay dieul
+402,keurigne,këriñ,informal_wolof,bb marém key wa dialy ka sa fourno keurigne lay dieul
+402,dieul,jël,wolof_formal,bb marém key wa dialy ka sa fourno keurigne lay dieul
+403,degue,dégg,informal_wolof,"waa yen degue nguen ""bb mary"" bou nidiay mor, mdr"
+403,nguen,ngeen,informal_wolof,"waa yen degue nguen ""bb mary"" bou nidiay mor, mdr"
+403,nidiay,nijaay,informal_wolof,"waa yen degue nguen ""bb mary"" bou nidiay mor, mdr"
+405,diamm,jàmm,informal_wolof,mais mère omou tamit lé ba diamm le nak ‍️
+405,le,la,ambiguous_cognate,mais mère omou tamit lé ba diamm le nak ‍️
+409,mome,moom,informal_wolof,marichou yaw mome boumala diapé dotoko defaty ngay layam layami ni sim
+409,boumala,bu ma la,informal_wolof,marichou yaw mome boumala diapé dotoko defaty ngay layam layami ni sim
+409,diapé,jàppe,informal_wolof,marichou yaw mome boumala diapé dotoko defaty ngay layam layami ni sim
+409,dotoko,do too ko,informal_wolof,marichou yaw mome boumala diapé dotoko defaty ngay layam layami ni sim
+409,defaty,defati,informal_wolof,marichou yaw mome boumala diapé dotoko defaty ngay layam layami ni sim
+409,layami,laayami,informal_wolof,marichou yaw mome boumala diapé dotoko defaty ngay layam layami ni sim
+415,ndidiay,nijaay,informal_wolof,waa ndidiay mor bb mareme la wax
+424,béteu,bett,informal_wolof,maréme thiam nak béteu nama bayil khalé seuy tamite pourquoi mère yi beugue di initié wou de trop thi seneu seuyou doom yi tamite c'est trop waay
+424,nama,na ma,ambiguous_cognate,maréme thiam nak béteu nama bayil khalé seuy tamite pourquoi mère yi beugue di initié wou de trop thi seneu seuyou doom yi tamite c'est trop waay
+424,khalé,xale,informal_wolof,maréme thiam nak béteu nama bayil khalé seuy tamite pourquoi mère yi beugue di initié wou de trop thi seneu seuyou doom yi tamite c'est trop waay
+424,seuy,séy,informal_wolof,maréme thiam nak béteu nama bayil khalé seuy tamite pourquoi mère yi beugue di initié wou de trop thi seneu seuyou doom yi tamite c'est trop waay
+424,tamite,tamit,informal_wolof,maréme thiam nak béteu nama bayil khalé seuy tamite pourquoi mère yi beugue di initié wou de trop thi seneu seuyou doom yi tamite c'est trop waay
+424,beugue,bëgg,french_native,maréme thiam nak béteu nama bayil khalé seuy tamite pourquoi mère yi beugue di initié wou de trop thi seneu seuyou doom yi tamite c'est trop waay
+424,wou,wu,informal_wolof,maréme thiam nak béteu nama bayil khalé seuy tamite pourquoi mère yi beugue di initié wou de trop thi seneu seuyou doom yi tamite c'est trop waay
+424,thi,ci,french_native,maréme thiam nak béteu nama bayil khalé seuy tamite pourquoi mère yi beugue di initié wou de trop thi seneu seuyou doom yi tamite c'est trop waay
+424,seneu,seen,informal_wolof,maréme thiam nak béteu nama bayil khalé seuy tamite pourquoi mère yi beugue di initié wou de trop thi seneu seuyou doom yi tamite c'est trop waay
+424,seuyou,séyu,informal_wolof,maréme thiam nak béteu nama bayil khalé seuy tamite pourquoi mère yi beugue di initié wou de trop thi seneu seuyou doom yi tamite c'est trop waay
+424,tamite,tamit,informal_wolof,maréme thiam nak béteu nama bayil khalé seuy tamite pourquoi mère yi beugue di initié wou de trop thi seneu seuyou doom yi tamite c'est trop waay
+437,sokhna,soxna,french_substituted,sokhna dialika inaf waay lane moy yalla na rees ak diam té ga reesalko mome miko lekk bouko reessaloul koukoy reessal
+437,lane,lan,wolof_formal,sokhna dialika inaf waay lane moy yalla na rees ak diam té ga reesalko mome miko lekk bouko reessaloul koukoy reessal
+437,moy,mooy,wolof_formal,sokhna dialika inaf waay lane moy yalla na rees ak diam té ga reesalko mome miko lekk bouko reessaloul koukoy reessal
+437,diam,jàmm,ambiguous_cognate,sokhna dialika inaf waay lane moy yalla na rees ak diam té ga reesalko mome miko lekk bouko reessaloul koukoy reessal
+437,ga,nga,ambiguous_cognate,sokhna dialika inaf waay lane moy yalla na rees ak diam té ga reesalko mome miko lekk bouko reessaloul koukoy reessal
+437,reesalko,reesal ko,informal_wolof,sokhna dialika inaf waay lane moy yalla na rees ak diam té ga reesalko mome miko lekk bouko reessaloul koukoy reessal
+437,mome,moom,informal_wolof,sokhna dialika inaf waay lane moy yalla na rees ak diam té ga reesalko mome miko lekk bouko reessaloul koukoy reessal
+437,miko,mii ko,informal_wolof,sokhna dialika inaf waay lane moy yalla na rees ak diam té ga reesalko mome miko lekk bouko reessaloul koukoy reessal
+437,bouko,bu ko,informal_wolof,sokhna dialika inaf waay lane moy yalla na rees ak diam té ga reesalko mome miko lekk bouko reessaloul koukoy reessal
+437,reessaloul,reesalul,informal_wolof,sokhna dialika inaf waay lane moy yalla na rees ak diam té ga reesalko mome miko lekk bouko reessaloul koukoy reessal
+437,koukoy,ku koy,informal_wolof,sokhna dialika inaf waay lane moy yalla na rees ak diam té ga reesalko mome miko lekk bouko reessaloul koukoy reessal
+437,reessal,reesal,informal_wolof,sokhna dialika inaf waay lane moy yalla na rees ak diam té ga reesalko mome miko lekk bouko reessaloul koukoy reessal
+452,nk,nek,informal_wolof,nn li yalla nk ay guent wy
+452,guent,gént,informal_wolof,nn li yalla nk ay guent wy
+452,wy,waay,informal_wolof,nn li yalla nk ay guent wy
+453,ubè,ube,informal_wolof,ma oumy bu ubè haut parleur bi rk sma xol bi diekh
+453,rk,rek,informal_wolof,ma oumy bu ubè haut parleur bi rk sma xol bi diekh
+453,sma,sama,ambiguous_cognate,ma oumy bu ubè haut parleur bi rk sma xol bi diekh
+453,diekh,jeex,informal_wolof,ma oumy bu ubè haut parleur bi rk sma xol bi diekh
+454,mo,moo,ambiguous_cognate,maman oumy mo sof rek ta bari wakh ak lamine bou rey bi kou d'accord
+454,sof,soof,wolof_formal,maman oumy mo sof rek ta bari wakh ak lamine bou rey bi kou d'accord
+454,ta,te,ambiguous_cognate,maman oumy mo sof rek ta bari wakh ak lamine bou rey bi kou d'accord
+454,wakh,wax,french_native,maman oumy mo sof rek ta bari wakh ak lamine bou rey bi kou d'accord
+454,lamine,làmmiñ,french_substituted,maman oumy mo sof rek ta bari wakh ak lamine bou rey bi kou d'accord
+454,bou,bu,ambiguous_cognate,maman oumy mo sof rek ta bari wakh ak lamine bou rey bi kou d'accord
+454,rey,réy,wolof_formal,maman oumy mo sof rek ta bari wakh ak lamine bou rey bi kou d'accord
+454,kou,ku,informal_wolof,maman oumy mo sof rek ta bari wakh ak lamine bou rey bi kou d'accord
+455,mome,moom,informal_wolof,ma ouma mome yalla dako sakk pour moumaye nakharal
+455,dako,da koo,wolof_formal,ma ouma mome yalla dako sakk pour moumaye nakharal
+455,sakk,sàkk,wolof_formal,ma ouma mome yalla dako sakk pour moumaye nakharal
+455,moumaye,mu may,informal_wolof,ma ouma mome yalla dako sakk pour moumaye nakharal
+455,nakharal,naqaral,informal_wolof,ma ouma mome yalla dako sakk pour moumaye nakharal
+457,nidiaye,nijaay,informal_wolof,nidiaye mor neina bébé mareme wouy
+457,neina,nee na,informal_wolof,nidiaye mor neina bébé mareme wouy
+457,wouy,wuy,informal_wolof,nidiaye mor neina bébé mareme wouy
+458,kene,kenn,informal_wolof,bb mareme bi nak kene dou si wakh magui deh
+458,dou,du,french_native,bb mareme bi nak kene dou si wakh magui deh
+458,si,ci,ambiguous_cognate,bb mareme bi nak kene dou si wakh magui deh
+458,wakh,wax,french_native,bb mareme bi nak kene dou si wakh magui deh
+458,magui,ma ngi,wolof_formal,bb mareme bi nak kene dou si wakh magui deh
+458,deh,dee,informal_wolof,bb mareme bi nak kene dou si wakh magui deh
+462,wouyoul,wuyul,informal_wolof,wouyoul pabi nané cheikh tidiane kharal ma wakh ak bb
+462,pabi,paa bi,informal_wolof,wouyoul pabi nané cheikh tidiane kharal ma wakh ak bb
+462,nané,ne na,informal_wolof,wouyoul pabi nané cheikh tidiane kharal ma wakh ak bb
+462,kharal,xaaral,informal_wolof,wouyoul pabi nané cheikh tidiane kharal ma wakh ak bb
+462,wakh,wax,french_native,wouyoul pabi nané cheikh tidiane kharal ma wakh ak bb
+471,dangay,da ngay,ambiguous_cognate,dangay sett li rek li yallz boumou diekh way
+471,sett,seet,informal_wolof,dangay sett li rek li yallz boumou diekh way
+471,li,lii,ambiguous_cognate,dangay sett li rek li yallz boumou diekh way
+471,li,lii,ambiguous_cognate,dangay sett li rek li yallz boumou diekh way
+471,yallz,yalla,informal_wolof,dangay sett li rek li yallz boumou diekh way
+471,boumou,bu mu,informal_wolof,dangay sett li rek li yallz boumou diekh way
+471,diekh,jeex,informal_wolof,dangay sett li rek li yallz boumou diekh way
+471,way,waay,wolof_formal,dangay sett li rek li yallz boumou diekh way
+472,goné,gone,informal_wolof,goné gui meuna jouer
+472,gui,gi,ambiguous_cognate,goné gui meuna jouer
+472,meuna,mëna,wolof_formal,goné gui meuna jouer
+474,sakh,sax,informal_wolof,sen couple sakh nekhoul
+474,nekhoul,neexul,informal_wolof,sen couple sakh nekhoul
+476,diguéne,di ngeen,informal_wolof,diguéne fékhé ba forcer gnou sokhna dialika
+476,fékhé,fexe,informal_wolof,diguéne fékhé ba forcer gnou sokhna dialika
+476,gnou,ñu,french_native,diguéne fékhé ba forcer gnou sokhna dialika
+476,sokhna,soxna,french_substituted,diguéne fékhé ba forcer gnou sokhna dialika
+487,premiére,première,informal_wolof,pour la premiére fois ma bagne marichou si serié
+487,bagne,bañ,french_native,pour la premiére fois ma bagne marichou si serié
+487,si,ci,ambiguous_cognate,pour la premiére fois ma bagne marichou si serié
+487,serié,série,informal_wolof,pour la premiére fois ma bagne marichou si serié
+3521,kouko,ku ko,informal_wolof,mais song bi kouko way li nekh na
+3521,li,lii,ambiguous_cognate,mais song bi kouko way li nekh na
+3521,nekh,neex,informal_wolof,mais song bi kouko way li nekh na
+5871,soukou,sukk,ambiguous_cognate,bakir da soukou yennn
+5871,yennn,yeen,informal_wolof,bakir da soukou yennn
+10000,dou,du,french_native,​ té dou wakhé dank
+10000,wakhé,waxee,informal_wolof,​ té dou wakhé dank
+10000,dank,ndànk,wolof_formal,​ té dou wakhé dank
+5875,doff,dof,wolof_formal,doff bou rafet ndeysann
+5875,bou,bu,ambiguous_cognate,doff bou rafet ndeysann
+5875,ndeysann,ndeysaan,informal_wolof,doff bou rafet ndeysann
+10003,mo,moo,ambiguous_cognate,cachet wam mo wara diekh. sokhna ak salimata legui niou diepiko
+10003,diekh,jeex,informal_wolof,cachet wam mo wara diekh. sokhna ak salimata legui niou diepiko
+10003,legui,léegi,wolof_formal,cachet wam mo wara diekh. sokhna ak salimata legui niou diepiko
+10003,niou,ñu,ambiguous_cognate,cachet wam mo wara diekh. sokhna ak salimata legui niou diepiko
+10003,diepiko,jéppi ko,informal_wolof,cachet wam mo wara diekh. sokhna ak salimata legui niou diepiko
+3366,mom,moom,wolof_formal,mareme mom dey forcer trop vraiment amoufi place
+3366,amoufi,amu fi,informal_wolof,mareme mom dey forcer trop vraiment amoufi place
+5877,nekoul,nekkul,informal_wolof,awa cheikh nekoul si benn yoon
+5877,si,ci,ambiguous_cognate,awa cheikh nekoul si benn yoon
+10005,nimako,ni ma ko,informal_wolof,nimako diépé sakh da eupeu
+10005,diépé,jéppe,informal_wolof,nimako diépé sakh da eupeu
+10005,sakh,sax,informal_wolof,nimako diépé sakh da eupeu
+10005,eupeu,ëpp,informal_wolof,nimako diépé sakh da eupeu
+5879,doff,dof,wolof_formal,doff bu reww
+5879,reww,reew,informal_wolof,doff bu reww
+3534,ioe,yow,informal_wolof,amdy ioe amdy ioe diémo dra
+3534,ioe,yow,informal_wolof,amdy ioe amdy ioe diémo dra
+3534,diémo,jéemo,informal_wolof,amdy ioe amdy ioe diémo dra
+3534,dra,dara,informal_wolof,amdy ioe amdy ioe diémo dra
+10007,mome,moom,informal_wolof,maman oumy mome rk lay bagna guis
+10007,rk,rek,informal_wolof,maman oumy mome rk lay bagna guis
+10007,lay,laay,ambiguous_cognate,maman oumy mome rk lay bagna guis
+10007,bagna,baña,wolof_formal,maman oumy mome rk lay bagna guis
+10007,guis,gis,french_native,maman oumy mome rk lay bagna guis
+3370,lingaye,li ngay,informal_wolof,serigne lingaye dafe bagn nako serigne yakhe na adouna khalé bi lou takh nga koye takke ti beugo ko
+3370,dafe,def,wolof_formal,serigne lingaye dafe bagn nako serigne yakhe na adouna khalé bi lou takh nga koye takke ti beugo ko
+3370,bagn,bañ,informal_wolof,serigne lingaye dafe bagn nako serigne yakhe na adouna khalé bi lou takh nga koye takke ti beugo ko
+3370,nako,naa ko,wolof_formal,serigne lingaye dafe bagn nako serigne yakhe na adouna khalé bi lou takh nga koye takke ti beugo ko
+3370,yakhe,yàq,informal_wolof,serigne lingaye dafe bagn nako serigne yakhe na adouna khalé bi lou takh nga koye takke ti beugo ko
+3370,adouna,àdduna,informal_wolof,serigne lingaye dafe bagn nako serigne yakhe na adouna khalé bi lou takh nga koye takke ti beugo ko
+3370,khalé,xale,informal_wolof,serigne lingaye dafe bagn nako serigne yakhe na adouna khalé bi lou takh nga koye takke ti beugo ko
+3370,lou,lu,wolof_formal,serigne lingaye dafe bagn nako serigne yakhe na adouna khalé bi lou takh nga koye takke ti beugo ko
+3370,takh,tax,french_native,serigne lingaye dafe bagn nako serigne yakhe na adouna khalé bi lou takh nga koye takke ti beugo ko
+3370,takke,takk,wolof_formal,serigne lingaye dafe bagn nako serigne yakhe na adouna khalé bi lou takh nga koye takke ti beugo ko
+3370,ti,te,wolof_formal,serigne lingaye dafe bagn nako serigne yakhe na adouna khalé bi lou takh nga koye takke ti beugo ko
+3370,beugo,bëggo,informal_wolof,serigne lingaye dafe bagn nako serigne yakhe na adouna khalé bi lou takh nga koye takke ti beugo ko
+10008,mére,mère,informal_wolof,mére bi mo sof ba paré reuy lamign
+10008,mo,moo,ambiguous_cognate,mére bi mo sof ba paré reuy lamign
+10008,sof,soof,wolof_formal,mére bi mo sof ba paré reuy lamign
+10008,paré,pare,ambiguous_cognate,mére bi mo sof ba paré reuy lamign
+10008,reuy,réy,informal_wolof,mére bi mo sof ba paré reuy lamign
+10008,lamign,làmmiñ,informal_wolof,mére bi mo sof ba paré reuy lamign
+5884,khel,xel,informal_wolof,sama khel niagwna
+5884,niagwna,ñaaw na,informal_wolof,sama khel niagwna
+3373,niro,niroo,wolof_formal,asmao dafa niro ak yayam sax
+3541,tmitt,tamit,informal_wolof,taxi clando bi tmitt aussi sounou na
+3541,sounou,sonn,informal_wolof,taxi clando bi tmitt aussi sounou na
+5886,amna,am na,wolof_formal,salimata amna foulla
+5886,foulla,fulla,informal_wolof,salimata amna foulla
+3543,lay,laay,ambiguous_cognate,tay lay niouss sama nièces yi bania khol ben place ibnou thiam mi laniouma toudeh
+3543,niouss,ñuus,informal_wolof,tay lay niouss sama nièces yi bania khol ben place ibnou thiam mi laniouma toudeh
+3543,bania,baña,informal_wolof,tay lay niouss sama nièces yi bania khol ben place ibnou thiam mi laniouma toudeh
+3543,khol,xool,informal_wolof,tay lay niouss sama nièces yi bania khol ben place ibnou thiam mi laniouma toudeh
+3543,ben,benn,ambiguous_cognate,tay lay niouss sama nièces yi bania khol ben place ibnou thiam mi laniouma toudeh
+3543,laniouma,la ñu ma,informal_wolof,tay lay niouss sama nièces yi bania khol ben place ibnou thiam mi laniouma toudeh
+3543,toudeh,tudde,informal_wolof,tay lay niouss sama nièces yi bania khol ben place ibnou thiam mi laniouma toudeh
+10013,eupeul,ëppal,informal_wolof,franchement khady thiam nak dafa eupeul fi kouy seuy dégg nga loula métti danga gueune awa cheikh wala
+10013,kouy,kuy,informal_wolof,franchement khady thiam nak dafa eupeul fi kouy seuy dégg nga loula métti danga gueune awa cheikh wala
+10013,seuy,séy,informal_wolof,franchement khady thiam nak dafa eupeul fi kouy seuy dégg nga loula métti danga gueune awa cheikh wala
+10013,loula,lu la,informal_wolof,franchement khady thiam nak dafa eupeul fi kouy seuy dégg nga loula métti danga gueune awa cheikh wala
+10013,métti,metti,wolof_formal,franchement khady thiam nak dafa eupeul fi kouy seuy dégg nga loula métti danga gueune awa cheikh wala
+10013,danga,da nga,wolof_formal,franchement khady thiam nak dafa eupeul fi kouy seuy dégg nga loula métti danga gueune awa cheikh wala
+10013,gueune,gën,informal_wolof,franchement khady thiam nak dafa eupeul fi kouy seuy dégg nga loula métti danga gueune awa cheikh wala
+3375,miii,mii,informal_wolof,bass miii kou beugue leuffff leu boy biii sonal nga domou diambour dji waay ish.
+3375,kou,ku,informal_wolof,bass miii kou beugue leuffff leu boy biii sonal nga domou diambour dji waay ish.
+3375,beugue,bëgg,french_native,bass miii kou beugue leuffff leu boy biii sonal nga domou diambour dji waay ish.
+3375,leuffff,lëf,informal_wolof,bass miii kou beugue leuffff leu boy biii sonal nga domou diambour dji waay ish.
+3375,leu,la,french_native,bass miii kou beugue leuffff leu boy biii sonal nga domou diambour dji waay ish.
+3375,biii,bi,informal_wolof,bass miii kou beugue leuffff leu boy biii sonal nga domou diambour dji waay ish.
+3375,domou,doomu,informal_wolof,bass miii kou beugue leuffff leu boy biii sonal nga domou diambour dji waay ish.
+3375,diambour,jaambur,informal_wolof,bass miii kou beugue leuffff leu boy biii sonal nga domou diambour dji waay ish.
+3375,dji,ji,informal_wolof,bass miii kou beugue leuffff leu boy biii sonal nga domou diambour dji waay ish.
+5890,ndeysane,ndeysaan,informal_wolof,ndeysane ibnou thiam yeureum nako
+5890,yeureum,yërëm,informal_wolof,ndeysane ibnou thiam yeureum nako
+5890,nako,naa ko,wolof_formal,ndeysane ibnou thiam yeureum nako
+10014,loutakh,lu tax,informal_wolof,loutakh pere ndiouga di raamal vieux?alors que gnoo bokk daara rek ?
+10014,gnoo,ñoo,informal_wolof,loutakh pere ndiouga di raamal vieux?alors que gnoo bokk daara rek ?
+3376,khame,xam,informal_wolof,khame lan la taye mo nékh
+3376,taye,tey,informal_wolof,khame lan la taye mo nékh
+3376,mo,moo,ambiguous_cognate,khame lan la taye mo nékh
+3376,nékh,neex,informal_wolof,khame lan la taye mo nékh
+5891,wa,waa,ambiguous_cognate,wa yéne maman oumi mi eska nit la wala koubére
+5891,yéne,yeen,informal_wolof,wa yéne maman oumi mi eska nit la wala koubére
+5891,eska,est ce que,informal_wolof,wa yéne maman oumi mi eska nit la wala koubére
+5891,koubére,kubéer,informal_wolof,wa yéne maman oumi mi eska nit la wala koubére
+3377,sofna,soof na,informal_wolof,mareme sofna nekhouma darra
+3377,nekhouma,neexu ma,informal_wolof,mareme sofna nekhouma darra
+3377,darra,dara,wolof_formal,mareme sofna nekhouma darra
+3378,wa,waa,ambiguous_cognate,wa sérigne ndiaye es que nitt leu
+3378,es,est-ce,ambiguous_cognate,wa sérigne ndiaye es que nitt leu
+3378,nitt,nit,wolof_formal,wa sérigne ndiaye es que nitt leu
+3378,leu,la,french_native,wa sérigne ndiaye es que nitt leu
+3379,daffa,dafa,informal_wolof,diama daffa tangal ci kaw bass
+3379,tangal,tàngal,wolof_formal,diama daffa tangal ci kaw bass
+5897,wa,waa,ambiguous_cognate,wa kase louko diaral liii
+5897,kase,kese,informal_wolof,wa kase louko diaral liii
+5897,louko,lu ko,informal_wolof,wa kase louko diaral liii
+5897,diaral,jaral,informal_wolof,wa kase louko diaral liii
+5897,liii,li,informal_wolof,wa kase louko diaral liii
+3380,wayén,waa yeen,informal_wolof,wayén guise guéne coiffure maréme bi lolou rk cas la mouy topou cas tei am cas thi bop bi ak thi soff lolou rk cas la
+3380,guise,gis,french_native,wayén guise guéne coiffure maréme bi lolou rk cas la mouy topou cas tei am cas thi bop bi ak thi soff lolou rk cas la
+3380,guéne,ngeen,informal_wolof,wayén guise guéne coiffure maréme bi lolou rk cas la mouy topou cas tei am cas thi bop bi ak thi soff lolou rk cas la
+3380,rk,rek,informal_wolof,wayén guise guéne coiffure maréme bi lolou rk cas la mouy topou cas tei am cas thi bop bi ak thi soff lolou rk cas la
+3380,mouy,muy,informal_wolof,wayén guise guéne coiffure maréme bi lolou rk cas la mouy topou cas tei am cas thi bop bi ak thi soff lolou rk cas la
+3380,topou,topp,informal_wolof,wayén guise guéne coiffure maréme bi lolou rk cas la mouy topou cas tei am cas thi bop bi ak thi soff lolou rk cas la
+3380,tei,te,informal_wolof,wayén guise guéne coiffure maréme bi lolou rk cas la mouy topou cas tei am cas thi bop bi ak thi soff lolou rk cas la
+3380,thi,ci,french_native,wayén guise guéne coiffure maréme bi lolou rk cas la mouy topou cas tei am cas thi bop bi ak thi soff lolou rk cas la
+3380,bop,bopp,french_native,wayén guise guéne coiffure maréme bi lolou rk cas la mouy topou cas tei am cas thi bop bi ak thi soff lolou rk cas la
+3380,thi,ci,french_native,wayén guise guéne coiffure maréme bi lolou rk cas la mouy topou cas tei am cas thi bop bi ak thi soff lolou rk cas la
+3380,soff,soof,informal_wolof,wayén guise guéne coiffure maréme bi lolou rk cas la mouy topou cas tei am cas thi bop bi ak thi soff lolou rk cas la
+3380,lolou,loolu,wolof_formal,wayén guise guéne coiffure maréme bi lolou rk cas la mouy topou cas tei am cas thi bop bi ak thi soff lolou rk cas la
+3380,rk,rek,informal_wolof,wayén guise guéne coiffure maréme bi lolou rk cas la mouy topou cas tei am cas thi bop bi ak thi soff lolou rk cas la
+5900,ohhh,oh,informal_wolof,ohhh yeureum na bakir
+5900,yeureum,yërëm,informal_wolof,ohhh yeureum na bakir
+10020,way,woy,wolof_formal,ki di way baabel voix bi nèx na deh kanla
+10020,nèx,neex,informal_wolof,ki di way baabel voix bi nèx na deh kanla
+10020,deh,de,informal_wolof,ki di way baabel voix bi nèx na deh kanla
+10020,kanla,kan la,informal_wolof,ki di way baabel voix bi nèx na deh kanla
+5901,nīarél,ñaarel,informal_wolof,pourtant nīarél yi dagno ame ay waye you bonne rékh mé dagno bakh té nak khame lén ni ame na awo you hypocrite bilahi
+5901,dagno,da ñoo,wolof_formal,pourtant nīarél yi dagno ame ay waye you bonne rékh mé dagno bakh té nak khame lén ni ame na awo you hypocrite bilahi
+5901,ame,am,ambiguous_cognate,pourtant nīarél yi dagno ame ay waye you bonne rékh mé dagno bakh té nak khame lén ni ame na awo you hypocrite bilahi
+5901,you,yu,ambiguous_cognate,pourtant nīarél yi dagno ame ay waye you bonne rékh mé dagno bakh té nak khame lén ni ame na awo you hypocrite bilahi
+5901,bonne,bon,french_native,pourtant nīarél yi dagno ame ay waye you bonne rékh mé dagno bakh té nak khame lén ni ame na awo you hypocrite bilahi
+5901,rékh,rek,informal_wolof,pourtant nīarél yi dagno ame ay waye you bonne rékh mé dagno bakh té nak khame lén ni ame na awo you hypocrite bilahi
+5901,mé,mais,wolof_formal,pourtant nīarél yi dagno ame ay waye you bonne rékh mé dagno bakh té nak khame lén ni ame na awo you hypocrite bilahi
+5901,dagno,da ñoo,wolof_formal,pourtant nīarél yi dagno ame ay waye you bonne rékh mé dagno bakh té nak khame lén ni ame na awo you hypocrite bilahi
+5901,bakh,baax,informal_wolof,pourtant nīarél yi dagno ame ay waye you bonne rékh mé dagno bakh té nak khame lén ni ame na awo you hypocrite bilahi
+5901,té,te,ambiguous_cognate,pourtant nīarél yi dagno ame ay waye you bonne rékh mé dagno bakh té nak khame lén ni ame na awo you hypocrite bilahi
+5901,khame,xam,informal_wolof,pourtant nīarél yi dagno ame ay waye you bonne rékh mé dagno bakh té nak khame lén ni ame na awo you hypocrite bilahi
+5901,lén,leen,informal_wolof,pourtant nīarél yi dagno ame ay waye you bonne rékh mé dagno bakh té nak khame lén ni ame na awo you hypocrite bilahi
+5901,ame,am,ambiguous_cognate,pourtant nīarél yi dagno ame ay waye you bonne rékh mé dagno bakh té nak khame lén ni ame na awo you hypocrite bilahi
+5901,awo,aawo,informal_wolof,pourtant nīarél yi dagno ame ay waye you bonne rékh mé dagno bakh té nak khame lén ni ame na awo you hypocrite bilahi
+5901,you,yu,ambiguous_cognate,pourtant nīarél yi dagno ame ay waye you bonne rékh mé dagno bakh té nak khame lén ni ame na awo you hypocrite bilahi
+10021,kiye,kuy,informal_wolof,maman omou kiye rayé si série douko ray
+10021,rayé,reye,french_native,maman omou kiye rayé si série douko ray
+10021,si,ci,ambiguous_cognate,maman omou kiye rayé si série douko ray
+10021,douko,du ko,informal_wolof,maman omou kiye rayé si série douko ray
+10021,ray,rey,ambiguous_cognate,maman omou kiye rayé si série douko ray
+3554,reynama,rey na ma,informal_wolof,ibnou thiam reynama
+3385,wa,waa,ambiguous_cognate,wa diama koula bayi fipou baxoul
+3385,koula,ku la,french_native,wa diama koula bayi fipou baxoul
+3385,bayi,bàyyi,wolof_formal,wa diama koula bayi fipou baxoul
+3385,fipou,fippu,informal_wolof,wa diama koula bayi fipou baxoul
+3385,baxoul,baaxul,informal_wolof,wa diama koula bayi fipou baxoul
+3557,yama,yaa ma,ambiguous_cognate,bakir yama ligey pour ma gate
+3557,ligey,liggéey,informal_wolof,bakir yama ligey pour ma gate
+3557,gate,gàtt,ambiguous_cognate,bakir yama ligey pour ma gate
+10026,le,les,ambiguous_cognate,le meilleurs séries kou d'accord lalal j'aime ️
+10026,kou,ku,informal_wolof,le meilleurs séries kou d'accord lalal j'aime ️
+10026,lalal,laalal,wolof_formal,le meilleurs séries kou d'accord lalal j'aime ️
+3386,bayilene,bàyyi leen,informal_wolof,théâtre sans saaga dafa neex bayilene xel si xaleyi
+3386,si,ci,ambiguous_cognate,théâtre sans saaga dafa neex bayilene xel si xaleyi
+3386,xaleyi,xale yi,wolof_formal,théâtre sans saaga dafa neex bayilene xel si xaleyi
+5905,guisngène,gis ngeen,informal_wolof,guisngène soukou bakir bi
+5905,soukou,sukk,ambiguous_cognate,guisngène soukou bakir bi
+3387,bouko,bu ko,informal_wolof,bouko terei nitt leu après tout nieupeuy saga
+3387,terei,teree,informal_wolof,bouko terei nitt leu après tout nieupeuy saga
+3387,nitt,nit,wolof_formal,bouko terei nitt leu après tout nieupeuy saga
+3387,leu,la,french_native,bouko terei nitt leu après tout nieupeuy saga
+3387,nieupeuy,ñéppay,informal_wolof,bouko terei nitt leu après tout nieupeuy saga
+3387,saga,saaga,ambiguous_cognate,bouko terei nitt leu après tout nieupeuy saga
+10031,beug,bëgg,wolof_formal,dafay beug rew soff la deff
+10031,rew,reew,wolof_formal,dafay beug rew soff la deff
+10031,soff,soof,informal_wolof,dafay beug rew soff la deff
+10031,la,lay,ambiguous_cognate,dafay beug rew soff la deff
+10031,deff,def,ambiguous_cognate,dafay beug rew soff la deff
+3561,wa,waa,ambiguous_cognate,wa leyla eumboul won
+3561,eumboul,ëmbul,informal_wolof,wa leyla eumboul won
+3561,won,woon,ambiguous_cognate,wa leyla eumboul won
+5909,kou,ku,informal_wolof,kou guem ni chiekh tidaiane ak aicha dane beuguate rek lalale j'aime
+5909,guem,gëm,informal_wolof,kou guem ni chiekh tidaiane ak aicha dane beuguate rek lalale j'aime
+5909,beuguate,bëggante,informal_wolof,kou guem ni chiekh tidaiane ak aicha dane beuguate rek lalale j'aime
+5909,lalale,laalal,informal_wolof,kou guem ni chiekh tidaiane ak aicha dane beuguate rek lalale j'aime
+10032,bako,ba ko,informal_wolof,bako ba tidiane nop boy bou khess bi
+10032,nop,nob,informal_wolof,bako ba tidiane nop boy bou khess bi
+10032,bou,bu,ambiguous_cognate,bako ba tidiane nop boy bou khess bi
+10032,khess,xees,informal_wolof,bako ba tidiane nop boy bou khess bi
+3389,ms,mais,ambiguous_cognate,ms serigne ndiaye bon nga di torokhal diabar dji ni
+3389,torokhal,toroxal,informal_wolof,ms serigne ndiaye bon nga di torokhal diabar dji ni
+3389,diabar,jabar,informal_wolof,ms serigne ndiaye bon nga di torokhal diabar dji ni
+3389,dji,ji,informal_wolof,ms serigne ndiaye bon nga di torokhal diabar dji ni
+3564,li,lii,ambiguous_cognate,li. nékh na ma maman ndiouga
+3564,nékh,neex,informal_wolof,li. nékh na ma maman ndiouga
+3390,deug,dëgg,informal_wolof,je vous avais dit que mareme dafay topp bass découvrir deug bi mais comme domaram la dafa dem werr ko si digou nit yi . mais wollah elle est mon actrice préférée après asmaou.
+3390,domaram,doomaraam,informal_wolof,je vous avais dit que mareme dafay topp bass découvrir deug bi mais comme domaram la dafa dem werr ko si digou nit yi . mais wollah elle est mon actrice préférée après asmaou.
+3390,werr,weer,wolof_formal,je vous avais dit que mareme dafay topp bass découvrir deug bi mais comme domaram la dafa dem werr ko si digou nit yi . mais wollah elle est mon actrice préférée après asmaou.
+3390,si,ci,ambiguous_cognate,je vous avais dit que mareme dafay topp bass découvrir deug bi mais comme domaram la dafa dem werr ko si digou nit yi . mais wollah elle est mon actrice préférée après asmaou.
+3390,digou,diggu,informal_wolof,je vous avais dit que mareme dafay topp bass découvrir deug bi mais comme domaram la dafa dem werr ko si digou nit yi . mais wollah elle est mon actrice préférée après asmaou.
+3390,après,gànnaaw,french_substituted,je vous avais dit que mareme dafay topp bass découvrir deug bi mais comme domaram la dafa dem werr ko si digou nit yi . mais wollah elle est mon actrice préférée après asmaou.
+3565,autom,wotom,informal_wolof,taximan bi autom bi néna vert bi dou yégue
+3565,néna,ne na,wolof_formal,taximan bi autom bi néna vert bi dou yégue
+3565,dou,du,french_native,taximan bi autom bi néna vert bi dou yégue
+3565,yégue,yegg,informal_wolof,taximan bi autom bi néna vert bi dou yégue
+5911,gorr,goor,informal_wolof,salimate gorr la
+10034,wakh,wax,french_native,wakh nako facebook néna kouy seuy rék meusseu ngua dégue louka métti téé aduna koufi nékk dii ngua dégue loula nékh dii ngua dégue loula nakari meuna baal dieukeureum mais meunoul baal badiènam
+10034,nako,naa ko,wolof_formal,wakh nako facebook néna kouy seuy rék meusseu ngua dégue louka métti téé aduna koufi nékk dii ngua dégue loula nékh dii ngua dégue loula nakari meuna baal dieukeureum mais meunoul baal badiènam
+10034,néna,ne naa,wolof_formal,wakh nako facebook néna kouy seuy rék meusseu ngua dégue louka métti téé aduna koufi nékk dii ngua dégue loula nékh dii ngua dégue loula nakari meuna baal dieukeureum mais meunoul baal badiènam
+10034,kouy,kuy,informal_wolof,wakh nako facebook néna kouy seuy rék meusseu ngua dégue louka métti téé aduna koufi nékk dii ngua dégue loula nékh dii ngua dégue loula nakari meuna baal dieukeureum mais meunoul baal badiènam
+10034,seuy,séy,informal_wolof,wakh nako facebook néna kouy seuy rék meusseu ngua dégue louka métti téé aduna koufi nékk dii ngua dégue loula nékh dii ngua dégue loula nakari meuna baal dieukeureum mais meunoul baal badiènam
+10034,rék,rek,wolof_formal,wakh nako facebook néna kouy seuy rék meusseu ngua dégue louka métti téé aduna koufi nékk dii ngua dégue loula nékh dii ngua dégue loula nakari meuna baal dieukeureum mais meunoul baal badiènam
+10034,meusseu,mës,informal_wolof,wakh nako facebook néna kouy seuy rék meusseu ngua dégue louka métti téé aduna koufi nékk dii ngua dégue loula nékh dii ngua dégue loula nakari meuna baal dieukeureum mais meunoul baal badiènam
+10034,ngua,nga,informal_wolof,wakh nako facebook néna kouy seuy rék meusseu ngua dégue louka métti téé aduna koufi nékk dii ngua dégue loula nékh dii ngua dégue loula nakari meuna baal dieukeureum mais meunoul baal badiènam
+10034,dégue,dégg,informal_wolof,wakh nako facebook néna kouy seuy rék meusseu ngua dégue louka métti téé aduna koufi nékk dii ngua dégue loula nékh dii ngua dégue loula nakari meuna baal dieukeureum mais meunoul baal badiènam
+10034,louka,lu ko,informal_wolof,wakh nako facebook néna kouy seuy rék meusseu ngua dégue louka métti téé aduna koufi nékk dii ngua dégue loula nékh dii ngua dégue loula nakari meuna baal dieukeureum mais meunoul baal badiènam
+10034,métti,metti,wolof_formal,wakh nako facebook néna kouy seuy rék meusseu ngua dégue louka métti téé aduna koufi nékk dii ngua dégue loula nékh dii ngua dégue loula nakari meuna baal dieukeureum mais meunoul baal badiènam
+10034,téé,te,informal_wolof,wakh nako facebook néna kouy seuy rék meusseu ngua dégue louka métti téé aduna koufi nékk dii ngua dégue loula nékh dii ngua dégue loula nakari meuna baal dieukeureum mais meunoul baal badiènam
+10034,aduna,àdduna,wolof_formal,wakh nako facebook néna kouy seuy rék meusseu ngua dégue louka métti téé aduna koufi nékk dii ngua dégue loula nékh dii ngua dégue loula nakari meuna baal dieukeureum mais meunoul baal badiènam
+10034,koufi,ku fi,informal_wolof,wakh nako facebook néna kouy seuy rék meusseu ngua dégue louka métti téé aduna koufi nékk dii ngua dégue loula nékh dii ngua dégue loula nakari meuna baal dieukeureum mais meunoul baal badiènam
+10034,nékk,nekk,wolof_formal,wakh nako facebook néna kouy seuy rék meusseu ngua dégue louka métti téé aduna koufi nékk dii ngua dégue loula nékh dii ngua dégue loula nakari meuna baal dieukeureum mais meunoul baal badiènam
+10034,dii,di,ambiguous_cognate,wakh nako facebook néna kouy seuy rék meusseu ngua dégue louka métti téé aduna koufi nékk dii ngua dégue loula nékh dii ngua dégue loula nakari meuna baal dieukeureum mais meunoul baal badiènam
+10034,ngua,nga,informal_wolof,wakh nako facebook néna kouy seuy rék meusseu ngua dégue louka métti téé aduna koufi nékk dii ngua dégue loula nékh dii ngua dégue loula nakari meuna baal dieukeureum mais meunoul baal badiènam
+10034,dégue,dégg,informal_wolof,wakh nako facebook néna kouy seuy rék meusseu ngua dégue louka métti téé aduna koufi nékk dii ngua dégue loula nékh dii ngua dégue loula nakari meuna baal dieukeureum mais meunoul baal badiènam
+10034,loula,lu la,informal_wolof,wakh nako facebook néna kouy seuy rék meusseu ngua dégue louka métti téé aduna koufi nékk dii ngua dégue loula nékh dii ngua dégue loula nakari meuna baal dieukeureum mais meunoul baal badiènam
+10034,nékh,neex,informal_wolof,wakh nako facebook néna kouy seuy rék meusseu ngua dégue louka métti téé aduna koufi nékk dii ngua dégue loula nékh dii ngua dégue loula nakari meuna baal dieukeureum mais meunoul baal badiènam
+10034,dii,di,ambiguous_cognate,wakh nako facebook néna kouy seuy rék meusseu ngua dégue louka métti téé aduna koufi nékk dii ngua dégue loula nékh dii ngua dégue loula nakari meuna baal dieukeureum mais meunoul baal badiènam
+10034,ngua,nga,informal_wolof,wakh nako facebook néna kouy seuy rék meusseu ngua dégue louka métti téé aduna koufi nékk dii ngua dégue loula nékh dii ngua dégue loula nakari meuna baal dieukeureum mais meunoul baal badiènam
+10034,dégue,dégg,informal_wolof,wakh nako facebook néna kouy seuy rék meusseu ngua dégue louka métti téé aduna koufi nékk dii ngua dégue loula nékh dii ngua dégue loula nakari meuna baal dieukeureum mais meunoul baal badiènam
+10034,loula,lu la,informal_wolof,wakh nako facebook néna kouy seuy rék meusseu ngua dégue louka métti téé aduna koufi nékk dii ngua dégue loula nékh dii ngua dégue loula nakari meuna baal dieukeureum mais meunoul baal badiènam
+10034,nakari,naqari,informal_wolof,wakh nako facebook néna kouy seuy rék meusseu ngua dégue louka métti téé aduna koufi nékk dii ngua dégue loula nékh dii ngua dégue loula nakari meuna baal dieukeureum mais meunoul baal badiènam
+10034,meuna,mëna,wolof_formal,wakh nako facebook néna kouy seuy rék meusseu ngua dégue louka métti téé aduna koufi nékk dii ngua dégue loula nékh dii ngua dégue loula nakari meuna baal dieukeureum mais meunoul baal badiènam
+10034,dieukeureum,jëkkëram,informal_wolof,wakh nako facebook néna kouy seuy rék meusseu ngua dégue louka métti téé aduna koufi nékk dii ngua dégue loula nékh dii ngua dégue loula nakari meuna baal dieukeureum mais meunoul baal badiènam
+10034,meunoul,mënul,informal_wolof,wakh nako facebook néna kouy seuy rék meusseu ngua dégue louka métti téé aduna koufi nékk dii ngua dégue loula nékh dii ngua dégue loula nakari meuna baal dieukeureum mais meunoul baal badiènam
+10034,badiènam,bàjjenam,informal_wolof,wakh nako facebook néna kouy seuy rék meusseu ngua dégue louka métti téé aduna koufi nékk dii ngua dégue loula nékh dii ngua dégue loula nakari meuna baal dieukeureum mais meunoul baal badiènam
+3391,fipou,fippu,informal_wolof,hi diama fipou neu way ! akhe il était temps ‍️. barki yallah mareme rek lay toppeu mane
+3391,way,waay,wolof_formal,hi diama fipou neu way ! akhe il était temps ‍️. barki yallah mareme rek lay toppeu mane
+3391,akhe,ax,informal_wolof,hi diama fipou neu way ! akhe il était temps ‍️. barki yallah mareme rek lay toppeu mane
+3391,lay,laay,ambiguous_cognate,hi diama fipou neu way ! akhe il était temps ‍️. barki yallah mareme rek lay toppeu mane
+3391,toppeu,topp,informal_wolof,hi diama fipou neu way ! akhe il était temps ‍️. barki yallah mareme rek lay toppeu mane
+3391,mane,man,ambiguous_cognate,hi diama fipou neu way ! akhe il était temps ‍️. barki yallah mareme rek lay toppeu mane
+3566,motax,moo tax,wolof_formal,papeu ndiouga day takk motax mou wo dôme yi dilen lathie sen avis
+3566,mou,mu,ambiguous_cognate,papeu ndiouga day takk motax mou wo dôme yi dilen lathie sen avis
+3566,wo,woo,wolof_formal,papeu ndiouga day takk motax mou wo dôme yi dilen lathie sen avis
+3566,dôme,doom,french_native,papeu ndiouga day takk motax mou wo dôme yi dilen lathie sen avis
+3566,dilen,di leen,informal_wolof,papeu ndiouga day takk motax mou wo dôme yi dilen lathie sen avis
+3566,lathie,laaj,informal_wolof,papeu ndiouga day takk motax mou wo dôme yi dilen lathie sen avis
+3566,sen,seen,ambiguous_cognate,papeu ndiouga day takk motax mou wo dôme yi dilen lathie sen avis
+10036,djickom,jikkom,informal_wolof,djickom bu besss bii sakh diapout koo
+10036,besss,bees,informal_wolof,djickom bu besss bii sakh diapout koo
+10036,sakh,sax,informal_wolof,djickom bu besss bii sakh diapout koo
+10036,diapout,jàppu,informal_wolof,djickom bu besss bii sakh diapout koo
+10036,koo,ko,ambiguous_cognate,djickom bu besss bii sakh diapout koo
+3567,li,lii,ambiguous_cognate,li amna vitamine
+3567,amna,am na,wolof_formal,li amna vitamine
+10037,moma,mooma,informal_wolof,moma diaxal deh mane miii
+10037,diaxal,jaaxal,informal_wolof,moma diaxal deh mane miii
+10037,deh,de,informal_wolof,moma diaxal deh mane miii
+10037,mane,man,ambiguous_cognate,moma diaxal deh mane miii
+10037,miii,mii,informal_wolof,moma diaxal deh mane miii
+3569,amount,amul,informal_wolof,ibrahim khalil amount morome
+3569,morome,morom,informal_wolof,ibrahim khalil amount morome
+10038,khana,xanaa,french_native,khana yaya dou mere
+10038,dou,du,french_native,khana yaya dou mere
+10038,mere,mer,ambiguous_cognate,khana yaya dou mere
+3570,lou,lu,wolof_formal,lou bonne amoul mouthieu bilay li gnawna
+3570,bonne,bon,french_native,lou bonne amoul mouthieu bilay li gnawna
+3570,amoul,amul,ambiguous_cognate,lou bonne amoul mouthieu bilay li gnawna
+3570,mouthieu,mucc,informal_wolof,lou bonne amoul mouthieu bilay li gnawna
+3570,li,lii,ambiguous_cognate,lou bonne amoul mouthieu bilay li gnawna
+3570,gnawna,ñaaw na,informal_wolof,lou bonne amoul mouthieu bilay li gnawna
+3397,dangay,da ngay,ambiguous_cognate,diama dangay saga legui
+3397,saga,saaga,ambiguous_cognate,diama dangay saga legui
+3397,legui,léegi,wolof_formal,diama dangay saga legui
+5917,wa,waa,ambiguous_cognate,yalla wa palestine amm djamm
+5917,amm,am,wolof_formal,yalla wa palestine amm djamm
+5917,djamm,jàmm,informal_wolof,yalla wa palestine amm djamm
+10040,bly,bilay,informal_wolof,bly ndax niou nopalou
+10040,niou,ñu,ambiguous_cognate,bly ndax niou nopalou
+10040,nopalou,noppalu,informal_wolof,bly ndax niou nopalou
+3398,mbam,mbaam,informal_wolof,marème vrai mbam la mome mouni dra doukko reuthi té di deff lou gueune pire si souff
+3398,mome,moom,informal_wolof,marème vrai mbam la mome mouni dra doukko reuthi té di deff lou gueune pire si souff
+3398,mouni,mu ni,informal_wolof,marème vrai mbam la mome mouni dra doukko reuthi té di deff lou gueune pire si souff
+3398,dra,dara,informal_wolof,marème vrai mbam la mome mouni dra doukko reuthi té di deff lou gueune pire si souff
+3398,doukko,du ko,informal_wolof,marème vrai mbam la mome mouni dra doukko reuthi té di deff lou gueune pire si souff
+3398,reuthi,rëcc,informal_wolof,marème vrai mbam la mome mouni dra doukko reuthi té di deff lou gueune pire si souff
+3398,té,te,ambiguous_cognate,marème vrai mbam la mome mouni dra doukko reuthi té di deff lou gueune pire si souff
+3398,deff,def,ambiguous_cognate,marème vrai mbam la mome mouni dra doukko reuthi té di deff lou gueune pire si souff
+3398,lou,lu,wolof_formal,marème vrai mbam la mome mouni dra doukko reuthi té di deff lou gueune pire si souff
+3398,gueune,gën,informal_wolof,marème vrai mbam la mome mouni dra doukko reuthi té di deff lou gueune pire si souff
+3398,si,ci,ambiguous_cognate,marème vrai mbam la mome mouni dra doukko reuthi té di deff lou gueune pire si souff
+3398,souff,suuf,wolof_formal,marème vrai mbam la mome mouni dra doukko reuthi té di deff lou gueune pire si souff
+3399,kom,comme,ambiguous_cognate,serigne ndiaye lim def adji kom man lanko def sama khol bi diekhna si li way
+3399,lanko,lanu ko,informal_wolof,serigne ndiaye lim def adji kom man lanko def sama khol bi diekhna si li way
+3399,khol,xol,informal_wolof,serigne ndiaye lim def adji kom man lanko def sama khol bi diekhna si li way
+3399,diekhna,jeex na,informal_wolof,serigne ndiaye lim def adji kom man lanko def sama khol bi diekhna si li way
+3399,si,ci,ambiguous_cognate,serigne ndiaye lim def adji kom man lanko def sama khol bi diekhna si li way
+3399,li,lii,ambiguous_cognate,serigne ndiaye lim def adji kom man lanko def sama khol bi diekhna si li way
+3399,way,waay,wolof_formal,serigne ndiaye lim def adji kom man lanko def sama khol bi diekhna si li way
+3575,thiapp,capp,informal_wolof,thiapp la si fourchette sandi la si al bi
+3575,si,ci,ambiguous_cognate,thiapp la si fourchette sandi la si al bi
+3575,sandi,sànni,informal_wolof,thiapp la si fourchette sandi la si al bi
+3575,si,ci,ambiguous_cognate,thiapp la si fourchette sandi la si al bi
+3575,al,àll,ambiguous_cognate,thiapp la si fourchette sandi la si al bi
+5920,gněni,ngeen di,informal_wolof,ohh tidiane khadim thiam lii gněni doundnou insbi někh na trop machalla diamou nèkh na
+5920,doundnou,dund,informal_wolof,ohh tidiane khadim thiam lii gněni doundnou insbi někh na trop machalla diamou nèkh na
+5920,insbi,ins bi,informal_wolof,ohh tidiane khadim thiam lii gněni doundnou insbi někh na trop machalla diamou nèkh na
+5920,někh,neex,informal_wolof,ohh tidiane khadim thiam lii gněni doundnou insbi někh na trop machalla diamou nèkh na
+5920,diamou,jàmm,informal_wolof,ohh tidiane khadim thiam lii gněni doundnou insbi někh na trop machalla diamou nèkh na
+5920,nèkh,neex,informal_wolof,ohh tidiane khadim thiam lii gněni doundnou insbi někh na trop machalla diamou nèkh na
+10042,mayko,may ko,informal_wolof,​ mayko lolou
+10042,lolou,loolu,wolof_formal,​ mayko lolou
+3400,saga,saaga,ambiguous_cognate,lady diama saga na
+3576,de,dee,ambiguous_cognate,"ngaka comme un ado de 15 ans qui se cherche ‍️…. da gueye rousse sakh! fethieul président, imiter dip … on ne le reconnaît plus! ‍️"
+3576,ans,att,french_substituted,"ngaka comme un ado de 15 ans qui se cherche ‍️…. da gueye rousse sakh! fethieul président, imiter dip … on ne le reconnaît plus! ‍️"
+3576,gueye,ngay,french_substituted,"ngaka comme un ado de 15 ans qui se cherche ‍️…. da gueye rousse sakh! fethieul président, imiter dip … on ne le reconnaît plus! ‍️"
+3576,rousse,rus,french_native,"ngaka comme un ado de 15 ans qui se cherche ‍️…. da gueye rousse sakh! fethieul président, imiter dip … on ne le reconnaît plus! ‍️"
+3576,sakh,sax,informal_wolof,"ngaka comme un ado de 15 ans qui se cherche ‍️…. da gueye rousse sakh! fethieul président, imiter dip … on ne le reconnaît plus! ‍️"
+3576,fethieul,feccal,informal_wolof,"ngaka comme un ado de 15 ans qui se cherche ‍️…. da gueye rousse sakh! fethieul président, imiter dip … on ne le reconnaît plus! ‍️"
+10043,kou,ku,informal_wolof,kou masoul sétane publicité comme mane rk lale j'aime
+10043,masoul,masul,informal_wolof,kou masoul sétane publicité comme mane rk lale j'aime
+10043,sétane,seetaan,informal_wolof,kou masoul sétane publicité comme mane rk lale j'aime
+10043,mane,man,ambiguous_cognate,kou masoul sétane publicité comme mane rk lale j'aime
+10043,rk,rek,informal_wolof,kou masoul sétane publicité comme mane rk lale j'aime
+3577,kom,comme,ambiguous_cognate,khalil mii kom kou dooff
+3577,kou,ku,informal_wolof,khalil mii kom kou dooff
+3577,dooff,dof,informal_wolof,khalil mii kom kou dooff
+10044,kou,ku,informal_wolof,kou beugeu papa diouga take niarel lalal j'aime
+10044,beugeu,bëgg,informal_wolof,kou beugeu papa diouga take niarel lalal j'aime
+10044,take,takk,informal_wolof,kou beugeu papa diouga take niarel lalal j'aime
+10044,niarel,ñaarel,informal_wolof,kou beugeu papa diouga take niarel lalal j'aime
+10044,lalal,laalal,wolof_formal,kou beugeu papa diouga take niarel lalal j'aime
+10045,thiam,caam,french_substituted,ibnou thiam ma diwal la sa mourou bi café wala
+10045,mourou,mburu,informal_wolof,ibnou thiam ma diwal la sa mourou bi café wala
+3403,nith,nit,informal_wolof,mareme nith day ame soutoura
+3403,ame,am,ambiguous_cognate,mareme nith day ame soutoura
+3403,soutoura,sutura,informal_wolof,mareme nith day ame soutoura
+3579,néna,ne na,wolof_formal,bakir néna ma oumy maneu ngay liguey pour ma touti
+3579,maneu,man,informal_wolof,bakir néna ma oumy maneu ngay liguey pour ma touti
+3579,liguey,liggéey,informal_wolof,bakir néna ma oumy maneu ngay liguey pour ma touti
+3579,touti,tuuti,ambiguous_cognate,bakir néna ma oumy maneu ngay liguey pour ma touti
+3581,boutitou,butitu,informal_wolof,boutitou guinar non nabou meun nama ray
+3581,guinar,ginaar,informal_wolof,boutitou guinar non nabou meun nama ray
+3581,meun,mën,wolof_formal,boutitou guinar non nabou meun nama ray
+3581,nama,na ma,ambiguous_cognate,boutitou guinar non nabou meun nama ray
+3581,ray,rey,ambiguous_cognate,boutitou guinar non nabou meun nama ray
+10048,nenako,ne na ko,informal_wolof,mere bi nenako inou ma diwal la sa mbourou bi café
+10048,mbourou,mburu,informal_wolof,mere bi nenako inou ma diwal la sa mbourou bi café
+3405,douma,du ma,french_native,serigne ndiaye douma reukheu ndayam domeram
+3405,reukheu,rëkk,informal_wolof,serigne ndiaye douma reukheu ndayam domeram
+3405,ndayam,ndeyam,informal_wolof,serigne ndiaye douma reukheu ndayam domeram
+3405,domeram,doomaraam,informal_wolof,serigne ndiaye douma reukheu ndayam domeram
+3584,kou,ku,informal_wolof,borom taxi bi kou bonne leu t dof
+3584,bonne,bon,french_native,borom taxi bi kou bonne leu t dof
+3584,leu,la,french_native,borom taxi bi kou bonne leu t dof
+3584,t,te,ambiguous_cognate,borom taxi bi kou bonne leu t dof
+5926,moy,mooy,wolof_formal,café touba xelcom moy bou bakha bi ️
+5926,bou,bu,ambiguous_cognate,café touba xelcom moy bou bakha bi ️
+5926,bakha,baax,informal_wolof,café touba xelcom moy bou bakha bi ️
+10049,l'i,lii,informal_wolof,l'i mo nekhe way
+10049,mo,moo,ambiguous_cognate,l'i mo nekhe way
+10049,nekhe,neex,informal_wolof,l'i mo nekhe way
+10049,way,waay,wolof_formal,l'i mo nekhe way
+3406,mane,man,ambiguous_cognate,mane bass rek la fan
+10050,diépinako,jéppi na ko,informal_wolof,khady thiam diépinako
+3409,saga,saaga,ambiguous_cognate,saga yi mounon nassi niakk dh
+3409,mounon,mënon,informal_wolof,saga yi mounon nassi niakk dh
+3409,nassi,na ci,informal_wolof,saga yi mounon nassi niakk dh
+3409,niakk,ñàkk,wolof_formal,saga yi mounon nassi niakk dh
+3409,dh,de,informal_wolof,saga yi mounon nassi niakk dh
+3587,fégne,feeñ,informal_wolof,alhamdoulilah maman oumy fégne na
+10051,wa,waa,ambiguous_cognate,wa khana nekoul salimata mo aye thiéré bi
+10051,khana,xanaa,french_native,wa khana nekoul salimata mo aye thiéré bi
+10051,nekoul,nekkul,informal_wolof,wa khana nekoul salimata mo aye thiéré bi
+10051,mo,moo,ambiguous_cognate,wa khana nekoul salimata mo aye thiéré bi
+10051,aye,ay,ambiguous_cognate,wa khana nekoul salimata mo aye thiéré bi
+10051,thiéré,cere,informal_wolof,wa khana nekoul salimata mo aye thiéré bi
+3411,li,lii,ambiguous_cognate,li mo guene
+3411,mo,moo,ambiguous_cognate,li mo guene
+3411,guene,gën,french_native,li mo guene
+3588,dou,du,french_native,boy ibnou dou dem
+10052,wa,waa,ambiguous_cognate,"wa khalil mi wérna, mounane ay deuk ak dialika, ki doumako heut . mais nak médusa titna gnaww"
+10052,wérna,wér na,informal_wolof,"wa khalil mi wérna, mounane ay deuk ak dialika, ki doumako heut . mais nak médusa titna gnaww"
+10052,mounane,mu naan,informal_wolof,"wa khalil mi wérna, mounane ay deuk ak dialika, ki doumako heut . mais nak médusa titna gnaww"
+10052,deuk,dëkk,ambiguous_cognate,"wa khalil mi wérna, mounane ay deuk ak dialika, ki doumako heut . mais nak médusa titna gnaww"
+10052,doumako,du ma ko,informal_wolof,"wa khalil mi wérna, mounane ay deuk ak dialika, ki doumako heut . mais nak médusa titna gnaww"
+10052,heut,xët,informal_wolof,"wa khalil mi wérna, mounane ay deuk ak dialika, ki doumako heut . mais nak médusa titna gnaww"
+10052,titna,tiit na,informal_wolof,"wa khalil mi wérna, mounane ay deuk ak dialika, ki doumako heut . mais nak médusa titna gnaww"
+10052,gnaww,ñaw,informal_wolof,"wa khalil mi wérna, mounane ay deuk ak dialika, ki doumako heut . mais nak médusa titna gnaww"
+3412,yagui,yaa ngi,informal_wolof,diama yagui souka ame foula nak li bakh n'a si bass
+3412,souka,soog,informal_wolof,diama yagui souka ame foula nak li bakh n'a si bass
+3412,ame,am,ambiguous_cognate,diama yagui souka ame foula nak li bakh n'a si bass
+3412,foula,fulla,french_native,diama yagui souka ame foula nak li bakh n'a si bass
+3412,li,lii,ambiguous_cognate,diama yagui souka ame foula nak li bakh n'a si bass
+3412,bakh,baax,informal_wolof,diama yagui souka ame foula nak li bakh n'a si bass
+3412,n'a,na,french_native,diama yagui souka ame foula nak li bakh n'a si bass
+3412,si,ci,ambiguous_cognate,diama yagui souka ame foula nak li bakh n'a si bass
+5931,thiam,caam,french_substituted,ibnou thiam t mom khamakoul sakh né oumy moko doflo
+5931,t,te,ambiguous_cognate,ibnou thiam t mom khamakoul sakh né oumy moko doflo
+5931,mom,moom,wolof_formal,ibnou thiam t mom khamakoul sakh né oumy moko doflo
+5931,khamakoul,xamagul,informal_wolof,ibnou thiam t mom khamakoul sakh né oumy moko doflo
+5931,sakh,sax,informal_wolof,ibnou thiam t mom khamakoul sakh né oumy moko doflo
+5931,moko,moo ko,ambiguous_cognate,ibnou thiam t mom khamakoul sakh né oumy moko doflo
+5931,doflo,dofloo,informal_wolof,ibnou thiam t mom khamakoul sakh né oumy moko doflo
+5932,sof,soof,wolof_formal,publicité yi sof na bo concentré wou rk niou niew
+5932,bo,boo,wolof_formal,publicité yi sof na bo concentré wou rk niou niew
+5932,wou,wu,informal_wolof,publicité yi sof na bo concentré wou rk niou niew
+5932,rk,rek,informal_wolof,publicité yi sof na bo concentré wou rk niou niew
+5932,niou,ñu,ambiguous_cognate,publicité yi sof na bo concentré wou rk niou niew
+5932,niew,ñëw,informal_wolof,publicité yi sof na bo concentré wou rk niou niew
+10055,niou,ñu,ambiguous_cognate,ana niou dieupyy mame oumy comme mane topou là mais je l aime pas
+10055,dieupyy,jéppi,informal_wolof,ana niou dieupyy mame oumy comme mane topou là mais je l aime pas
+10055,mane,man,ambiguous_cognate,ana niou dieupyy mame oumy comme mane topou là mais je l aime pas
+10055,topou,topp,informal_wolof,ana niou dieupyy mame oumy comme mane topou là mais je l aime pas
+10055,là,la,french_substituted,ana niou dieupyy mame oumy comme mane topou là mais je l aime pas
+3592,amna,am na,wolof_formal,amna kou wakh kakir
+3592,kou,ku,informal_wolof,amna kou wakh kakir
+3592,wakh,wax,french_native,amna kou wakh kakir
+5933,kanla,kan la,informal_wolof,kanla yalla di tagou di diell yayam
+5933,tagou,tàggu,informal_wolof,kanla yalla di tagou di diell yayam
+5933,diell,jël,informal_wolof,kanla yalla di tagou di diell yayam
+3593,bo,boo,wolof_formal,marieme thiam bo nioussoul maman oumy bala mouyguéne keur gui ma bayila
+3593,nioussoul,ñuusul,informal_wolof,marieme thiam bo nioussoul maman oumy bala mouyguéne keur gui ma bayila
+3593,mouyguéne,muy génn,informal_wolof,marieme thiam bo nioussoul maman oumy bala mouyguéne keur gui ma bayila
+3593,keur,kër,ambiguous_cognate,marieme thiam bo nioussoul maman oumy bala mouyguéne keur gui ma bayila
+3593,gui,gi,ambiguous_cognate,marieme thiam bo nioussoul maman oumy bala mouyguéne keur gui ma bayila
+3593,bayila,bàyyi la,informal_wolof,marieme thiam bo nioussoul maman oumy bala mouyguéne keur gui ma bayila
+5934,nite,nit,wolof_formal,waa nabou gueye mi nite leu
+5934,leu,la,french_native,waa nabou gueye mi nite leu
+3417,jigeeni,jigéen yi,informal_wolof,jigeeni moytulen di seyeul goor boulen noboul ! risque leu d
+3417,moytulen,moytu leen,informal_wolof,jigeeni moytulen di seyeul goor boulen noboul ! risque leu d
+3417,seyeul,séyal,informal_wolof,jigeeni moytulen di seyeul goor boulen noboul ! risque leu d
+3417,boulen,bu leen,informal_wolof,jigeeni moytulen di seyeul goor boulen noboul ! risque leu d
+3417,noboul,nobul,informal_wolof,jigeeni moytulen di seyeul goor boulen noboul ! risque leu d
+3417,leu,la,french_native,jigeeni moytulen di seyeul goor boulen noboul ! risque leu d
+3417,d,de,ambiguous_cognate,jigeeni moytulen di seyeul goor boulen noboul ! risque leu d
+5936,niari,ñaar,wolof_formal,niari mak you réw
+5936,mak,mag,ambiguous_cognate,niari mak you réw
+5936,you,yu,ambiguous_cognate,niari mak you réw
+5936,réw,reew,wolof_formal,niari mak you réw
+10060,naniou,na ñu,informal_wolof,naniou ko may yayou amina si lady diama femme bobou aka féroce
+10060,yayou,yaayu,informal_wolof,naniou ko may yayou amina si lady diama femme bobou aka féroce
+10060,si,ci,ambiguous_cognate,naniou ko may yayou amina si lady diama femme bobou aka féroce
+10060,bobou,boobu,informal_wolof,naniou ko may yayou amina si lady diama femme bobou aka féroce
+3418,fippouna,fippu na,informal_wolof,lady diama fippouna nak bilay
+3596,wa,waa,ambiguous_cognate,wa li nex na déh enfin maman oumy fégne na sama khol bi
+3596,li,lii,ambiguous_cognate,wa li nex na déh enfin maman oumy fégne na sama khol bi
+3596,déh,de,informal_wolof,wa li nex na déh enfin maman oumy fégne na sama khol bi
+3596,fégne,feeñ,informal_wolof,wa li nex na déh enfin maman oumy fégne na sama khol bi
+3596,khol,xol,informal_wolof,wa li nex na déh enfin maman oumy fégne na sama khol bi
+10061,dafka,daf ka,informal_wolof,dafka waronna wakh waw bakham foumoukoy diw
+10061,waronna,waroona,wolof_formal,dafka waronna wakh waw bakham foumoukoy diw
+10061,wakh,wax,french_native,dafka waronna wakh waw bakham foumoukoy diw
+10061,bakham,ba xam,informal_wolof,dafka waronna wakh waw bakham foumoukoy diw
+10061,foumoukoy,fu mu koy,informal_wolof,dafka waronna wakh waw bakham foumoukoy diw
+3419,rk,rek,informal_wolof,bass rk la diepi thimmm
+3419,diepi,jéppi,informal_wolof,bass rk la diepi thimmm
+3419,thimmm,cim,informal_wolof,bass rk la diepi thimmm
+5938,wa,waa,ambiguous_cognate,wa bakir hummmm souk bi nak wouyyy guore gni roye lén si bakir
+5938,hummmm,hum,informal_wolof,wa bakir hummmm souk bi nak wouyyy guore gni roye lén si bakir
+5938,souk,sukk,french_native,wa bakir hummmm souk bi nak wouyyy guore gni roye lén si bakir
+5938,wouyyy,wuy,informal_wolof,wa bakir hummmm souk bi nak wouyyy guore gni roye lén si bakir
+5938,guore,góor,informal_wolof,wa bakir hummmm souk bi nak wouyyy guore gni roye lén si bakir
+5938,gni,ñi,wolof_formal,wa bakir hummmm souk bi nak wouyyy guore gni roye lén si bakir
+5938,roye,roy,wolof_formal,wa bakir hummmm souk bi nak wouyyy guore gni roye lén si bakir
+5938,lén,leen,informal_wolof,wa bakir hummmm souk bi nak wouyyy guore gni roye lén si bakir
+5938,si,ci,ambiguous_cognate,wa bakir hummmm souk bi nak wouyyy guore gni roye lén si bakir
+10062,moma,mooma,informal_wolof,moma diakhal nakk
+10062,diakhal,jaaxal,informal_wolof,moma diakhal nakk
+10062,nakk,nak,wolof_formal,moma diakhal nakk
+3420,kéne,kenn,informal_wolof,vérité kéne douko kamouflé dafa warone wakha aladj basse signiez woule mou dieeekh aladjj mo déf un 2 3 fassénala
+3420,douko,du ko,informal_wolof,vérité kéne douko kamouflé dafa warone wakha aladj basse signiez woule mou dieeekh aladjj mo déf un 2 3 fassénala
+3420,kamouflé,camouflé,informal_wolof,vérité kéne douko kamouflé dafa warone wakha aladj basse signiez woule mou dieeekh aladjj mo déf un 2 3 fassénala
+3420,warone,waroon,informal_wolof,vérité kéne douko kamouflé dafa warone wakha aladj basse signiez woule mou dieeekh aladjj mo déf un 2 3 fassénala
+3420,wakha,wax,informal_wolof,vérité kéne douko kamouflé dafa warone wakha aladj basse signiez woule mou dieeekh aladjj mo déf un 2 3 fassénala
+3420,signiez,signé,french_native,vérité kéne douko kamouflé dafa warone wakha aladj basse signiez woule mou dieeekh aladjj mo déf un 2 3 fassénala
+3420,woule,wul,informal_wolof,vérité kéne douko kamouflé dafa warone wakha aladj basse signiez woule mou dieeekh aladjj mo déf un 2 3 fassénala
+3420,mou,mu,ambiguous_cognate,vérité kéne douko kamouflé dafa warone wakha aladj basse signiez woule mou dieeekh aladjj mo déf un 2 3 fassénala
+3420,dieeekh,jeex,informal_wolof,vérité kéne douko kamouflé dafa warone wakha aladj basse signiez woule mou dieeekh aladjj mo déf un 2 3 fassénala
+3420,mo,moo,ambiguous_cognate,vérité kéne douko kamouflé dafa warone wakha aladj basse signiez woule mou dieeekh aladjj mo déf un 2 3 fassénala
+3420,fassénala,fase na la,informal_wolof,vérité kéne douko kamouflé dafa warone wakha aladj basse signiez woule mou dieeekh aladjj mo déf un 2 3 fassénala
+5939,wa,waa,ambiguous_cognate,wa souk bi nak
+5939,souk,sukk,french_native,wa souk bi nak

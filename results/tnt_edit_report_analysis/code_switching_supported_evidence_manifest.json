@@ -1,0 +1,13 @@
+{
+  "scope": "Only manually annotated Gold-train language labels and explicit M2/M3 generator alignment traces",
+  "gold_source": "data/annotations/token_linguistic_annotations.csv",
+  "synthetic_source": "results/tnt_edit_report_analysis/matched_method_edit_mechanisms.csv",
+  "gold_rows": 142,
+  "matched_rows_per_synthetic_method": 3330,
+  "interpretation_warning": "Gold percentages measure authentic French presence or preservation. M2/M3 percentages measure deliberate synthetic French insertion. They are prevalence and exposure indicators, not estimates of one identical event.",
+  "excluded_from_quantitative_comparison": {
+    "M1": "No deliberate code-switching mechanism; total French presence is not traced.",
+    "M4": "No token-language labels or detailed generation traces.",
+    "M6": "No deliberate French insertion; language labels are used for protection."
+  }
+}

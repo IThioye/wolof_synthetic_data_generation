@@ -1,0 +1,6 @@
+method,loaded_rows,unique_pair_rows,unique_target_rows,selected_rows,common_target_pool,seed,dev_input_overlap,dev_pair_overlap,test_input_overlap,test_pair_overlap,source_over_255_chars,target_over_255_chars
+m1,17777,16377,16375,3330,3430,2026,0,0,0,0,8,6
+m2,17777,16544,16375,3330,3430,2026,0,0,0,0,10,6
+m3,17777,16384,16375,3330,3430,2026,0,0,0,0,8,6
+m4,3433,3433,3430,3330,3430,2026,0,0,0,0,7,6
+m6,17777,16427,16375,3330,3430,2026,0,0,0,0,6,6

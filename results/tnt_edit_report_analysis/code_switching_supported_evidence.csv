@@ -1,0 +1,9 @@
+source,measured_phenomenon,numerator,denominator,value,unit,evidence_scope
+Gold train,Sentences containing at least one manually labelled French occurrence,88,142,62.0,percent of sentences,manual occurrence annotations
+Gold train,Mean French-occurrence proportion per sentence,,,13.5,mean percent per sentence,manual occurrence annotations
+Gold train,French occurrences among all annotated occurrences,215,1315,16.3,percent of occurrences,manual occurrence annotations
+Gold train,French occurrences preserved during normalization,197,215,91.6,percent of French occurrences,manual occurrence annotations
+M2,Rows receiving at least one generated French substitution,3148,3330,94.5,percent of matched rows,generator alignment trace
+M2,Generated French substitutions per row,8738,3330,2.62,mean substitutions per row,generator alignment trace
+M3,Rows receiving at least one generated French substitution,1094,3330,32.9,percent of matched rows,generator alignment trace
+M3,Generated French substitutions per row,1525,3330,0.46,mean substitutions per row,generator alignment trace
