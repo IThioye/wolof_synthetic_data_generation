@@ -2,7 +2,10 @@ from functools import lru_cache
 
 from flask import Flask, jsonify, render_template, request
 
-from annotation_core import AnnotationService
+try:
+    from .annotation_core import AnnotationService
+except ImportError:  # Support direct ``python src/annotation/...py`` execution.
+    from annotation_core import AnnotationService
 
 
 app = Flask(__name__)

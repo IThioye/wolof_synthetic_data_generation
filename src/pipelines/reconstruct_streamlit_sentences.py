@@ -36,6 +36,12 @@ def normalize(value: object) -> str:
 def reconstruct_sentence(payload_text: object) -> str:
     """Join the annotator's final token choices in their original order."""
     payload = json.loads(str(payload_text or "[]"))
+    # Optimized sentence-level annotations store the reviewed surface sentence
+    # explicitly.  This preserves punctuation while retaining token mappings.
+    for correction in payload:
+        sentence_target = str(correction.get("sentence_target") or "").strip()
+        if sentence_target:
+            return sentence_target
     tokens = []
     for correction in payload:
         final = str(correction.get("final_correction") or "").strip()

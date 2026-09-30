@@ -498,8 +498,25 @@ def is_tnt_edit_checkpoint(model_path: Path | str) -> bool:
 
 
 def tnt_edit_model_class(model_path: Path | str, fallback):
+    if is_tnt_edit_checkpoint(model_path):
+        return TntEditTransformerForConditionalGeneration
+    # Keep the resolver in one place so the generic trainer can load each local
+    # TNT architecture without registering custom classes globally.
+    from src.modeling.tnt_hybrid_v3_transformer import (
+        TntHybridV3TransformerForConditionalGeneration,
+        is_tnt_hybrid_v3_checkpoint,
+    )
+
+    if is_tnt_hybrid_v3_checkpoint(model_path):
+        return TntHybridV3TransformerForConditionalGeneration
+
+    from src.modeling.tnt_hybrid_transformer import (
+        TntHybridTransformerForConditionalGeneration,
+        is_tnt_hybrid_checkpoint,
+    )
+
     return (
-        TntEditTransformerForConditionalGeneration
-        if is_tnt_edit_checkpoint(model_path)
+        TntHybridTransformerForConditionalGeneration
+        if is_tnt_hybrid_checkpoint(model_path)
         else fallback
     )

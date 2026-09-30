@@ -75,6 +75,9 @@ artifacts/*.model.*
 !/data/translation data/
 /data/translation data/**
 !/data/translation data/data_sources.md
+!/data/pretraining/
+/data/pretraining/**
+!/data/pretraining/wolof_pretraining_manifest.json
 /scripts/scraping/already_scraped_links.txt
 
 # Superseded experimental result families. The canonical final run is

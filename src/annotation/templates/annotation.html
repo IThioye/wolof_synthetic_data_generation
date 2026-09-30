@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Wolof Gold Annotation</title>
+  <title>Wolof sentence annotation</title>
   <link rel="stylesheet" href="{{ url_for('static', filename='annotation.css') }}">
 </head>
 <body>
@@ -11,23 +11,23 @@
     <aside class="sidebar">
       <div>
         <p class="eyebrow">PFE annotation</p>
-        <h1>Wolof Gold</h1>
-        <p class="muted">Fast token correction with learned equivalents.</p>
+        <h1>Wolof sentences</h1>
+        <p class="muted">Review the sentence first. Open token details only when they help.</p>
       </div>
 
       <div class="progress-card">
-        <div><strong id="saved-count">—</strong><span>saved</span></div>
-        <div><strong id="remaining-count">—</strong><span>remaining</span></div>
+        <div><strong id="saved-count">&mdash;</strong><span>reviewed</span></div>
+        <div><strong id="remaining-count">&mdash;</strong><span>remaining</span></div>
         <div class="progress-track"><span id="progress-bar"></span></div>
-        <small id="total-count">Loading dataset…</small>
+        <small id="total-count">Loading dataset&hellip;</small>
       </div>
 
       <div class="progress-card gold-progress-card">
-        <p class="progress-title">Minimum gold dataset</p>
-        <div><strong id="kept-count">—</strong><span>kept pairs</span></div>
-        <div><strong id="gold-remaining-count">—</strong><span>pairs needed</span></div>
+        <p class="progress-title">Paired-data target</p>
+        <div><strong id="kept-count">&mdash;</strong><span>kept pairs</span></div>
+        <div><strong id="gold-remaining-count">&mdash;</strong><span>pairs needed</span></div>
         <div class="progress-track"><span id="gold-progress-bar"></span></div>
-        <small id="gold-target-count">Loading target…</small>
+        <small id="gold-target-count">Loading target&hellip;</small>
       </div>
 
       <div class="navigation">
@@ -40,16 +40,19 @@
         <button id="skip-button" class="button ghost wide" type="button">Skip without saving</button>
       </div>
 
-      <div class="shortcut-card">
-        <span><kbd>Ctrl</kbd> + <kbd>Enter</kbd></span>
-        <small>save and advance</small>
+      <div class="shortcut-list" aria-label="Keyboard shortcuts">
+        <div><kbd>Ctrl</kbd> + <kbd>Enter</kbd><span>save</span></div>
+        <div><kbd>Alt</kbd> + <kbd>O</kbd><span>keep original</span></div>
+        <div><kbd>Alt</kbd> + <kbd>A</kbd><span>use suggestion</span></div>
+        <div><kbd>Alt</kbd> + <kbd>T</kbd><span>token details</span></div>
+        <div><kbd>Alt</kbd> + <kbd>S</kbd><span>skip</span></div>
       </div>
     </aside>
 
     <main class="main-panel">
-      <div id="loading" class="state-card">Preparing annotation resources…</div>
+      <div id="loading" class="state-card">Preparing annotation resources&hellip;</div>
       <div id="empty-state" class="state-card hidden">
-        <h2>All comments are annotated</h2>
+        <h2>All candidate comments are annotated</h2>
         <p>You can still use the position control to browse or append an edited annotation.</p>
       </div>
 
@@ -59,43 +62,62 @@
             <p class="eyebrow" id="record-number"></p>
             <div id="existing-badge" class="existing-badge hidden"></div>
           </div>
-          <a id="video-link" class="video-link hidden" target="_blank" rel="noopener">Open video ↗</a>
+          <a id="video-link" class="video-link hidden" target="_blank" rel="noopener">Open video &#8599;</a>
         </header>
 
         <section class="source-section">
+          <span class="section-label">Informal source</span>
           <h2 id="comment-text"></h2>
+        </section>
+
+        <section class="review-section">
+          <div class="section-heading">
+            <label for="manual-sentence" class="section-label">Reviewed formal sentence</label>
+            <span id="change-summary" class="change-summary"></span>
+          </div>
+          <textarea id="manual-sentence" rows="3" spellcheck="false"></textarea>
+          <div class="quick-actions">
+            <button id="use-source-button" class="button compact secondary-light" type="button">Use original</button>
+            <button id="use-auto-button" class="button compact secondary-light" type="button">Use suggestion</button>
+            <button id="keep-unchanged-button" class="button compact identity" type="button">Keep unchanged &amp; next</button>
+          </div>
+          <div class="suggestion-panel">
+            <span>Automatic suggestion</span>
+            <p id="auto-sentence"></p>
+          </div>
         </section>
 
         <section class="decision-section">
           <span class="section-label">Annotation decision</span>
           <div class="decision-grid">
-            <label><input type="radio" name="status" value="keep" checked><span>Keep</span></label>
-            <label><input type="radio" name="status" value="discard_false_positive"><span>False positive</span></label>
-            <label><input type="radio" name="status" value="discard_uninteresting"><span>Uninteresting</span></label>
-            <label><input type="radio" name="status" value="skip_uncertain"><span>Uncertain</span></label>
+            <label><input type="radio" name="status" value="keep" checked><span>Keep <small>Alt+1</small></span></label>
+            <label><input type="radio" name="status" value="discard_false_positive"><span>False positive <small>Alt+2</small></span></label>
+            <label><input type="radio" name="status" value="discard_uninteresting"><span>Uninteresting <small>Alt+3</small></span></label>
+            <label><input type="radio" name="status" value="skip_uncertain"><span>Uncertain <small>Alt+4</small></span></label>
           </div>
         </section>
 
-        <section>
-          <div class="section-heading">
-            <span class="section-label">Token corrections</span>
-            <span class="legend"><i></i> learned from your annotations</span>
+        <details id="token-details" class="token-details">
+          <summary>
+            <span>Token-level assistance</span>
+            <small>Optional &mdash; use for difficult sentences</small>
+          </summary>
+          <div class="token-content">
+            <div class="section-heading">
+              <span class="section-label">Token corrections</span>
+              <span class="legend"><i></i> learned from earlier annotations</span>
+            </div>
+            <div class="token-header">
+              <span>Token</span><span>Category</span><span>Candidate</span><span>Override</span>
+            </div>
+            <div id="token-rows"></div>
+            <button id="apply-tokens-button" class="button compact secondary-light" type="button">Apply token choices to sentence</button>
           </div>
-          <div class="token-header">
-            <span>Token</span><span>Category</span><span>Candidate</span><span>Override</span>
-          </div>
-          <div id="token-rows"></div>
-        </section>
-
-        <section class="sentence-section">
-          <label for="manual-sentence" class="section-label">Final formal Wolof sentence</label>
-          <textarea id="manual-sentence" rows="3"></textarea>
-          <p class="auto-note">Initial automatic suggestion: <span id="auto-sentence"></span></p>
-        </section>
+        </details>
 
         <footer class="form-footer">
           <span id="save-message" role="status"></span>
-          <button id="save-button" class="button primary" type="submit">Save &amp; next <span>→</span></button>
+          <button id="save-button" class="button primary" type="submit">Save &amp; next <span>&rarr;</span></button>
         </footer>
       </form>
     </main>

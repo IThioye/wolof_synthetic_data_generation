@@ -28,6 +28,7 @@ GOLD_SPLITS_DIR = ANNOTATIONS_DIR / "splits"
 TRANSLATION_DATA_DIR = DATA_DIR / "translation data"
 SYNTHETIC_DATA_DIR = DATA_DIR / "synthetic"
 EXTERNAL_DATA_DIR = DATA_DIR / "external"
+PRETRAINING_DATA_DIR = DATA_DIR / "pretraining"
 
 # Main comment datasets and classifier outputs
 YOUTUBE_DATA_DIR = DATA_DIR / "youtube"
@@ -37,11 +38,34 @@ CLASSIFIED_COMMENTS_PATH = YOUTUBE_DATA_DIR / "clean_data_classified.csv"
 CHECKPOINT_DATA_PATH = DATA_DIR / "checkpoint_data.csv"
 FILTERED_COMMENTS_PATH = DATA_DIR / "filtered_data.csv"
 CLASSIFIER_LOG_PATH = PROJECT_ROOT / "classify_wolof.log"
+NEWS_DATA_PATH = DATA_DIR / "news_data.parquet"
+PRETRAINING_CORPUS_PATH = PRETRAINING_DATA_DIR / "wolof_pretraining_corpus.parquet"
+PRETRAINING_TRAIN_PATH = PRETRAINING_DATA_DIR / "wolof_pretraining_train.parquet"
+PRETRAINING_DEV_PATH = PRETRAINING_DATA_DIR / "wolof_pretraining_dev.parquet"
+PRETRAINING_TEST_PATH = PRETRAINING_DATA_DIR / "wolof_pretraining_test.parquet"
+PRETRAINING_MANIFEST_PATH = (
+    PRETRAINING_DATA_DIR / "wolof_pretraining_manifest.json"
+)
+ENCODER_PRETRAINING_RUNS_DIR = CHECKPOINTS_DIR / "wolof_encoder_pretraining_v1"
+ENCODER_PRETRAINING_RESULTS_DIR = (
+    PROJECT_ROOT / "results" / "wolof_encoder_pretraining_v1"
+)
 
-# Annotation outputs. These paths deliberately remain unchanged so existing
-# annotations are resumed by both the Flask and legacy Streamlit interfaces.
-GOLD_ANNOTATIONS_PATH = ANNOTATIONS_DIR / "gold_annotations.csv"
-TOKEN_CORRECTIONS_PATH = ANNOTATIONS_DIR / "token_corrections.csv"
+# Annotation outputs.  The canonical files remain the defaults, while the
+# environment overrides make it possible to run a new annotation campaign
+# without modifying the frozen benchmark history.
+BASE_GOLD_ANNOTATIONS_PATH = ANNOTATIONS_DIR / "gold_annotations.csv"
+BASE_TOKEN_CORRECTIONS_PATH = ANNOTATIONS_DIR / "token_corrections.csv"
+GOLD_ANNOTATIONS_PATH = _configured_path(
+    "PFE_GOLD_ANNOTATIONS_PATH", BASE_GOLD_ANNOTATIONS_PATH
+)
+TOKEN_CORRECTIONS_PATH = _configured_path(
+    "PFE_TOKEN_CORRECTIONS_PATH", BASE_TOKEN_CORRECTIONS_PATH
+)
+SENTENCE_ANNOTATION_EVENTS_PATH = _configured_path(
+    "PFE_SENTENCE_ANNOTATION_EVENTS_PATH",
+    ANNOTATIONS_DIR / "sentence_annotation_events.csv",
+)
 
 # Gold-train linguistic annotation for the isolated M6 generation engine.
 # The seed lookup is optional and read-only; the Flask application works
@@ -57,6 +81,21 @@ SENEGALESE_SURNAMES_PATH = DATA_DIR / "senegalese_surnames.txt"
 # cannot report a different target from the dataset-readiness guard.
 MIN_GOLD_KEPT = 200
 MIN_GOLD_VIDEOS = 5
+# The first benchmark minimum has already been reached.  This larger, editable
+# target is only a progress aid for the follow-up annotation campaign; it does
+# not change any train/dev/test split automatically.
+ANNOTATION_TARGET_KEPT = int(os.environ.get("PFE_ANNOTATION_TARGET_KEPT", "1000"))
+ANNOTATION_MAX_DISTANCE_RATIO = float(
+    # Gold-train calibration: 0.10 keeps only very close orthographic matches.
+    # More distant candidates remain visible for manual review.
+    os.environ.get("PFE_ANNOTATION_MAX_DISTANCE_RATIO", "0.10")
+)
+ANNOTATION_MIN_CANDIDATE_MARGIN = float(
+    os.environ.get("PFE_ANNOTATION_MIN_CANDIDATE_MARGIN", "0.08")
+)
+ANNOTATION_FRENCH_AMBIGUITY_MARGIN = float(
+    os.environ.get("PFE_ANNOTATION_FRENCH_AMBIGUITY_MARGIN", "0.04")
+)
 
 # Reusable language resources and generated artifacts
 LEXICON_PATH = ARTIFACTS_DIR / "lexicon.pkl"

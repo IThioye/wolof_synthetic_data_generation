@@ -1,0 +1,9 @@
+{
+  "created_utc": "2026-09-29T14:54:25.022240+00:00",
+  "selected_epoch": 5,
+  "checkpoint": "C:\\Users\\thioy\\Desktop\\School\\PFE\\checkpoints\\wolof_encoder_pretraining_v1\\476eeb46caee\\best_encoder.pt",
+  "loss": 2.6500535460557635,
+  "masked_accuracy": 0.2698189712972127,
+  "masked_characters": 31321,
+  "rows": 3018
+}

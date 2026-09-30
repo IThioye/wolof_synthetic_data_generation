@@ -1,0 +1,50 @@
+{
+  "created_utc": "2026-09-29T14:49:22.477188+00:00",
+  "status": "complete",
+  "fingerprint": "476eeb46caee1a5eac4edc3d568ec1bb60ec53f18f4355bcd7a7d8844ec9530a",
+  "objective": "15% character span masking with 80/10/10 replacement policy",
+  "test_evaluated": true,
+  "configuration": {
+    "seed": 2026,
+    "d_model": 192,
+    "attention_heads": 4,
+    "encoder_layers": 3,
+    "feed_forward_size": 768,
+    "dropout": 0.1,
+    "max_position_embeddings": 256,
+    "mask_probability": 0.15,
+    "min_mask_span": 1,
+    "max_mask_span": 3,
+    "train_epochs": 5,
+    "train_batch_size": 256,
+    "evaluation_batch_size": 512,
+    "learning_rate": 0.0003,
+    "weight_decay": 0.01,
+    "warmup_ratio": 0.05,
+    "gradient_clip_norm": 1.0,
+    "formal_sampling_fraction": 0.25,
+    "mixed_precision": "bf16",
+    "num_workers": 0
+  },
+  "parameters": {
+    "character_embedding": 52224,
+    "position_embedding": 49152,
+    "encoder": 1334592,
+    "transferable_parameters": 1435968,
+    "pretraining_parameters": 1436240,
+    "fp32_weight_megabytes": 5.47882080078125
+  },
+  "vocabulary_size": 272,
+  "train_rows": 54363,
+  "dev_rows": 3018,
+  "best_dev_loss": 2.641521122681183,
+  "best_checkpoint": "C:\\Users\\thioy\\Desktop\\School\\PFE\\checkpoints\\wolof_encoder_pretraining_v1\\476eeb46caee\\best_encoder.pt",
+  "corpus_manifest": "C:\\Users\\thioy\\Desktop\\School\\PFE\\data\\pretraining\\wolof_pretraining_manifest.json",
+  "corpus_manifest_sha256": "2d773f3600d528ebd3a6444f4580eb89a426512250ad1d5b5aa81175f65cf25c",
+  "test_metrics": {
+    "loss": 2.6500535460557635,
+    "masked_accuracy": 0.2698189712972127,
+    "masked_characters": 31321,
+    "rows": 3018
+  }
+}

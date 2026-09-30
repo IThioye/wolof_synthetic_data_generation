@@ -1,0 +1,207 @@
+{
+  "schema_version": 1,
+  "created_utc": "2026-09-29T10:16:32.609565+00:00",
+  "purpose": "unpaired Wolof encoder pretraining corpus",
+  "configuration": {
+    "seed": 2026,
+    "selector_threshold": 0.8,
+    "train_fraction": 0.9,
+    "dev_fraction": 0.05,
+    "test_fraction": 0.05,
+    "min_characters": 8,
+    "min_alphabetic_characters": 5,
+    "min_tokens": 2,
+    "max_segment_characters": 240,
+    "selector_max_features": 60000,
+    "selector_min_document_frequency": 2,
+    "selector_c": 2.0
+  },
+  "gold_exclusion": {
+    "rows": 201,
+    "videos": [
+      "https://www.youtube.com/watch?v=8CAy6LdHR4M",
+      "https://www.youtube.com/watch?v=Myd-Gg4Mhck",
+      "https://www.youtube.com/watch?v=l6b5aJIqeNo",
+      "https://www.youtube.com/watch?v=qTmXYJn3bTk",
+      "https://www.youtube.com/watch?v=wMOsSBNV-iI"
+    ],
+    "selector_training_videos": [
+      "https://www.youtube.com/watch?v=8CAy6LdHR4M",
+      "https://www.youtube.com/watch?v=Myd-Gg4Mhck",
+      "https://www.youtube.com/watch?v=wMOsSBNV-iI"
+    ],
+    "source_and_reference_text_keys": 402,
+    "compact_text_keys": 400
+  },
+  "selector_label_preparation": {
+    "checkpoint_rows": 7250,
+    "joined_rows": 7250,
+    "non_training_video_rows_excluded": 408,
+    "gold_text_rows_found_in_all_labeled_videos": 200,
+    "gold_text_rows_excluded_before_selector_fit": 141,
+    "selector_training_rows": 6701
+  },
+  "selector_validation": {
+    "protocol": "leave-one-video-out",
+    "rows": 6701,
+    "videos": 3,
+    "positive_rows": 5024,
+    "threshold": 0.8,
+    "precision": 0.9272359777665488,
+    "recall": 0.3652468152866242,
+    "f1": 0.5240611166642868,
+    "accepted_rows": 1979,
+    "evaluated_rows": 6701
+  },
+  "youtube_processing": {
+    "input_rows": 242174,
+    "gold_video_rows_excluded": 10163,
+    "rows_after_gold_video_exclusion": 232011,
+    "unusable_rows_excluded": 215,
+    "gold_text_overlap_rows_excluded": 65,
+    "selector_rejected_rows": 173000,
+    "accepted_comments_before_segmentation": 58731,
+    "segments_before_deduplication": 59859,
+    "gold_text_overlap_segments_excluded": 0,
+    "within_domain_duplicates_excluded": 2460,
+    "output_rows": 57399,
+    "output_documents": 188
+  },
+  "news_processing": {
+    "input_rows": 1698,
+    "input_documents": 152,
+    "segments_before_filtering": 3089,
+    "unusable_segments_excluded": 66,
+    "gold_text_overlap_segments_excluded": 0,
+    "within_domain_duplicates_excluded": 23,
+    "output_rows": 3000,
+    "output_documents": 152
+  },
+  "cross_domain_duplicates_excluded": 0,
+  "final_rows": 60399,
+  "final_documents": 340,
+  "final_characters": 4013522,
+  "maximum_text_characters": 240,
+  "split_domain_summary": [
+    {
+      "split": "dev",
+      "domain": "formal_news",
+      "rows": 150,
+      "documents": 9,
+      "characters": 25189
+    },
+    {
+      "split": "dev",
+      "domain": "informal_youtube",
+      "rows": 2868,
+      "documents": 11,
+      "characters": 165825
+    },
+    {
+      "split": "test",
+      "domain": "formal_news",
+      "rows": 150,
+      "documents": 9,
+      "characters": 25441
+    },
+    {
+      "split": "test",
+      "domain": "informal_youtube",
+      "rows": 2868,
+      "documents": 11,
+      "characters": 183375
+    },
+    {
+      "split": "train",
+      "domain": "formal_news",
+      "rows": 2700,
+      "documents": 134,
+      "characters": 430205
+    },
+    {
+      "split": "train",
+      "domain": "informal_youtube",
+      "rows": 51663,
+      "documents": 166,
+      "characters": 3183487
+    }
+  ],
+  "leakage_checks": {
+    "document_overlap_between_splits": {
+      "train_dev": 0,
+      "train_test": 0,
+      "dev_test": 0
+    },
+    "text_overlap_between_splits": {
+      "train_dev": 0,
+      "train_test": 0,
+      "dev_test": 0
+    },
+    "rows_from_gold_videos": 0,
+    "rows_matching_gold_source_or_reference": 0,
+    "passed": true
+  },
+  "source_notes": {
+    "youtube": "Cleaned public comments outside all five Gold videos. Selection uses the pre-existing informal-Wolof/code-switch classifier labels only; no normalization target is used.",
+    "news": "Local defuwaxu.com news snapshot. Provenance and redistribution licence are not yet documented; keep the text local until resolved."
+  },
+  "inputs": {
+    "clean_comments": {
+      "path": "data/youtube/clean_data.csv",
+      "bytes": 44983615,
+      "sha256": "800b16ade3e9b862ba813baf3ae2c3f4fd1d973f21ec18aa591eddebb69d2e47"
+    },
+    "checkpoint_labels": {
+      "path": "data/checkpoint_data.csv",
+      "bytes": 81037,
+      "sha256": "f23e731f12c3c79597b4d69f8e67a7c4bd1b3456bf410335547044980ba5883a"
+    },
+    "news": {
+      "path": "data/news_data.parquet",
+      "bytes": 353801,
+      "sha256": "c0947ffb33b61588de07e47eb3239af98880ebd7041108cbce83d60d5a43cab5"
+    },
+    "gold_train": {
+      "path": "data/annotations/splits/gold_train.csv",
+      "bytes": 194730,
+      "sha256": "5ef420b2d2b4fd29d643fb7d6c1c0bb368b7f6f186c23ab8b03c2c6bac44e955"
+    },
+    "gold_dev": {
+      "path": "data/annotations/splits/gold_dev.csv",
+      "bytes": 39334,
+      "sha256": "6cbf86886dba9dc7fa6398526dafc6b69acb8dec80b8564d704ba3f590c3fc92"
+    },
+    "gold_test": {
+      "path": "data/annotations/splits/gold_test.csv",
+      "bytes": 43603,
+      "sha256": "433df4091577b6fa2364b60fa35ab4e8f0176678dbb946d46c4c359d559e336c"
+    }
+  },
+  "outputs": {
+    "corpus": {
+      "path": "data/pretraining/wolof_pretraining_corpus.parquet",
+      "bytes": 3992068,
+      "sha256": "e9f24a333bed121b5d9cce994b94921762d41955bee61a4895b251d66d33a8c7"
+    },
+    "train": {
+      "path": "data/pretraining/wolof_pretraining_train.parquet",
+      "bytes": 3605799,
+      "sha256": "5accc27265c631247e1b985b9b99876168d0acc2d832215da031ec1fa4cb0d94"
+    },
+    "dev": {
+      "path": "data/pretraining/wolof_pretraining_dev.parquet",
+      "bytes": 200253,
+      "sha256": "9ae7ea14606f21a7be0dae3540ecea3648bb6c2919332b195293452fcadaca6f"
+    },
+    "test": {
+      "path": "data/pretraining/wolof_pretraining_test.parquet",
+      "bytes": 214235,
+      "sha256": "a19780084ce60dd1a02dfe0f69a0e1eb72165cb271b2cd70dba9cb88cd20f29b"
+    },
+    "review_sample": {
+      "path": "data/pretraining/wolof_pretraining_review_sample.csv",
+      "bytes": 33906,
+      "sha256": "a11d18ea08cd9ad724b5833e0984a7577d8790dc3af0d7767a9d35efa5af4cad"
+    }
+  }
+}

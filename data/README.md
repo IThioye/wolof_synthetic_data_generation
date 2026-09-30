@@ -33,6 +33,21 @@ The following paths remain local and are ignored:
   source registry document;
 - `Lexique400/`: downloaded French lexical data;
 - generated synthetic CSVs and review samples.
+- `pretraining/*.parquet`: leakage-audited formal-news and informal-comment
+  encoder-pretraining splits. The manifest is versioned, but the text remains
+  local because the news snapshot's redistribution licence is unresolved.
+
+Rebuild the unpaired pretraining corpus after restoring the local YouTube and
+news inputs:
+
+```bash
+python -m src.pipelines.build_wolof_pretraining_corpus
+```
+
+This command excludes all five Gold videos and every exact normalized Gold
+source/reference string, then assigns whole videos/articles to deterministic
+90/5/5 train/dev/test splits. Inspect
+`pretraining/wolof_pretraining_review_sample.csv` before model pretraining.
 
 The compact Gold annotations and frozen splits are versioned because they are
 the irreplaceable evaluation evidence. The larger cleaned comment pool remains

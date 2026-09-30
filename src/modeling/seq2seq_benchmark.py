@@ -52,9 +52,9 @@ class Seq2SeqConfig:
     gradient_checkpointing: bool = False
     save_total_limit: int = 1
     logging_steps: int = 1
-    # Generated CER can be much more expensive than the optimization steps for
-    # local autoregressive models.  One preserves the historical every-epoch
-    # behavior; larger values remain checkpoint selection on generated dev CER.
+    # Generated metrics can be much more expensive than optimization steps for
+    # local autoregressive models. One preserves historical every-epoch
+    # behavior; larger values still select checkpoints on generated dev text.
     generated_eval_interval_epochs: int = 1
 
 
@@ -280,6 +280,22 @@ def _tokenize_tnt_edit_dataset(data: pd.DataFrame, tokenizer, config: Seq2SeqCon
     from datasets import Dataset
     from src.modeling.tnt_edit_transformer import tnt_edit_annotations
 
+    model_type = getattr(model.config, "model_type", None)
+    is_hybrid_v3 = model_type == "wolof_tnt_hybrid_v3_transformer"
+    is_hybrid = model_type in {
+        "wolof_tnt_hybrid_transformer",
+        "wolof_tnt_hybrid_v3_transformer",
+    }
+    if is_hybrid:
+        if is_hybrid_v3:
+            from src.modeling.tnt_hybrid_v3_transformer import (
+                hybrid_v3_annotations as hybrid_annotation_function,
+            )
+        else:
+            from src.modeling.tnt_hybrid_transformer import (
+                hybrid_tnt_annotations as hybrid_annotation_function,
+            )
+
     dataset = Dataset.from_pandas(
         data[["source_id", "source_text", "target_text"]], preserve_index=False
     )
@@ -296,20 +312,36 @@ def _tokenize_tnt_edit_dataset(data: pd.DataFrame, tokenizer, config: Seq2SeqCon
             truncation=True,
         )
         encoded["labels"] = targets["input_ids"]
+        annotation_function = (
+            hybrid_annotation_function if is_hybrid else tnt_edit_annotations
+        )
+        annotation_options = {
+            "eos_token_id": tokenizer.eos_token_id,
+            "pad_token_id": tokenizer.pad_token_id,
+            "output_slots_per_source": model.config.output_slots_per_source,
+        }
+        if is_hybrid:
+            annotation_options["space_token_id"] = model.config.space_token_id
         annotations = [
-            tnt_edit_annotations(
-                source_ids,
-                target_ids,
-                eos_token_id=tokenizer.eos_token_id,
-                pad_token_id=tokenizer.pad_token_id,
-                output_slots_per_source=model.config.output_slots_per_source,
-            )
+            annotation_function(source_ids, target_ids, **annotation_options)
             for source_ids, target_ids in zip(
                 encoded["input_ids"], targets["input_ids"]
             )
         ]
         encoded["operation_labels"] = [value[0] for value in annotations]
         encoded["segment_labels"] = [value[1] for value in annotations]
+        if is_hybrid:
+            encoded["boundary_labels"] = [value[2] for value in annotations]
+            encoded["word_ids"] = [value[3] for value in annotations]
+            encoded["word_labels"] = [value[4] for value in annotations]
+        if is_hybrid_v3:
+            encoded["segment_length_labels"] = [value[5] for value in annotations]
+            encoded["word_features"] = [
+                model.word_features_for_ids(source_ids, annotation[3])
+                for source_ids, annotation in zip(
+                    encoded["input_ids"], annotations
+                )
+            ]
         return encoded
 
     return dataset.map(tokenize, batched=True, desc="Tokenizing TNT edit pairs")
@@ -367,7 +399,7 @@ class EditAwareDataCollator:
 
 
 class TntEditDataCollator:
-    """Pad source-anchored operation and output-segment labels."""
+    """Pad TNT character labels and optional hybrid boundary/word labels."""
 
     def __init__(self, base_collator, *, output_slots: int, padding_side: str = "right"):
         self.base_collator = base_collator
@@ -380,12 +412,30 @@ class TntEditDataCollator:
         ordinary_features = []
         operation_labels = []
         segment_labels = []
+        boundary_labels = []
+        word_ids = []
+        word_labels = []
+        segment_length_labels = []
+        word_features = []
+        is_hybrid = "boundary_labels" in features[0]
+        is_hybrid_v3 = "segment_length_labels" in features[0]
         for feature in features:
             feature = dict(feature)
             operation_labels.append(list(feature.pop("operation_labels")))
             segment_labels.append(
                 [list(segment) for segment in feature.pop("segment_labels")]
             )
+            if is_hybrid:
+                boundary_labels.append(list(feature.pop("boundary_labels")))
+                word_ids.append(list(feature.pop("word_ids")))
+                word_labels.append(list(feature.pop("word_labels")))
+            if is_hybrid_v3:
+                segment_length_labels.append(
+                    list(feature.pop("segment_length_labels"))
+                )
+                word_features.append(
+                    [list(values) for values in feature.pop("word_features")]
+                )
             ordinary_features.append(
                 {
                     key: value
@@ -418,6 +468,35 @@ class TntEditDataCollator:
             [source_pad(values, empty_segment) for values in segment_labels],
             dtype=torch.long,
         )
+        if is_hybrid:
+            batch["boundary_labels"] = torch.tensor(
+                [source_pad(values, -100) for values in boundary_labels],
+                dtype=torch.long,
+            )
+            batch["word_ids"] = torch.tensor(
+                [source_pad(values, -1) for values in word_ids], dtype=torch.long
+            )
+            maximum_words = max((len(values) for values in word_labels), default=0)
+
+            def word_pad(values):
+                return values + [-100] * (maximum_words - len(values))
+
+            batch["word_labels"] = torch.tensor(
+                [word_pad(values) for values in word_labels], dtype=torch.long
+            )
+            if is_hybrid_v3:
+                batch["segment_length_labels"] = torch.tensor(
+                    [source_pad(values, -100) for values in segment_length_labels],
+                    dtype=torch.long,
+                )
+
+                def feature_pad(values):
+                    return values + [[0, 0, 0]] * (maximum_words - len(values))
+
+                batch["word_features"] = torch.tensor(
+                    [feature_pad(values) for values in word_features],
+                    dtype=torch.long,
+                )
         return batch
 
 
@@ -448,20 +527,27 @@ def _sanitize_token_ids(token_ids, pad_token_id: int) -> list[list[int]]:
     return values.astype(np.int64, copy=False).tolist()
 
 
-def _trainer_metric_function(tokenizer):
+def _trainer_metric_function(tokenizer, reference_texts: Sequence[str] | None = None):
     def compute_metrics(evaluation_prediction):
         predictions = evaluation_prediction.predictions
         if isinstance(predictions, tuple):
             predictions = predictions[0]
         predictions = _sanitize_token_ids(predictions, tokenizer.pad_token_id)
-        labels = _sanitize_token_ids(
-            evaluation_prediction.label_ids, tokenizer.pad_token_id
-        )
         decoded_predictions = tokenizer.batch_decode(
             predictions, skip_special_tokens=True
         )
-        decoded_labels = tokenizer.batch_decode(labels, skip_special_tokens=True)
-        return generation_metrics(decoded_predictions, decoded_labels)
+        if reference_texts is None:
+            labels = _sanitize_token_ids(
+                evaluation_prediction.label_ids, tokenizer.pad_token_id
+            )
+            references = tokenizer.batch_decode(labels, skip_special_tokens=True)
+        else:
+            references = list(reference_texts)
+            if len(references) != len(decoded_predictions):
+                raise ValueError(
+                    "Raw development references and predictions have different lengths"
+                )
+        return generation_metrics(decoded_predictions, references)
 
     return compute_metrics
 
@@ -469,12 +555,20 @@ def _trainer_metric_function(tokenizer):
 def _training_arguments(config: Seq2SeqConfig, output_dir: Path):
     from transformers import Seq2SeqTrainingArguments
 
-    if config.checkpoint_selection_metric not in {"loss", "cer"}:
+    generated_metrics = {
+        "cer": False,
+        "wer": False,
+        "chrf": True,
+        "correction_f1": True,
+        "overcorrection_rate": False,
+    }
+    if config.checkpoint_selection_metric not in {"loss", *generated_metrics}:
         raise ValueError(
-            "checkpoint_selection_metric must be either 'loss' or 'cer', got "
+            "checkpoint_selection_metric must be loss or a generated "
+            f"metric from {sorted(generated_metrics)}, got "
             f"{config.checkpoint_selection_metric!r}"
         )
-    generate_during_epoch_evaluation = config.checkpoint_selection_metric == "cer"
+    generate_during_epoch_evaluation = config.checkpoint_selection_metric != "loss"
     parameters = inspect.signature(Seq2SeqTrainingArguments).parameters
     values = {
         "output_dir": str(output_dir),
@@ -498,9 +592,15 @@ def _training_arguments(config: Seq2SeqConfig, output_dir: Path):
         "log_level": "info",
         "load_best_model_at_end": True,
         "metric_for_best_model": (
-            "cer" if generate_during_epoch_evaluation else "eval_loss"
+            config.checkpoint_selection_metric
+            if generate_during_epoch_evaluation
+            else "eval_loss"
         ),
-        "greater_is_better": False,
+        "greater_is_better": (
+            generated_metrics[config.checkpoint_selection_metric]
+            if generate_during_epoch_evaluation
+            else False
+        ),
         "save_total_limit": config.save_total_limit,
         "seed": config.seed,
         "data_seed": config.seed,
@@ -648,9 +748,11 @@ def train_seq2seq(
         flush=True,
     )
     is_compact = getattr(model.config, "model_type", None) == "wolof_compact_transformer"
-    is_tnt_edit = (
-        getattr(model.config, "model_type", None) == "wolof_tnt_edit_transformer"
-    )
+    is_tnt_edit = getattr(model.config, "model_type", None) in {
+        "wolof_tnt_edit_transformer",
+        "wolof_tnt_hybrid_transformer",
+        "wolof_tnt_hybrid_v3_transformer",
+    }
     include_edit_annotations = is_compact and (
         float(getattr(model.config, "edit_position_weight", 1.0)) != 1.0
         or getattr(model.config, "copy_position_mode", "absolute") == "relative"
@@ -766,8 +868,10 @@ def train_seq2seq(
         "eval_dataset": dev_dataset,
         "data_collator": collator,
     }
-    if config.checkpoint_selection_metric == "cer":
-        trainer_values["compute_metrics"] = _trainer_metric_function(tokenizer)
+    if config.checkpoint_selection_metric != "loss":
+        trainer_values["compute_metrics"] = _trainer_metric_function(
+            tokenizer, development["target_text"].tolist()
+        )
 
     live_metrics_path = output_dir / "live_metrics.jsonl"
     live_status_path = output_dir / "live_status.json"
@@ -809,13 +913,13 @@ def train_seq2seq(
             self._status(state, "training_complete")
 
     class GeneratedEvaluationIntervalCallback(TrainerCallback):
-        """Keep generated-CER selection while skipping unscheduled epochs."""
+        """Keep generated-metric selection while skipping unscheduled epochs."""
 
         def on_epoch_end(self, args, state, control, **kwargs):
             interval = int(getattr(config, "generated_eval_interval_epochs", 1))
             if interval <= 0:
                 raise ValueError("generated_eval_interval_epochs must be positive")
-            if config.checkpoint_selection_metric != "cer" or interval == 1:
+            if config.checkpoint_selection_metric == "loss" or interval == 1:
                 return control
             completed_epoch = int(round(float(state.epoch or 0.0)))
             final_epoch = completed_epoch >= math.ceil(float(config.num_train_epochs))
@@ -857,7 +961,8 @@ def train_seq2seq(
             getattr(config, "generated_eval_interval_epochs", 1)
         )
         print(
-            "[M7] Checkpoints are selected by generated development CER "
+            "[M7] Checkpoints are selected by generated development "
+            f"{config.checkpoint_selection_metric.upper()} "
             f"every {evaluation_interval} epoch(s)",
             flush=True,
         )
@@ -877,20 +982,21 @@ def train_seq2seq(
             max_length=config.max_target_length,
             num_beams=config.generation_num_beams,
         )
-        predictions, decoded_references = _decode_predictions(
+        predictions, _ = _decode_predictions(
             prediction_output, tokenizer
         )
+        references = development["target_text"].tolist()
         metrics = normalization_metrics(
             development["source_text"].tolist(),
             predictions,
-            decoded_references,
+            references,
         )
         prediction_path = output_dir / "dev_predictions.csv"
         pd.DataFrame(
             {
                 "source_id": development["source_id"],
                 "source_text": development["source_text"],
-                "reference": decoded_references,
+                "reference": references,
                 "prediction": predictions,
             }
         ).to_csv(prediction_path, index=False, encoding="utf-8")

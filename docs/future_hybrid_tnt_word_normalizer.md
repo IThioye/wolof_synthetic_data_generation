@@ -2,7 +2,29 @@
 
 ## Status
 
-This is a future-work concept. It was **not** used in the frozen benchmark and must not be presented as a completed experiment.
+V2 is implemented in `src/modeling/tnt_hybrid_transformer.py`. Its completed M1
+gate did not improve the frozen TNT V1 strongly enough: diagnostics showed that
+the segment head still learned PAD as a frequent terminator, the boundary head
+never recovered rare insertion/deletion actions, and the word gate barely
+changed character decisions.
+
+The diagnostic-driven V3 experiment is implemented in
+`src/modeling/tnt_hybrid_v3_transformer.py` and controlled from
+`notebooks/tnt_hybrid_v3_m1_pretrain_gate.ipynb`. It predicts replacement length
+separately, supervises replacement content without PAD targets, applies focal
+loss to boundary actions, and adds reviewed French/entity/protection features.
+V3 remains an experimental post-PFE model and is not part of the frozen report
+benchmark.
+
+This V2 experiment was **not** used in the frozen benchmark and must not be
+presented as a completed result until its ablations have been run and analysed.
+The prepared protocol also records bounded inverse-square-root class weights
+from the inner-training labels. V2 applies them to the character-operation head
+as well as the boundary and word heads. This is particularly important for
+`DELETE`, `SUBSTITUTE`, `EXPAND`, and the rare space-insertion/deletion actions;
+no validation or test labels enter that calculation. V2 also supervises only
+one end-of-segment PAD rather than allowing unused expansion slots to dominate
+the character loss.
 
 ## Motivation
 
@@ -53,12 +75,12 @@ This remains mostly non-autoregressive, so it should retain the speed advantage 
 
 ## Minimal implementation sequence
 
-1. Add an explicit boundary-alignment target and verify it on spacing split/merge examples.
-2. Add a simple token-level `KEEP` versus `EDIT` auxiliary head.
-3. Add lexicon-constrained word candidates and confidence calibration.
-4. Run Gold-train sanity overfitting and identity-preservation tests.
-5. Run controlled ablations: TNT only, TNT + boundary, TNT + word, and full hybrid.
-6. Only then repeat the synthetic-method benchmark under a newly versioned protocol.
+1. [x] Add an explicit boundary-alignment target and verify it on spacing split/merge examples.
+2. [x] Add a simple token-level `KEEP` versus `EDIT` auxiliary head.
+3. [x] Add method-independent French/entity/protection features and an optional hard protection rule.
+4. [x] Diagnose the completed V2 M1 heads on Gold-dev.
+5. Run the isolated V3 M1 synthetic-pretraining gate and compare it with the matched V1 and V2 runs.
+6. If V3 improves correction F1 and overcorrection without degrading CER/WER, run feature/loss ablations before repeating the complete synthetic-method benchmark.
 
 ## Main hypothesis
 

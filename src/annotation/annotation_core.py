@@ -1,7 +1,9 @@
 import csv
+import difflib
 import json
-import pickle
+import re
 import threading
+from datetime import datetime, timezone
 
 from functools import lru_cache
 import pandas as pd
@@ -13,30 +15,30 @@ sys.path.append(str(external_dir))
 
 
 from config import (
+    ANNOTATION_FRENCH_AMBIGUITY_MARGIN,
+    ANNOTATION_TARGET_KEPT,
+    ANNOTATION_MAX_DISTANCE_RATIO,
+    ANNOTATION_MIN_CANDIDATE_MARGIN,
+    BASE_GOLD_ANNOTATIONS_PATH,
+    BASE_TOKEN_CORRECTIONS_PATH,
     CHECKPOINT_DATA_PATH as CHECKPOINT_PATH,
     CLEAN_COMMENTS_PATH,
     FILTERED_COMMENTS_PATH as DEFAULT_COMMENTS_PATH,
     FRENCH_WORDLIST_PATH,
+    FORMAL_TOKEN_LOOKUP_PATH,
     GOLD_ANNOTATIONS_PATH as GOLD_OUTPUT_PATH,
-    LEXICON_PATH,
     MIN_GOLD_KEPT,
     MIN_GOLD_VIDEOS,
+    SENEGALESE_SURNAMES_PATH,
+    SENTENCE_ANNOTATION_EVENTS_PATH,
     TOKEN_CORRECTIONS_PATH as TOKEN_OUTPUT_PATH,
-    TRAIN_PARQUET_PATH,
-    WOLOF_VOCAB_PATH,
+    WOLOF_LOOKUP_SOURCE_PATH,
 )
 
-from normalization.reverse_code_switched import (
-    VocabIndex,
-    best_reverse_translation,
-    build_french_vocab_from_corpus,
-    build_reverse_lexicon,
-    classify_token,
-    generate_candidates,
-    mask_protected,
-    weighted_distance,
-    word_tokens,
-)
+try:
+    from .lookup_suggestions import LookupSuggestionIndex
+except ImportError:
+    from annotation.lookup_suggestions import LookupSuggestionIndex
 
 GOLD_COLUMNS = [
     "source_index",
@@ -54,6 +56,18 @@ TOKEN_COLUMNS = [
     "formal_token",
     "category",
     "comment",
+]
+
+EVENT_COLUMNS = [
+    "saved_utc",
+    "source_index",
+    "status",
+    "suggestion_action",
+    "elapsed_ms",
+    "source_word_count",
+    "target_word_count",
+    "changed_token_count",
+    "output_file",
 ]
 
 VALID_STATUSES = {
@@ -105,16 +119,28 @@ def load_comments():
     )
 
 
-def load_existing_annotations():
-    if not GOLD_OUTPUT_PATH.exists():
+def _load_csv_if_present(path):
+    if not path.exists():
         return pd.DataFrame()
     try:
-        annotations = pd.read_csv(GOLD_OUTPUT_PATH)
-    except pd.errors.EmptyDataError:
+        return pd.read_csv(path, keep_default_na=False)
+    except (pd.errors.EmptyDataError, UnicodeDecodeError):
         return pd.DataFrame()
-    if "source_index" not in annotations.columns:
-        return pd.DataFrame()
-    return annotations
+
+
+def load_existing_annotations():
+    """Load canonical history plus an optional active campaign history.
+
+    When ``PFE_GOLD_ANNOTATIONS_PATH`` points at a new campaign file, rows that
+    were already reviewed in the canonical history remain skipped.  A newer
+    campaign row wins if a source row is deliberately revisited.
+    """
+    paths = [BASE_GOLD_ANNOTATIONS_PATH]
+    if GOLD_OUTPUT_PATH.resolve() != BASE_GOLD_ANNOTATIONS_PATH.resolve():
+        paths.append(GOLD_OUTPUT_PATH)
+    frames = [_load_csv_if_present(path) for path in paths]
+    frames = [frame for frame in frames if "source_index" in frame.columns]
+    return pd.concat(frames, ignore_index=True) if frames else pd.DataFrame()
 
 
 def _add_equivalent(learned, informal, formal):
@@ -137,11 +163,21 @@ def load_learned_corrections(existing_annotations=None):
     """Load newest-first equivalents without discarding historical CSV work."""
     learned = {}
 
-    if TOKEN_OUTPUT_PATH.exists():
-        try:
-            corrections = pd.read_csv(TOKEN_OUTPUT_PATH)
-        except (pd.errors.EmptyDataError, UnicodeDecodeError):
-            corrections = pd.DataFrame()
+    token_paths = [BASE_TOKEN_CORRECTIONS_PATH]
+    if TOKEN_OUTPUT_PATH.resolve() != BASE_TOKEN_CORRECTIONS_PATH.resolve():
+        token_paths.append(TOKEN_OUTPUT_PATH)
+    correction_frames = [_load_csv_if_present(path) for path in token_paths]
+    correction_frames = [
+        frame
+        for frame in correction_frames
+        if {"informal_token", "formal_token"}.issubset(frame.columns)
+    ]
+    corrections = (
+        pd.concat(correction_frames, ignore_index=True)
+        if correction_frames
+        else pd.DataFrame()
+    )
+    if not corrections.empty:
         if {"informal_token", "formal_token"}.issubset(corrections.columns):
             for row in corrections.iloc[::-1].itertuples(index=False):
                 _add_equivalent(learned, row.informal_token, row.formal_token)
@@ -167,91 +203,16 @@ def load_learned_corrections(existing_annotations=None):
     return learned
 
 
-def load_resources():
-    with open(LEXICON_PATH, "rb") as handle:
-        lexicon = pickle.load(handle)
-    reverse_lexicon = build_reverse_lexicon(lexicon)
-
-    with open(WOLOF_VOCAB_PATH, encoding="utf-8") as handle:
-        vocab_index = VocabIndex(handle.read().splitlines())
-
-    train_df = pd.read_parquet(TRAIN_PARQUET_PATH)
-    french_vocab_corpus = build_french_vocab_from_corpus(train_df["french"])
-
-    french_vocab_general = set()
-    if FRENCH_WORDLIST_PATH.exists():
-        lexique = pd.read_csv(FRENCH_WORDLIST_PATH, sep="\t")
-        french_vocab_general = set(lexique["1_Mot"].str.lower().dropna())
-
-    return vocab_index, french_vocab_corpus, french_vocab_general, reverse_lexicon
-
-
-def nearest_vocab_candidates(token, vocab_index, limit=6):
-    """Rank nearby vocabulary in one pass instead of rescanning per rewrite."""
-    scored = {}
-    generated = generate_candidates(token, max_candidates=40)
-    generated.add(token)
-
-    for candidate in generated:
-        if candidate in vocab_index:
-            scored[candidate] = min(
-                scored.get(candidate, 999.0), weighted_distance(token, candidate)
-            )
-
-    # The old implementation called find_best_match for every generated rewrite;
-    # every call scanned the same vocabulary buckets. Scan those buckets once.
-    pool = vocab_index.candidates_near_length(len(token), window=1)
-    threshold = max(1.0, len(token) * 0.34)
-    for word in pool:
-        distance = weighted_distance(token, word)
-        if distance <= threshold:
-            score = distance + 0.05 * abs(len(word) - len(token))
-            scored[word] = min(scored.get(word, 999.0), score)
-
-    ranked = sorted(
-        scored.items(),
-        key=lambda item: (item[1], abs(len(item[0]) - len(token)), item[0]),
+def load_lookup_suggestion_index():
+    return LookupSuggestionIndex.from_files(
+        WOLOF_LOOKUP_SOURCE_PATH,
+        FRENCH_WORDLIST_PATH,
+        FORMAL_TOKEN_LOOKUP_PATH,
+        SENEGALESE_SURNAMES_PATH,
+        max_distance_ratio=ANNOTATION_MAX_DISTANCE_RATIO,
+        min_candidate_margin=ANNOTATION_MIN_CANDIDATE_MARGIN,
+        french_ambiguity_margin=ANNOTATION_FRENCH_AMBIGUITY_MARGIN,
     )
-    return [word for word, _ in ranked[:limit]]
-
-
-def generated_token_suggestions(
-    token,
-    vocab_index,
-    french_vocab_corpus,
-    french_vocab_general,
-    reverse_lexicon,
-):
-    category = classify_token(
-        token,
-        vocab_index,
-        french_vocab_corpus,
-        french_vocab_general,
-        reverse_lexicon,
-    )
-    suggestions = [token]
-
-    if category == "french_substituted":
-        translations = reverse_lexicon.get(token, {})
-        suggestions.extend(
-            word
-            for word, _ in sorted(
-                translations.items(), key=lambda item: item[1], reverse=True
-            )
-        )
-        best = best_reverse_translation(token, reverse_lexicon)
-        if best:
-            suggestions.insert(1, best)
-    elif category == "informal_wolof":
-        suggestions.extend(nearest_vocab_candidates(token, vocab_index))
-    # Formal and ambiguous tokens already have an exact vocabulary match. Their
-    # original form is sufficient unless a human correction has been learned.
-
-    deduped = []
-    for suggestion in suggestions:
-        if suggestion and suggestion not in deduped:
-            deduped.append(suggestion)
-    return category, tuple(deduped[:8])
 
 
 def append_dict(path, row, fieldnames):
@@ -264,13 +225,119 @@ def append_dict(path, row, fieldnames):
         writer.writerow(row)
 
 
+WORD_PATTERN = re.compile(r"\w+(?:[-'’]\w+)*", flags=re.UNICODE)
+
+
+def surface_word_tokens(text):
+    """Return lexical tokens without lowercasing or discarding their surface form."""
+    return [match.group(0) for match in WORD_PATTERN.finditer(str(text))]
+
+
+def replace_surface_words(text, replacements):
+    """Replace lexical spans while preserving the source punctuation and spacing."""
+    matches = list(WORD_PATTERN.finditer(str(text)))
+    if len(matches) != len(replacements):
+        raise ValueError("Replacement count does not match the source word count")
+    pieces = []
+    cursor = 0
+    for match, replacement in zip(matches, replacements):
+        pieces.extend((str(text)[cursor : match.start()], str(replacement)))
+        cursor = match.end()
+    pieces.append(str(text)[cursor:])
+    return "".join(pieces)
+
+
+def _distribute_replacement(source_count, target_tokens):
+    """Allocate a replacement block while preserving exact target word order."""
+    if source_count <= 0:
+        return []
+    if not target_tokens:
+        return [""] * source_count
+    if source_count == 1:
+        return [" ".join(target_tokens)]
+    if len(target_tokens) == 1:
+        return [target_tokens[0], *([""] * (source_count - 1))]
+
+    allocated = []
+    cursor = 0
+    for source_offset in range(source_count):
+        remaining_sources = source_count - source_offset
+        remaining_targets = len(target_tokens) - cursor
+        take = max(1, remaining_targets - (remaining_sources - 1))
+        if remaining_targets <= 0:
+            allocated.append("")
+            continue
+        allocated.append(" ".join(target_tokens[cursor : cursor + take]))
+        cursor += take
+    return allocated
+
+
+def align_sentence_to_source(source_tokens, target_sentence):
+    """Map a reviewed target sentence back to source-token correction slots.
+
+    The mapping is intended for annotation evidence, not for scoring.  Its
+    output always reconstructs the target *word sequence*.  Inserted words are
+    attached to the preceding source token (or the next token at sentence
+    start), and unequal replacement blocks are distributed monotonically.
+    """
+    source_tokens = [str(token) for token in source_tokens]
+    target_tokens = surface_word_tokens(target_sentence)
+    aligned = list(source_tokens)
+    prefixes = [""] * len(source_tokens)
+    suffixes = [""] * len(source_tokens)
+    matcher = difflib.SequenceMatcher(
+        a=[token.casefold() for token in source_tokens],
+        b=[token.casefold() for token in target_tokens],
+        autojunk=False,
+    )
+    for tag, source_start, source_end, target_start, target_end in matcher.get_opcodes():
+        if tag == "equal":
+            for offset, target_token in enumerate(target_tokens[target_start:target_end]):
+                aligned[source_start + offset] = target_token
+        elif tag == "delete":
+            aligned[source_start:source_end] = [""] * (source_end - source_start)
+        elif tag == "replace":
+            aligned[source_start:source_end] = _distribute_replacement(
+                source_end - source_start,
+                target_tokens[target_start:target_end],
+            )
+        elif tag == "insert":
+            inserted = " ".join(target_tokens[target_start:target_end])
+            if source_start > 0:
+                suffixes[source_start - 1] = " ".join(
+                    part for part in (suffixes[source_start - 1], inserted) if part
+                )
+            elif aligned:
+                prefixes[0] = " ".join(part for part in (inserted, prefixes[0]) if part)
+    return [
+        " ".join(part for part in (prefix, token, suffix) if part)
+        for prefix, token, suffix in zip(prefixes, aligned, suffixes)
+    ]
+
+
+def classify_suggestion_action(comment, auto_sentence, manual_sentence):
+    normalize = lambda value: " ".join(str(value).split()).casefold()
+    manual = normalize(manual_sentence)
+    if manual == normalize(comment):
+        return "kept_source"
+    if manual == normalize(auto_sentence):
+        return "accepted_suggestion"
+    return "edited"
+
+
 class AnnotationService:
     def __init__(self):
         self.comments = load_comments()
-        self.resources = load_resources()
+        self.lookup_index = load_lookup_suggestion_index()
         self.lock = threading.RLock()
 
         existing = load_existing_annotations()
+        active_existing = _load_csv_if_present(GOLD_OUTPUT_PATH)
+        self.campaign_annotated_ids = (
+            set(active_existing["source_index"].astype(int))
+            if "source_index" in active_existing.columns
+            else set()
+        )
         if not existing.empty:
             existing = existing.copy()
             existing["source_index"] = existing["source_index"].astype(int)
@@ -287,34 +354,80 @@ class AnnotationService:
 
     @lru_cache(maxsize=50_000)
     def base_token_suggestions(self, token):
-        return generated_token_suggestions(token, *self.resources)
+        return self.lookup_index.suggest(token)
 
     def analyze(self, text):
-        masked, _saved = mask_protected(text, entities=[])
+        source_tokens = surface_word_tokens(text)
         rows = []
         auto_tokens = []
 
-        for token in word_tokens(masked):
+        for token in source_tokens:
+            lookup_token = token.casefold()
             with self.lock:
-                remembered = list(self.learned_corrections.get(token.casefold(), []))
-
-            if remembered:
-                # A human correction is more valuable than another fuzzy search.
-                # Avoid the expensive distance calculation for already learned words.
-                category = classify_token(token, *self.resources)
-                suggestions = list(remembered)
-                if token not in suggestions:
-                    suggestions.append(token)
-                auto = remembered[0]
-            else:
-                category, generated = self.base_token_suggestions(token)
-                suggestions = list(generated)
-                auto = (
-                    suggestions[1]
-                    if len(suggestions) > 1
-                    and category in {"informal_wolof", "french_substituted"}
-                    else suggestions[0]
+                remembered = list(self.learned_corrections.get(lookup_token, []))
+            if len(token) > 1 and token.isupper():
+                rows.append(
+                    {
+                        "token": token,
+                        "category": "protected",
+                        "suggestions": [token],
+                        "auto": token,
+                        "learned": bool(remembered),
+                        "changed": False,
+                        "accepted": False,
+                        "review_required": False,
+                        "reason": "Uppercase acronym or protected form",
+                        "candidate_details": {},
+                    }
                 )
+                auto_tokens.append(token)
+                continue
+            decision = self.base_token_suggestions(lookup_token)
+            guarded = decision.category in {
+                "protected",
+                "french_exact",
+                "ambiguous_exact",
+                "possible_french",
+                "ambiguous_near",
+            }
+            if remembered and not guarded and len(remembered) == 1:
+                category = "learned_correction"
+                auto = remembered[0]
+                accepted = True
+                review_required = False
+                reason = "One previously confirmed human correction"
+            elif remembered and not guarded:
+                category = "ambiguous_learned"
+                auto = token
+                accepted = False
+                review_required = True
+                reason = "Earlier annotations contain several corrections for this token"
+            else:
+                category = decision.category
+                auto = token if guarded else decision.auto
+                accepted = decision.accepted and not guarded
+                review_required = decision.review_required
+                reason = decision.reason
+
+            suggestions = [token]
+            suggestions.extend(remembered)
+            if decision.french_candidate:
+                suggestions.append(decision.french_candidate)
+            suggestions.extend(candidate.word for candidate in decision.candidates)
+            if auto not in suggestions:
+                suggestions.insert(1, auto)
+            suggestions = list(dict.fromkeys(suggestions))[:8]
+            candidate_details = {
+                candidate.word: candidate.as_dict()
+                for candidate in decision.candidates
+            }
+            if decision.french_candidate and decision.french_score is not None:
+                candidate_details[decision.french_candidate] = {
+                    "word": decision.french_candidate,
+                    "score": round(decision.french_score, 4),
+                    "pos": "French lookup",
+                    "definition": "Review only; never applied automatically",
+                }
 
             rows.append(
                 {
@@ -323,10 +436,15 @@ class AnnotationService:
                     "suggestions": suggestions[:8],
                     "auto": auto,
                     "learned": bool(remembered),
+                    "changed": auto != token,
+                    "accepted": accepted,
+                    "review_required": review_required,
+                    "reason": reason,
+                    "candidate_details": candidate_details,
                 }
             )
             auto_tokens.append(auto)
-        return " ".join(auto_tokens), rows
+        return replace_surface_words(text, auto_tokens), rows
 
     def progress(self):
         with self.lock:
@@ -342,6 +460,11 @@ class AnnotationService:
                 and str(row.get("manual_formal_wolof", "")).strip()
             ]
             kept = len(eligible_kept)
+            campaign_ids = getattr(self, "campaign_annotated_ids", self.annotated_ids)
+            campaign_saved = sum(
+                int(source_index) in campaign_ids
+                for source_index in self.comments["source_index"]
+            )
             kept_videos = len(
                 {
                     str(row.get("video_url", "")).strip()
@@ -356,10 +479,14 @@ class AnnotationService:
             "remaining": total - saved,
             "kept": kept,
             "minimum_kept": MIN_GOLD_KEPT,
+            "annotation_target": ANNOTATION_TARGET_KEPT,
             "gold_remaining": max(MIN_GOLD_KEPT - kept, 0),
+            "annotation_remaining": max(ANNOTATION_TARGET_KEPT - kept, 0),
             "kept_videos": kept_videos,
             "minimum_videos": MIN_GOLD_VIDEOS,
             "gold_videos_remaining": max(MIN_GOLD_VIDEOS - kept_videos, 0),
+            "campaign_saved": campaign_saved,
+            "output_file": str(GOLD_OUTPUT_PATH),
         }
 
     def next_unannotated_position(self, after=-1):
@@ -399,6 +526,8 @@ class AnnotationService:
             "token_rows": token_rows,
             "already_annotated": latest is not None,
             "latest_status": latest_status,
+            "suggested_change_count": sum(row["changed"] for row in token_rows),
+            "review_token_count": sum(row["review_required"] for row in token_rows),
         }
 
     def save(self, payload):
@@ -419,21 +548,31 @@ class AnnotationService:
         token_rows = payload.get("token_rows")
         if not isinstance(token_rows, list):
             raise ValueError("token_rows must be a list")
-        expected_tokens = [row["token"] for row in self.analyze(comment)[1]]
+        server_auto_sentence, analysis_rows = self.analyze(comment)
+        expected_tokens = [row["token"] for row in analysis_rows]
         received_tokens = [str(row.get("token", "")) for row in token_rows]
         if received_tokens != expected_tokens:
             raise ValueError("Submitted tokens do not match this comment")
 
         normalized_rows = []
-        for row in token_rows:
+        for row, analysis in zip(token_rows, analysis_rows):
             normalized_rows.append(
                 {
                     "token": str(row.get("token", "")),
-                    "category": str(row.get("category", "")),
+                    "category": analysis["category"],
                     "selected": str(row.get("selected", "")),
                     "manual": str(row.get("manual", "")).strip(),
                 }
             )
+
+        auto_sentence = server_auto_sentence
+        manual_sentence = str(payload.get("manual_sentence", "")).strip()
+        if status == "keep" and not manual_sentence:
+            raise ValueError("A kept comment requires a reviewed formal sentence")
+
+        aligned_corrections = align_sentence_to_source(expected_tokens, manual_sentence)
+        for row, aligned in zip(normalized_rows, aligned_corrections):
+            row["manual"] = aligned
 
         token_payload = [
             {
@@ -441,11 +580,17 @@ class AnnotationService:
                 "category": row["category"],
                 "selected_candidate": row["selected"],
                 "final_correction": row["manual"],
+                **({"sentence_target": manual_sentence} if index == 0 else {}),
             }
-            for row in normalized_rows
+            for index, row in enumerate(normalized_rows)
         ]
-        auto_sentence = str(payload.get("auto_sentence", ""))
-        manual_sentence = str(payload.get("manual_sentence", "")).strip()
+        suggestion_action = classify_suggestion_action(
+            comment, auto_sentence, manual_sentence
+        )
+        changed_token_count = sum(
+            source.casefold() != target.casefold()
+            for source, target in zip(expected_tokens, aligned_corrections)
+        )
         learned_updates = {}
 
         with self.lock:
@@ -463,6 +608,22 @@ class AnnotationService:
                     ),
                 },
                 GOLD_COLUMNS,
+            )
+
+            append_dict(
+                SENTENCE_ANNOTATION_EVENTS_PATH,
+                {
+                    "saved_utc": datetime.now(timezone.utc).isoformat(),
+                    "source_index": source_index,
+                    "status": status,
+                    "suggestion_action": suggestion_action,
+                    "elapsed_ms": max(0, int(payload.get("elapsed_ms", 0) or 0)),
+                    "source_word_count": len(expected_tokens),
+                    "target_word_count": len(surface_word_tokens(manual_sentence)),
+                    "changed_token_count": changed_token_count,
+                    "output_file": str(GOLD_OUTPUT_PATH),
+                },
+                EVENT_COLUMNS,
             )
 
             if status == "keep":
@@ -491,6 +652,7 @@ class AnnotationService:
                     learned_updates[token.casefold()] = correction
 
             self.annotated_ids.add(source_index)
+            self.campaign_annotated_ids.add(source_index)
             self.latest_by_id[source_index] = {
                 "status": status,
                 "manual_formal_wolof": manual_sentence,

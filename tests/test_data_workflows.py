@@ -6,7 +6,16 @@ import numpy as np
 import pandas as pd
 import pytest
 
-from src.annotation.annotation_core import AnnotationService, interleave_comments_by_video
+import src.annotation.annotation_core as annotation_core
+from src.annotation.lookup_suggestions import SuggestionDecision
+from src.annotation.annotation_core import (
+    AnnotationService,
+    align_sentence_to_source,
+    classify_suggestion_action,
+    interleave_comments_by_video,
+    replace_surface_words,
+    surface_word_tokens,
+)
 from src.annotation.linguistic_annotation_core import (
     LinguisticAnnotationService,
     build_occurrences,
@@ -85,6 +94,7 @@ from src.modeling.seq2seq_benchmark import (
 from src.pipelines.classify_wolof import rows_in_diverse_video_order
 from src.pipelines.get_filtered_dataset import build_filtered_dataset
 from src.pipelines.prepare_gold_splits import assign_video_disjoint_splits
+from src.pipelines.reconstruct_streamlit_sentences import reconstruct_sentence
 from src.pipelines.prepare_wolof_lookup_seed import build_seed_lookup
 from src.pipelines.prepare_multilingual_lookup_seed import build_multilingual_seed
 from src.pipelines.refresh_linguistic_auto_annotations import (
@@ -232,6 +242,110 @@ def test_annotation_progress_tracks_eligible_gold_pairs_and_videos():
     assert progress["gold_remaining"] == progress["minimum_kept"] - 2
     assert progress["kept_videos"] == 2
     assert progress["gold_videos_remaining"] == progress["minimum_videos"] - 2
+
+
+def test_sentence_annotation_alignment_reconstructs_insertions_and_spacing_edits():
+    source = ["dama", "bagn", "ko"]
+    target = "man dama bañ ko léegi"
+
+    aligned = align_sentence_to_source(source, target)
+
+    assert " ".join(part for part in aligned if part) == target
+    assert aligned[0].startswith("man ")
+    assert aligned[-1].endswith(" léegi")
+
+
+def test_sentence_annotation_surface_replacement_preserves_punctuation_and_spacing():
+    source = "Waaw,  dama bagn ko!"
+    tokens = surface_word_tokens(source)
+
+    replaced = replace_surface_words(source, ["Waaw", "damaa", "bañ", "ko"])
+
+    assert tokens == ["Waaw", "dama", "bagn", "ko"]
+    assert replaced == "Waaw,  damaa bañ ko!"
+
+
+def test_sentence_annotation_action_distinguishes_source_suggestion_and_edit():
+    assert classify_suggestion_action("dama", "damaa", "dama") == "kept_source"
+    assert classify_suggestion_action("dama", "damaa", "damaa") == "accepted_suggestion"
+    assert classify_suggestion_action("dama", "damaa", "dama dem") == "edited"
+
+
+def test_sentence_annotation_does_not_auto_translate_a_french_span():
+    service = AnnotationService.__new__(AnnotationService)
+    service.lock = threading.RLock()
+    service.learned_corrections = {}
+    service.base_token_suggestions = lambda _token: SuggestionDecision(
+        category="french_exact",
+        auto="bonjour",
+        candidates=(),
+        accepted=False,
+        review_required=True,
+        reason="Exact French lookup entry; left unchanged",
+    )
+
+    suggestion, rows = service.analyze("bonjour!")
+
+    assert suggestion == "bonjour!"
+    assert rows[0]["suggestions"] == ["bonjour"]
+
+
+def test_sentence_annotation_save_keeps_sentence_and_token_evidence_synchronized(
+    tmp_path, monkeypatch
+):
+    gold_path = tmp_path / "gold.csv"
+    token_path = tmp_path / "tokens.csv"
+    event_path = tmp_path / "events.csv"
+    monkeypatch.setattr(annotation_core, "GOLD_OUTPUT_PATH", gold_path)
+    monkeypatch.setattr(annotation_core, "TOKEN_OUTPUT_PATH", token_path)
+    monkeypatch.setattr(
+        annotation_core, "SENTENCE_ANNOTATION_EVENTS_PATH", event_path
+    )
+
+    service = AnnotationService.__new__(AnnotationService)
+    service.lock = threading.RLock()
+    service.comments = pd.DataFrame(
+        {
+            "source_index": [7],
+            "clean_comment": ["dama bagn ko!"],
+            "video_url": ["video-new"],
+        }
+    )
+    service.annotated_ids = set()
+    service.campaign_annotated_ids = set()
+    service.latest_by_id = {}
+    service.learned_corrections = {}
+    service.analyze = lambda _text: (
+        "damaa bañ ko!",
+        [
+            {"token": "dama", "category": "informal_wolof"},
+            {"token": "bagn", "category": "informal_wolof"},
+            {"token": "ko", "category": "wolof_formal"},
+        ],
+    )
+
+    service.save(
+        {
+            "source_index": 7,
+            "status": "keep",
+            "manual_sentence": "man damaa bañ ko léegi!",
+            "elapsed_ms": 1234,
+            "token_rows": [
+                {"token": "dama", "selected": "damaa"},
+                {"token": "bagn", "selected": "bañ"},
+                {"token": "ko", "selected": "ko"},
+            ],
+        }
+    )
+
+    saved = pd.read_csv(gold_path, keep_default_na=False).iloc[0]
+    assert saved["manual_formal_wolof"] == "man damaa bañ ko léegi!"
+    assert reconstruct_sentence(saved["token_corrections_json"]) == saved[
+        "manual_formal_wolof"
+    ]
+    event = pd.read_csv(event_path).iloc[0]
+    assert event["suggestion_action"] == "edited"
+    assert event["elapsed_ms"] == 1234
 
 
 def test_linguistic_occurrences_preserve_gold_token_order_and_error_hints():
@@ -1604,6 +1718,15 @@ def test_m7_cer_checkpoint_policy_remains_available(tmp_path):
 
     assert arguments.predict_with_generate is True
     assert arguments.metric_for_best_model == "cer"
+
+
+def test_m7_wer_checkpoint_policy_uses_generated_predictions(tmp_path):
+    config = Seq2SeqConfig(checkpoint_selection_metric="wer")
+    arguments = _training_arguments(config, tmp_path)
+
+    assert arguments.predict_with_generate is True
+    assert arguments.metric_for_best_model == "wer"
+    assert arguments.greater_is_better is False
 
 
 def test_m7_generated_negative_padding_is_safe_for_tokenizer_decode():
