@@ -40,6 +40,7 @@ artifacts/*.model.*
 # rebuilding Eflomal. Other learned binary artifacts are regenerated locally.
 !artifacts/lexicon.pkl
 /artifacts/m5_*
+/artifacts/downstream/
 
 # Optional third-party checkout/build. Eflomal is documented and pinned by
 # commit, but is not embedded as a submodule.

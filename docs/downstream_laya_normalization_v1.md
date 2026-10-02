@@ -92,7 +92,9 @@ In the fine-tuning notebook:
 2. Keep `RUN_CPU_DRY_RUN=True` for the initial validation.
 3. Confirm the converted examples show 40 distinct options.
 4. Set `RUN_FULL_TRAINING=True` only in the configuration cell.
-5. Keep `NPROC_PER_NODE=1` locally, or use `2` on a two-GPU runtime.
+5. Keep `NPROC_PER_NODE=1` locally. This uses a direct Python process on
+   Windows; `torchrun` is reserved for `NPROC_PER_NODE > 1` on a multi-GPU
+   runtime.
 6. Run the training cell. It streams epoch/batch progress.
 7. Confirm `training_manifest.json` states `"test_used": false`.
 

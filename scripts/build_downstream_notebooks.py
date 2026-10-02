@@ -253,10 +253,7 @@ set it to 2. Training output is streamed directly in the notebook.
     ),
     code(
         """
-train_command = [
-    sys.executable, "-m", "torch.distributed.run", "--standalone",
-    f"--nproc_per_node={NPROC_PER_NODE}",
-    "-m", "src.downstream.laya_finetune",
+training_arguments = [
     "--model-dir", str(model_dir),
     "--train-items", str(TRAIN_ITEMS_PATH),
     "--dev-items", str(DEV_ITEMS_PATH),
@@ -264,9 +261,37 @@ train_command = [
     "--epochs", "4", "--micro-batch", "8", "--eval-batch", "16",
     "--gradient-accumulation", "4", "--seed", str(SEED), "--precision", "fp16",
 ]
+if NPROC_PER_NODE == 1:
+    # Avoid torch.distributed.run on single-GPU Windows/Jupyter. It adds no
+    # training benefit here and may hide the child process's actual stderr.
+    train_command = [
+        sys.executable, "-u", "-m", "src.downstream.laya_finetune",
+        *training_arguments,
+    ]
+else:
+    train_command = [
+        sys.executable, "-u", "-m", "torch.distributed.run", "--standalone",
+        f"--nproc_per_node={NPROC_PER_NODE}",
+        "-m", "src.downstream.laya_finetune", *training_arguments,
+    ]
 print(" ".join(train_command))
 if RUN_FULL_TRAINING:
-    subprocess.run(train_command, cwd=REPO_ROOT, check=True)
+    process = subprocess.Popen(
+        train_command,
+        cwd=REPO_ROOT,
+        stdout=subprocess.PIPE,
+        stderr=subprocess.STDOUT,
+        text=True,
+        bufsize=1,
+    )
+    for output_line in process.stdout:
+        print(output_line, end="", flush=True)
+    return_code = process.wait()
+    if return_code:
+        raise RuntimeError(
+            f"Laya training process failed with exit code {return_code}. "
+            "The underlying traceback is printed immediately above."
+        )
 else:
     print("Training is disabled. Set RUN_FULL_TRAINING=True when ready.")
 """
