@@ -15,6 +15,10 @@ autoregressive, copy-aware, relative-copy, and earlier TNT attempts, but they
 must not be mixed with the final table. New experiments should use a new named
 run directory rather than overwrite a frozen result.
 
+The separate downstream experiment writes to
+`downstream/laya_normalization_v1/`. Its final files are absent until the user
+runs Laya fine-tuning and explicitly enables the frozen Injongo test benchmark.
+
 Rebuild the final report analysis with:
 
 ```bash

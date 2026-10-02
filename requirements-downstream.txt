@@ -1,0 +1,4 @@
+# Install after the repository's base requirements.txt.
+# Pinned to the API used by the official Laya fine-tuning notebook adaptation.
+laya==0.3.21
+safetensors>=0.4,<1

@@ -1,0 +1,26 @@
+{
+  "experiment": "tnt_hybrid_v3_optimization_v1",
+  "candidate": "m1_v3_gold_adapt_lr_5e5_word_keep_t050",
+  "checkpoint_relative": "checkpoints/m7_seq2seq/tnt_hybrid_v3_optimization_v1/m1_v3/seed_2026/gold_adapt_lr_5e5_word_keep_t050/attempt_001/best_model",
+  "checkpoint_model_sha256": "78b1cbc9777ac8fbb07b189d277cdeb387bea845e5e340f709ae0eaa2d967780",
+  "checkpoint_config_sha256": "79fa38d6a9d2bf9f5dfcf64631a48df2c3f6d0079df2c2b659a41aa6416a47ab",
+  "selection_split": "Gold-dev",
+  "selection_metric": "WER",
+  "selected_epoch": 3,
+  "m1_pretraining_epochs": 20,
+  "gold_adaptation_epochs_run": 5,
+  "gold_adaptation_learning_rate": 5e-05,
+  "word_keep_threshold": 0.5,
+  "development_metrics": {
+    "rows": 30,
+    "cer": 0.1706408345752608,
+    "wer": 0.5728813559322034,
+    "chrf": 64.62921378272632,
+    "exact_match": 0.0,
+    "correction_precision": 0.05,
+    "correction_recall": 0.041666666666666664,
+    "correction_f1": 0.04545454545454545,
+    "overcorrection_rate": 0.95
+  },
+  "source_selection_manifest": "results/m7_seq2seq/tnt_hybrid_v3_optimization_v1/selected_candidate.json"
+}

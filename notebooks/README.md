@@ -18,6 +18,17 @@ functions.
 | M6 Gold-train linguistic engine | `m6_gold_linguistic_engine.ipynb` |
 | Final TNT benchmark | `m7_tnt_edit_gold_dev_benchmark.ipynb` |
 
+## Downstream experiment branch
+
+| Stage | Notebook |
+| --- | --- |
+| Laya multilingual fine-tuning on official REAL Injongo train | `downstream/laya_injongo_wolof_finetuning.ipynb` |
+| Frozen REAL/NOISY/NORMALIZED test benchmark | `downstream/laya_normalization_benchmark.ipynb` |
+
+The fine-tuning notebook never loads official test. The benchmark notebook
+keeps final-test execution disabled by default and uses the same frozen Laya
+checkpoint in all three conditions.
+
 ## Current encoder-pretraining experiment
 
 `wolof_encoder_pretraining.ipynb` pretrains the exact TNT V3 character encoder

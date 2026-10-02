@@ -57,6 +57,16 @@ tests/          workflow, leakage, architecture, and metric tests
 See [the repository publication audit](docs/repository_audit.md) for the
 keep/local/archive decision behind this layout.
 
+## Downstream normalization experiment
+
+The isolated branch `experiment/laya-downstream-normalization-v1` adds a
+downstream intent-classification test without modifying the normalization
+benchmark. It fine-tunes one Laya multilingual classifier on official REAL
+InjongoIntent Wolof train, then compares that frozen classifier on paired REAL,
+synthetic NOISY, and TNT-NORMALIZED official test inputs. See
+[`docs/downstream_laya_normalization_v1.md`](docs/downstream_laya_normalization_v1.md)
+for the locked split policy and execution instructions.
+
 ## Environment
 
 The principal workflow uses Python 3.11 on Windows. Create an isolated

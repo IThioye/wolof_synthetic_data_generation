@@ -1,0 +1,28 @@
+{
+  "dataset": "InjongoIntent/wol official",
+  "repository_revision": "1f8be590da6699aee3dc23de6f63e801e2352eff",
+  "new_split_created": false,
+  "splits": {
+    "train": {
+      "rows": 2240,
+      "intents": 40,
+      "unique_official_example_ids": 56,
+      "sha256": "eeaf739553d6582b2a39f1dd0c7f97ab8eb8c73db54371c3415853ddf902eb34"
+    },
+    "dev": {
+      "rows": 320,
+      "intents": 40,
+      "unique_official_example_ids": 8,
+      "sha256": "d1105f023c59fa8df735b782c82d991335678867274fcd12aa9dbc5b52a17324"
+    },
+    "test": {
+      "rows": 638,
+      "intents": 40,
+      "unique_official_example_ids": 16,
+      "sha256": "97956d275da88024942085b56ae665340b3a5b7045c343be94ae24267b04b01e"
+    }
+  },
+  "official_example_id_unique_within_split": false,
+  "paired_join_key": "split:intent:example_id",
+  "train_examples_per_intent": 56
+}

@@ -1,0 +1,25 @@
+{
+  "model": "convaiinnovations/laya-multilingual",
+  "model_revision": "e4e9ddf21a7b1903b7acffd8814ad4307bf63a67",
+  "laya_version": "0.3.21",
+  "device": "cpu",
+  "example_id": "train-00000000",
+  "input_shape": [1, 205],
+  "option_count": 40,
+  "option_stats": {
+    "options": 40,
+    "options_distinct": 40,
+    "tokens_per_option": null
+  },
+  "gold": "alarm",
+  "unfinetuned_prediction": "alarm",
+  "forward_ok": true,
+  "full_preparation_scan": {
+    "train_items": 2240,
+    "dev_items": 320,
+    "minimum_retained_markers": 40,
+    "distinct_options_for_every_item": 40,
+    "maximum_sequence_tokens": 217
+  },
+  "training_performed": false
+}
