@@ -19,6 +19,9 @@ The separate downstream experiment writes to
 `downstream/laya_normalization_v1/`. Its final files are absent until the user
 runs Laya fine-tuning and explicitly enables the frozen Injongo test benchmark.
 
+The follow-up frozen analyses use `downstream/laya_normalization_v2/`. V2 never
+rewrites V1 and performs no additional Laya or TNT training.
+
 Rebuild the final report analysis with:
 
 ```bash

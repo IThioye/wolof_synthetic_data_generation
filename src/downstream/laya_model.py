@@ -171,6 +171,9 @@ class LayaIntentClassifier:
                             "gold_intent": item["intent"],
                             "prediction": self.options[index],
                             "confidence": float(probabilities[offset, index].item()),
+                            "gold_confidence": float(
+                                probabilities[offset, int(item["label"])].item()
+                            ),
                         }
                     )
         return outputs

@@ -24,6 +24,7 @@ functions.
 | --- | --- |
 | Laya multilingual fine-tuning on official REAL Injongo train | `downstream/laya_injongo_wolof_finetuning.ipynb` |
 | Frozen REAL/NOISY/NORMALIZED test benchmark | `downstream/laya_normalization_benchmark.ipynb` |
+| Frozen clean/severity/cross-method/error analyses | `downstream/laya_downstream_analysis_v2.ipynb` |
 
 The fine-tuning notebook never loads official test. The benchmark notebook
 keeps final-test execution disabled by default and uses the same frozen Laya
