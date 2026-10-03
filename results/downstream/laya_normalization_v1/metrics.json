@@ -1,0 +1,48 @@
+{
+  "REAL": {
+    "rows": 638,
+    "accuracy": 0.8087774294670846,
+    "macro_f1": 0.8117716357020083
+  },
+  "NOISY": {
+    "rows": 638,
+    "accuracy": 0.48589341692789967,
+    "macro_f1": 0.4596851589967839
+  },
+  "NORMALIZED": {
+    "rows": 638,
+    "accuracy": 0.603448275862069,
+    "macro_f1": 0.6087104006914915
+  },
+  "deltas": {
+    "accuracy": {
+      "real": 0.8087774294670846,
+      "noisy": 0.48589341692789967,
+      "normalized": 0.603448275862069,
+      "noise_drop": 0.322884012539185,
+      "normalization_gain": 0.11755485893416928,
+      "recovery_rate": 0.3640776699029126
+    },
+    "macro_f1": {
+      "real": 0.8117716357020083,
+      "noisy": 0.4596851589967839,
+      "normalized": 0.6087104006914915,
+      "noise_drop": 0.35208647670522436,
+      "normalization_gain": 0.1490252416947076,
+      "recovery_rate": 0.423263179799647
+    }
+  },
+  "paired": {
+    "rows": 638,
+    "help_rate": 0.1724137931034483,
+    "harm_rate": 0.054858934169279,
+    "unchanged_correct_rate": 0.43103448275862066,
+    "unresolved_rate": 0.34169278996865204,
+    "counts": {
+      "HELPED": 110,
+      "UNCHANGED_CORRECT": 275,
+      "UNRESOLVED": 218,
+      "HARMED": 35
+    }
+  }
+}
