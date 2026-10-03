@@ -1,0 +1,6082 @@
+{
+  "alarm": [
+    {
+      "token": "alarm",
+      "intent_count": 18,
+      "other_count": 0,
+      "log_odds": 6.06652708345931
+    },
+    {
+      "token": "30",
+      "intent_count": 10,
+      "other_count": 0,
+      "log_odds": 5.500131608538509
+    },
+    {
+      "token": "fatali",
+      "intent_count": 8,
+      "other_count": 0,
+      "log_odds": 5.288822514871302
+    },
+    {
+      "token": "45",
+      "intent_count": 6,
+      "other_count": 0,
+      "log_odds": 5.020558528276623
+    },
+    {
+      "token": "55",
+      "intent_count": 5,
+      "other_count": 0,
+      "log_odds": 4.853504443613456
+    },
+    {
+      "token": "défalma",
+      "intent_count": 4,
+      "other_count": 0,
+      "log_odds": 4.652833748151306
+    },
+    {
+      "token": "sabbat",
+      "intent_count": 4,
+      "other_count": 0,
+      "log_odds": 4.652833748151306
+    },
+    {
+      "token": "salon",
+      "intent_count": 4,
+      "other_count": 0,
+      "log_odds": 4.652833748151306
+    },
+    {
+      "token": "sàkkal",
+      "intent_count": 4,
+      "other_count": 0,
+      "log_odds": 4.652833748151306
+    },
+    {
+      "token": "sàkkalma",
+      "intent_count": 4,
+      "other_count": 0,
+      "log_odds": 4.652833748151306
+    },
+    {
+      "token": "woote",
+      "intent_count": 4,
+      "other_count": 0,
+      "log_odds": 4.652833748151306
+    },
+    {
+      "token": "05",
+      "intent_count": 3,
+      "other_count": 0,
+      "log_odds": 4.401519319870399
+    },
+    {
+      "token": "35",
+      "intent_count": 3,
+      "other_count": 0,
+      "log_odds": 4.401519319870399
+    },
+    {
+      "token": "40",
+      "intent_count": 3,
+      "other_count": 0,
+      "log_odds": 4.401519319870399
+    },
+    {
+      "token": "nañ",
+      "intent_count": 3,
+      "other_count": 0,
+      "log_odds": 4.401519319870399
+    },
+    {
+      "token": "10",
+      "intent_count": 9,
+      "other_count": 1,
+      "log_odds": 4.301435861313417
+    },
+    {
+      "token": "déffal",
+      "intent_count": 14,
+      "other_count": 2,
+      "log_odds": 4.21346708836746
+    },
+    {
+      "token": "12",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.065047083249186
+    },
+    {
+      "token": "14h15",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.065047083249186
+    },
+    {
+      "token": "alaram",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.065047083249186
+    },
+    {
+      "token": "ginnaaw",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.065047083249186
+    },
+    {
+      "token": "jaaykat",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.065047083249186
+    },
+    {
+      "token": "jumaa",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.065047083249186
+    },
+    {
+      "token": "lalaram",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.065047083249186
+    },
+    {
+      "token": "lopitaal",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.065047083249186
+    }
+  ],
+  "balance": [
+    {
+      "token": "mat",
+      "intent_count": 5,
+      "other_count": 0,
+      "log_odds": 4.91895817778629
+    },
+    {
+      "token": "leeralal",
+      "intent_count": 3,
+      "other_count": 0,
+      "log_odds": 4.466973054043232
+    },
+    {
+      "token": "fcfa",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.1305008174220195
+    },
+    {
+      "token": "matt",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.1305008174220195
+    },
+    {
+      "token": "milyaar",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.1305008174220195
+    },
+    {
+      "token": "njégu",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.1305008174220195
+    },
+    {
+      "token": "yor",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.1305008174220195
+    },
+    {
+      "token": "limu",
+      "intent_count": 5,
+      "other_count": 1,
+      "log_odds": 3.8203458891181805
+    },
+    {
+      "token": "awyoŋ",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.619675193656029
+    },
+    {
+      "token": "billet",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.619675193656029
+    },
+    {
+      "token": "bëggg",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.619675193656029
+    },
+    {
+      "token": "fanweeri",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.619675193656029
+    },
+    {
+      "token": "gëestu",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.619675193656029
+    },
+    {
+      "token": "jàppandi",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.619675193656029
+    },
+    {
+      "token": "jùroom",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.619675193656029
+    },
+    {
+      "token": "ker",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.619675193656029
+    },
+    {
+      "token": "millon",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.619675193656029
+    },
+    {
+      "token": "prepayé",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.619675193656029
+    },
+    {
+      "token": "tolliu",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.619675193656029
+    },
+    {
+      "token": "xaymal",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.619675193656029
+    },
+    {
+      "token": "koppar",
+      "intent_count": 19,
+      "other_count": 16,
+      "log_odds": 2.688116989651086
+    },
+    {
+      "token": "gëstul",
+      "intent_count": 4,
+      "other_count": 4,
+      "log_odds": 2.5210629049879194
+    },
+    {
+      "token": "do",
+      "intent_count": 1,
+      "other_count": 1,
+      "log_odds": 2.5210629049879194
+    },
+    {
+      "token": "gëstu",
+      "intent_count": 1,
+      "other_count": 1,
+      "log_odds": 2.5210629049879194
+    },
+    {
+      "token": "téemeri",
+      "intent_count": 1,
+      "other_count": 1,
+      "log_odds": 2.5210629049879194
+    }
+  ],
+  "bill_balance": [
+    {
+      "token": "factur",
+      "intent_count": 27,
+      "other_count": 0,
+      "log_odds": 6.627810347008632
+    },
+    {
+      "token": "facturu",
+      "intent_count": 11,
+      "other_count": 0,
+      "log_odds": 5.755971377705311
+    },
+    {
+      "token": "gaas",
+      "intent_count": 5,
+      "other_count": 0,
+      "log_odds": 5.018372434574532
+    },
+    {
+      "token": "free",
+      "intent_count": 4,
+      "other_count": 0,
+      "log_odds": 4.817701739112381
+    },
+    {
+      "token": "courang",
+      "intent_count": 3,
+      "other_count": 0,
+      "log_odds": 4.566387310831475
+    },
+    {
+      "token": "fayé",
+      "intent_count": 3,
+      "other_count": 0,
+      "log_odds": 4.566387310831475
+    },
+    {
+      "token": "njëgu",
+      "intent_count": 3,
+      "other_count": 0,
+      "log_odds": 4.566387310831475
+    },
+    {
+      "token": "tolluwaay",
+      "intent_count": 3,
+      "other_count": 0,
+      "log_odds": 4.566387310831475
+    },
+    {
+      "token": "mate",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.229915074210262
+    },
+    {
+      "token": "njariñ",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.229915074210262
+    },
+    {
+      "token": "ug",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.229915074210262
+    },
+    {
+      "token": "money",
+      "intent_count": 13,
+      "other_count": 3,
+      "log_odds": 3.970403878725177
+    },
+    {
+      "token": "factuur",
+      "intent_count": 5,
+      "other_count": 1,
+      "log_odds": 3.919760145906422
+    },
+    {
+      "token": "këyit",
+      "intent_count": 8,
+      "other_count": 2,
+      "log_odds": 3.844252593398277
+    },
+    {
+      "token": "orange",
+      "intent_count": 10,
+      "other_count": 3,
+      "log_odds": 3.719089450444271
+    },
+    {
+      "token": "fii",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.719089450444271
+    },
+    {
+      "token": "gènn",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.719089450444271
+    },
+    {
+      "token": "itam",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.719089450444271
+    },
+    {
+      "token": "jangal",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.719089450444271
+    },
+    {
+      "token": "orang",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.719089450444271
+    },
+    {
+      "token": "woorna",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.719089450444271
+    },
+    {
+      "token": "xaam",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.719089450444271
+    },
+    {
+      "token": "yokkoon",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.719089450444271
+    },
+    {
+      "token": "fum",
+      "intent_count": 2,
+      "other_count": 1,
+      "log_odds": 3.131302785542152
+    },
+    {
+      "token": "curang",
+      "intent_count": 3,
+      "other_count": 2,
+      "log_odds": 2.9569493983973745
+    }
+  ],
+  "book_flight": [
+    {
+      "token": "roppalaan",
+      "intent_count": 47,
+      "other_count": 0,
+      "log_odds": 7.061555347090343
+    },
+    {
+      "token": "bayyé",
+      "intent_count": 12,
+      "other_count": 0,
+      "log_odds": 5.726554280358004
+    },
+    {
+      "token": "jògé",
+      "intent_count": 10,
+      "other_count": 0,
+      "log_odds": 5.552200893213226
+    },
+    {
+      "token": "tikke",
+      "intent_count": 10,
+      "other_count": 0,
+      "log_odds": 5.552200893213226
+    },
+    {
+      "token": "400",
+      "intent_count": 5,
+      "other_count": 0,
+      "log_odds": 4.905573728288173
+    },
+    {
+      "token": "dalaas",
+      "intent_count": 4,
+      "other_count": 0,
+      "log_odds": 4.704903032826022
+    },
+    {
+      "token": "dollar",
+      "intent_count": 4,
+      "other_count": 0,
+      "log_odds": 4.704903032826022
+    },
+    {
+      "token": "huston",
+      "intent_count": 4,
+      "other_count": 0,
+      "log_odds": 4.704903032826022
+    },
+    {
+      "token": "wésuwul",
+      "intent_count": 4,
+      "other_count": 0,
+      "log_odds": 4.704903032826022
+    },
+    {
+      "token": "yèmb",
+      "intent_count": 4,
+      "other_count": 0,
+      "log_odds": 4.704903032826022
+    },
+    {
+      "token": "avril",
+      "intent_count": 3,
+      "other_count": 0,
+      "log_odds": 4.453588604545116
+    },
+    {
+      "token": "bët",
+      "intent_count": 3,
+      "other_count": 0,
+      "log_odds": 4.453588604545116
+    },
+    {
+      "token": "dulles",
+      "intent_count": 3,
+      "other_count": 0,
+      "log_odds": 4.453588604545116
+    },
+    {
+      "token": "gànnaar",
+      "intent_count": 3,
+      "other_count": 0,
+      "log_odds": 4.453588604545116
+    },
+    {
+      "token": "ind",
+      "intent_count": 3,
+      "other_count": 0,
+      "log_odds": 4.453588604545116
+    },
+    {
+      "token": "néw",
+      "intent_count": 3,
+      "other_count": 0,
+      "log_odds": 4.453588604545116
+    },
+    {
+      "token": "wéesu",
+      "intent_count": 3,
+      "other_count": 0,
+      "log_odds": 4.453588604545116
+    },
+    {
+      "token": "yòmb",
+      "intent_count": 3,
+      "other_count": 0,
+      "log_odds": 4.453588604545116
+    },
+    {
+      "token": "3i",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.117116367923903
+    },
+    {
+      "token": "8i",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.117116367923903
+    },
+    {
+      "token": "airlines",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.117116367923903
+    },
+    {
+      "token": "dellu",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.117116367923903
+    },
+    {
+      "token": "jaglel",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.117116367923903
+    },
+    {
+      "token": "juy",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.117116367923903
+    },
+    {
+      "token": "jëlal",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.117116367923903
+    }
+  ],
+  "book_hotel": [
+    {
+      "token": "blu",
+      "intent_count": 7,
+      "other_count": 0,
+      "log_odds": 5.209357788800826
+    },
+    {
+      "token": "mövenpick",
+      "intent_count": 7,
+      "other_count": 0,
+      "log_odds": 5.209357788800826
+    },
+    {
+      "token": "suuti",
+      "intent_count": 6,
+      "other_count": 0,
+      "log_odds": 5.066256945160153
+    },
+    {
+      "token": "néeg",
+      "intent_count": 29,
+      "other_count": 2,
+      "log_odds": 4.969407119170235
+    },
+    {
+      "token": "fairmont",
+      "intent_count": 5,
+      "other_count": 0,
+      "log_odds": 4.899202860496986
+    },
+    {
+      "token": "setàmbar",
+      "intent_count": 5,
+      "other_count": 0,
+      "log_odds": 4.899202860496986
+    },
+    {
+      "token": "denc",
+      "intent_count": 14,
+      "other_count": 1,
+      "log_odds": 4.76999112901698
+    },
+    {
+      "token": "ambassador",
+      "intent_count": 4,
+      "other_count": 0,
+      "log_odds": 4.698532165034836
+    },
+    {
+      "token": "awt",
+      "intent_count": 4,
+      "other_count": 0,
+      "log_odds": 4.698532165034836
+    },
+    {
+      "token": "hilton",
+      "intent_count": 4,
+      "other_count": 0,
+      "log_odds": 4.698532165034836
+    },
+    {
+      "token": "the",
+      "intent_count": 4,
+      "other_count": 0,
+      "log_odds": 4.698532165034836
+    },
+    {
+      "token": "coast",
+      "intent_count": 3,
+      "other_count": 0,
+      "log_odds": 4.447217736753929
+    },
+    {
+      "token": "gold",
+      "intent_count": 3,
+      "other_count": 0,
+      "log_odds": 4.447217736753929
+    },
+    {
+      "token": "kempinski",
+      "intent_count": 3,
+      "other_count": 0,
+      "log_odds": 4.447217736753929
+    },
+    {
+      "token": "mara",
+      "intent_count": 3,
+      "other_count": 0,
+      "log_odds": 4.447217736753929
+    },
+    {
+      "token": "negg",
+      "intent_count": 3,
+      "other_count": 0,
+      "log_odds": 4.447217736753929
+    },
+    {
+      "token": "palms",
+      "intent_count": 3,
+      "other_count": 0,
+      "log_odds": 4.447217736753929
+    },
+    {
+      "token": "hotel",
+      "intent_count": 32,
+      "other_count": 5,
+      "log_odds": 4.277799584795883
+    },
+    {
+      "token": "arboretum",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.110745500132716
+    },
+    {
+      "token": "bay",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.110745500132716
+    },
+    {
+      "token": "box",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.110745500132716
+    },
+    {
+      "token": "centre",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.110745500132716
+    },
+    {
+      "token": "dusit",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.110745500132716
+    },
+    {
+      "token": "eddahbi",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.110745500132716
+    },
+    {
+      "token": "four",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.110745500132716
+    }
+  ],
+  "calendar_update": [
+    {
+      "token": "àjjana",
+      "intent_count": 31,
+      "other_count": 1,
+      "log_odds": 5.584583588056076
+    },
+    {
+      "token": "warna",
+      "intent_count": 5,
+      "other_count": 0,
+      "log_odds": 4.937956423131024
+    },
+    {
+      "token": "màggalu",
+      "intent_count": 4,
+      "other_count": 0,
+      "log_odds": 4.737285727668873
+    },
+    {
+      "token": "mày",
+      "intent_count": 4,
+      "other_count": 0,
+      "log_odds": 4.737285727668873
+    },
+    {
+      "token": "ñaar",
+      "intent_count": 4,
+      "other_count": 0,
+      "log_odds": 4.737285727668873
+    },
+    {
+      "token": "ñintti",
+      "intent_count": 4,
+      "other_count": 0,
+      "log_odds": 4.737285727668873
+    },
+    {
+      "token": "be",
+      "intent_count": 3,
+      "other_count": 0,
+      "log_odds": 4.485971299387967
+    },
+    {
+      "token": "bride",
+      "intent_count": 3,
+      "other_count": 0,
+      "log_odds": 4.485971299387967
+    },
+    {
+      "token": "dindal",
+      "intent_count": 3,
+      "other_count": 0,
+      "log_odds": 4.485971299387967
+    },
+    {
+      "token": "yokke",
+      "intent_count": 3,
+      "other_count": 0,
+      "log_odds": 4.485971299387967
+    },
+    {
+      "token": "20i",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.149499062766753
+    },
+    {
+      "token": "fewirie",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.149499062766753
+    },
+    {
+      "token": "juroomi",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.149499062766753
+    },
+    {
+      "token": "ndajetalaata",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.149499062766753
+    },
+    {
+      "token": "sanwier",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.149499062766753
+    },
+    {
+      "token": "waron",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.149499062766753
+    },
+    {
+      "token": "njàng",
+      "intent_count": 5,
+      "other_count": 1,
+      "log_odds": 3.8393441344629142
+    },
+    {
+      "token": "15i",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.638673439000763
+    },
+    {
+      "token": "2i",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.638673439000763
+    },
+    {
+      "token": "alxames",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.638673439000763
+    },
+    {
+      "token": "bàyyil",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.638673439000763
+    },
+    {
+      "token": "bénn",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.638673439000763
+    },
+    {
+      "token": "dee",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.638673439000763
+    },
+    {
+      "token": "dibeer",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.638673439000763
+    },
+    {
+      "token": "dinde",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.638673439000763
+    }
+  ],
+  "cancel_reservation": [
+    {
+      "token": "reeri",
+      "intent_count": 21,
+      "other_count": 0,
+      "log_odds": 6.32280025449834
+    },
+    {
+      "token": "bayyi",
+      "intent_count": 60,
+      "other_count": 3,
+      "log_odds": 5.411480535346206
+    },
+    {
+      "token": "bayyil",
+      "intent_count": 8,
+      "other_count": 0,
+      "log_odds": 5.394813482860994
+    },
+    {
+      "token": "loon",
+      "intent_count": 7,
+      "other_count": 0,
+      "log_odds": 5.269650339906987
+    },
+    {
+      "token": "tuma",
+      "intent_count": 6,
+      "other_count": 0,
+      "log_odds": 5.126549496266314
+    },
+    {
+      "token": "baayi",
+      "intent_count": 5,
+      "other_count": 0,
+      "log_odds": 4.959495411603148
+    },
+    {
+      "token": "dindee",
+      "intent_count": 4,
+      "other_count": 0,
+      "log_odds": 4.758824716140997
+    },
+    {
+      "token": "waroon",
+      "intent_count": 4,
+      "other_count": 0,
+      "log_odds": 4.758824716140997
+    },
+    {
+      "token": "reer",
+      "intent_count": 27,
+      "other_count": 5,
+      "log_odds": 4.171038051238878
+    },
+    {
+      "token": "casa",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.171038051238878
+    },
+    {
+      "token": "katia",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.171038051238878
+    },
+    {
+      "token": "lac",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.171038051238878
+    },
+    {
+      "token": "lagon",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.171038051238878
+    },
+    {
+      "token": "pampa",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.171038051238878
+    },
+    {
+      "token": "yuma",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.171038051238878
+    },
+    {
+      "token": "bima",
+      "intent_count": 38,
+      "other_count": 10,
+      "log_odds": 3.8608831229350384
+    },
+    {
+      "token": "palaas",
+      "intent_count": 51,
+      "other_count": 14,
+      "log_odds": 3.8290332970479395
+    },
+    {
+      "token": "wowal",
+      "intent_count": 7,
+      "other_count": 2,
+      "log_odds": 3.6602124274728873
+    },
+    {
+      "token": "biddew",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.6602124274728873
+    },
+    {
+      "token": "calebasse",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.6602124274728873
+    },
+    {
+      "token": "delicious",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.6602124274728873
+    },
+    {
+      "token": "gite",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.6602124274728873
+    },
+    {
+      "token": "kayzer",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.6602124274728873
+    },
+    {
+      "token": "kermel",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.6602124274728873
+    },
+    {
+      "token": "maak",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.6602124274728873
+    }
+  ],
+  "car_rental": [
+    {
+      "token": "abb",
+      "intent_count": 14,
+      "other_count": 0,
+      "log_odds": 6.044252007013449
+    },
+    {
+      "token": "abbal",
+      "intent_count": 10,
+      "other_count": 0,
+      "log_odds": 5.7214786147503975
+    },
+    {
+      "token": "woto",
+      "intent_count": 9,
+      "other_count": 0,
+      "log_odds": 5.621395156193415
+    },
+    {
+      "token": "abbe",
+      "intent_count": 6,
+      "other_count": 0,
+      "log_odds": 5.241905534488512
+    },
+    {
+      "token": "able",
+      "intent_count": 6,
+      "other_count": 0,
+      "log_odds": 5.241905534488512
+    },
+    {
+      "token": "yobb",
+      "intent_count": 6,
+      "other_count": 0,
+      "log_odds": 5.241905534488512
+    },
+    {
+      "token": "emg",
+      "intent_count": 4,
+      "other_count": 0,
+      "log_odds": 4.874180754363194
+    },
+    {
+      "token": "ndimbali",
+      "intent_count": 4,
+      "other_count": 0,
+      "log_odds": 4.874180754363194
+    },
+    {
+      "token": "oto",
+      "intent_count": 45,
+      "other_count": 8,
+      "log_odds": 4.354602339487609
+    },
+    {
+      "token": "alburaax",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.2863940894610755
+    },
+    {
+      "token": "car",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.2863940894610755
+    },
+    {
+      "token": "dëggër",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.2863940894610755
+    },
+    {
+      "token": "expat",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.2863940894610755
+    },
+    {
+      "token": "gàmmu",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.2863940894610755
+    },
+    {
+      "token": "hertz",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.2863940894610755
+    },
+    {
+      "token": "kolda",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.2863940894610755
+    },
+    {
+      "token": "kuma",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.2863940894610755
+    },
+    {
+      "token": "ndar",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.2863940894610755
+    },
+    {
+      "token": "rental",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.2863940894610755
+    },
+    {
+      "token": "xamnga",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.2863940894610755
+    },
+    {
+      "token": "amee",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.775568465695085
+    },
+    {
+      "token": "amnañ",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.775568465695085
+    },
+    {
+      "token": "baax-a-baax",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.775568465695085
+    },
+    {
+      "token": "bmw",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.775568465695085
+    },
+    {
+      "token": "daw",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.775568465695085
+    }
+  ],
+  "confirm_reservation": [
+    {
+      "token": "biral",
+      "intent_count": 13,
+      "other_count": 0,
+      "log_odds": 5.790281320615997
+    },
+    {
+      "token": "yembadi",
+      "intent_count": 9,
+      "other_count": 0,
+      "log_odds": 5.438883433778108
+    },
+    {
+      "token": "dëggalal",
+      "intent_count": 8,
+      "other_count": 0,
+      "log_odds": 5.327657798667884
+    },
+    {
+      "token": "batay",
+      "intent_count": 5,
+      "other_count": 0,
+      "log_odds": 4.892339727410039
+    },
+    {
+      "token": "xoolatal",
+      "intent_count": 4,
+      "other_count": 0,
+      "log_odds": 4.691669031947887
+    },
+    {
+      "token": "batey",
+      "intent_count": 3,
+      "other_count": 0,
+      "log_odds": 4.440354603666981
+    },
+    {
+      "token": "julet",
+      "intent_count": 3,
+      "other_count": 0,
+      "log_odds": 4.440354603666981
+    },
+    {
+      "token": "nañu",
+      "intent_count": 23,
+      "other_count": 4,
+      "log_odds": 4.147367478985507
+    },
+    {
+      "token": "ahmad",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.1038823670457685
+    },
+    {
+      "token": "defoon",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.1038823670457685
+    },
+    {
+      "token": "digante",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.1038823670457685
+    },
+    {
+      "token": "dëgg",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.1038823670457685
+    },
+    {
+      "token": "fahad",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.1038823670457685
+    },
+    {
+      "token": "firndeel",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.1038823670457685
+    },
+    {
+      "token": "seetaal",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.1038823670457685
+    },
+    {
+      "token": "dëggal",
+      "intent_count": 13,
+      "other_count": 4,
+      "log_odds": 3.5930567432797775
+    },
+    {
+      "token": "aita",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.5930567432797775
+    },
+    {
+      "token": "basiru",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.5930567432797775
+    },
+    {
+      "token": "begga",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.5930567432797775
+    },
+    {
+      "token": "booru",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.5930567432797775
+    },
+    {
+      "token": "demba",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.5930567432797775
+    },
+    {
+      "token": "fukk",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.5930567432797775
+    },
+    {
+      "token": "ginaw",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.5930567432797775
+    },
+    {
+      "token": "jolof",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.5930567432797775
+    },
+    {
+      "token": "juróom-benn",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.5930567432797775
+    }
+  ],
+  "cook_time": [
+    {
+      "token": "diir",
+      "intent_count": 16,
+      "other_count": 1,
+      "log_odds": 4.8368116005022435
+    },
+    {
+      "token": "diirub",
+      "intent_count": 5,
+      "other_count": 0,
+      "log_odds": 4.8368116005022435
+    },
+    {
+      "token": "niatta",
+      "intent_count": 5,
+      "other_count": 0,
+      "log_odds": 4.8368116005022435
+    },
+    {
+      "token": "éthiopie",
+      "intent_count": 4,
+      "other_count": 0,
+      "log_odds": 4.636140905040092
+    },
+    {
+      "token": "kenya",
+      "intent_count": 3,
+      "other_count": 0,
+      "log_odds": 4.384826476759186
+    },
+    {
+      "token": "koshari",
+      "intent_count": 3,
+      "other_count": 0,
+      "log_odds": 4.384826476759186
+    },
+    {
+      "token": "toggook",
+      "intent_count": 3,
+      "other_count": 0,
+      "log_odds": 4.384826476759186
+    },
+    {
+      "token": "toggé",
+      "intent_count": 3,
+      "other_count": 0,
+      "log_odds": 4.384826476759186
+    },
+    {
+      "token": "akara",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.048354240137973
+    },
+    {
+      "token": "biñuy",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.048354240137973
+    },
+    {
+      "token": "chakalaka",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.048354240137973
+    },
+    {
+      "token": "choma",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.048354240137973
+    },
+    {
+      "token": "couscous",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.048354240137973
+    },
+    {
+      "token": "doro",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.048354240137973
+    },
+    {
+      "token": "mbeddum",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.048354240137973
+    },
+    {
+      "token": "moi",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.048354240137973
+    },
+    {
+      "token": "moin",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.048354240137973
+    },
+    {
+      "token": "niata",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.048354240137973
+    },
+    {
+      "token": "nijeeria",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.048354240137973
+    },
+    {
+      "token": "penku-saalumu",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.048354240137973
+    },
+    {
+      "token": "piri",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.048354240137973
+    },
+    {
+      "token": "pudding",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.048354240137973
+    },
+    {
+      "token": "puff",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.048354240137973
+    },
+    {
+      "token": "suya",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.048354240137973
+    },
+    {
+      "token": "sàkkalee",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.048354240137973
+    }
+  ],
+  "exchange_rate": [
+    {
+      "token": "usd",
+      "intent_count": 17,
+      "other_count": 0,
+      "log_odds": 6.148015805290569
+    },
+    {
+      "token": "cfa",
+      "intent_count": 15,
+      "other_count": 0,
+      "log_odds": 6.026654948286302
+    },
+    {
+      "token": "tollo",
+      "intent_count": 14,
+      "other_count": 0,
+      "log_odds": 5.959963573787629
+    },
+    {
+      "token": "1000",
+      "intent_count": 9,
+      "other_count": 0,
+      "log_odds": 5.537106722967596
+    },
+    {
+      "token": "dirhams",
+      "intent_count": 9,
+      "other_count": 0,
+      "log_odds": 5.537106722967596
+    },
+    {
+      "token": "naira",
+      "intent_count": 9,
+      "other_count": 0,
+      "log_odds": 5.537106722967596
+    },
+    {
+      "token": "franc",
+      "intent_count": 8,
+      "other_count": 0,
+      "log_odds": 5.4258810878573716
+    },
+    {
+      "token": "200",
+      "intent_count": 7,
+      "other_count": 0,
+      "log_odds": 5.300717944903365
+    },
+    {
+      "token": "gbp",
+      "intent_count": 7,
+      "other_count": 0,
+      "log_odds": 5.300717944903365
+    },
+    {
+      "token": "2000",
+      "intent_count": 6,
+      "other_count": 0,
+      "log_odds": 5.157617101262692
+    },
+    {
+      "token": "mad",
+      "intent_count": 6,
+      "other_count": 0,
+      "log_odds": 5.157617101262692
+    },
+    {
+      "token": "xof",
+      "intent_count": 6,
+      "other_count": 0,
+      "log_odds": 5.157617101262692
+    },
+    {
+      "token": "3000",
+      "intent_count": 5,
+      "other_count": 0,
+      "log_odds": 4.990563016599526
+    },
+    {
+      "token": "5000",
+      "intent_count": 5,
+      "other_count": 0,
+      "log_odds": 4.990563016599526
+    },
+    {
+      "token": "aed",
+      "intent_count": 5,
+      "other_count": 0,
+      "log_odds": 4.990563016599526
+    },
+    {
+      "token": "francs",
+      "intent_count": 5,
+      "other_count": 0,
+      "log_odds": 4.990563016599526
+    },
+    {
+      "token": "niiseer",
+      "intent_count": 5,
+      "other_count": 0,
+      "log_odds": 4.990563016599526
+    },
+    {
+      "token": "eur",
+      "intent_count": 4,
+      "other_count": 0,
+      "log_odds": 4.7898923211373745
+    },
+    {
+      "token": "liira",
+      "intent_count": 4,
+      "other_count": 0,
+      "log_odds": 4.7898923211373745
+    },
+    {
+      "token": "moysoppi",
+      "intent_count": 4,
+      "other_count": 0,
+      "log_odds": 4.7898923211373745
+    },
+    {
+      "token": "rand",
+      "intent_count": 4,
+      "other_count": 0,
+      "log_odds": 4.7898923211373745
+    },
+    {
+      "token": "euro",
+      "intent_count": 3,
+      "other_count": 0,
+      "log_odds": 4.538577892856469
+    },
+    {
+      "token": "randu",
+      "intent_count": 3,
+      "other_count": 0,
+      "log_odds": 4.538577892856469
+    },
+    {
+      "token": "taxawal",
+      "intent_count": 3,
+      "other_count": 0,
+      "log_odds": 4.538577892856469
+    },
+    {
+      "token": "yuuroo",
+      "intent_count": 3,
+      "other_count": 0,
+      "log_odds": 4.538577892856469
+    }
+  ],
+  "food_last": [
+    {
+      "token": "kitchen",
+      "intent_count": 11,
+      "other_count": 0,
+      "log_odds": 5.606484993535703
+    },
+    {
+      "token": "grill",
+      "intent_count": 6,
+      "other_count": 0,
+      "log_odds": 5.03594013506809
+    },
+    {
+      "token": "chef",
+      "intent_count": 5,
+      "other_count": 0,
+      "log_odds": 4.868886050404924
+    },
+    {
+      "token": "jardin",
+      "intent_count": 5,
+      "other_count": 0,
+      "log_odds": 4.868886050404924
+    },
+    {
+      "token": "santaane",
+      "intent_count": 5,
+      "other_count": 0,
+      "log_odds": 4.868886050404924
+    },
+    {
+      "token": "fàttaliku",
+      "intent_count": 14,
+      "other_count": 1,
+      "log_odds": 4.7396743189249175
+    },
+    {
+      "token": "mariama",
+      "intent_count": 4,
+      "other_count": 0,
+      "log_odds": 4.668215354942772
+    },
+    {
+      "token": "petit",
+      "intent_count": 4,
+      "other_count": 0,
+      "log_odds": 4.668215354942772
+    },
+    {
+      "token": "baobab",
+      "intent_count": 3,
+      "other_count": 0,
+      "log_odds": 4.416900926661866
+    },
+    {
+      "token": "joxoon",
+      "intent_count": 3,
+      "other_count": 0,
+      "log_odds": 4.416900926661866
+    },
+    {
+      "token": "mama",
+      "intent_count": 3,
+      "other_count": 0,
+      "log_odds": 4.416900926661866
+    },
+    {
+      "token": "ndeye",
+      "intent_count": 3,
+      "other_count": 0,
+      "log_odds": 4.416900926661866
+    },
+    {
+      "token": "pierre",
+      "intent_count": 3,
+      "other_count": 0,
+      "log_odds": 4.416900926661866
+    },
+    {
+      "token": "secret",
+      "intent_count": 3,
+      "other_count": 0,
+      "log_odds": 4.416900926661866
+    },
+    {
+      "token": "fatou",
+      "intent_count": 7,
+      "other_count": 1,
+      "log_odds": 4.0804286900406534
+    },
+    {
+      "token": "bistro",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.0804286900406534
+    },
+    {
+      "token": "demb",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.0804286900406534
+    },
+    {
+      "token": "diner",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.0804286900406534
+    },
+    {
+      "token": "jambo",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.0804286900406534
+    },
+    {
+      "token": "lundi",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.0804286900406534
+    },
+    {
+      "token": "maison",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.0804286900406534
+    },
+    {
+      "token": "mer",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.0804286900406534
+    },
+    {
+      "token": "petite",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.0804286900406534
+    },
+    {
+      "token": "rendezvous",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.0804286900406534
+    },
+    {
+      "token": "28eelu",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.5696030662746625
+    }
+  ],
+  "freeze_account": [
+    {
+      "token": "boloke",
+      "intent_count": 18,
+      "other_count": 0,
+      "log_odds": 6.191625439934731
+    },
+    {
+      "token": "bolokel",
+      "intent_count": 14,
+      "other_count": 0,
+      "log_odds": 5.94800335727698
+    },
+    {
+      "token": "transfert",
+      "intent_count": 13,
+      "other_count": 0,
+      "log_odds": 5.876544393294835
+    },
+    {
+      "token": "fexel",
+      "intent_count": 11,
+      "other_count": 0,
+      "log_odds": 5.716201743219656
+    },
+    {
+      "token": "jaar",
+      "intent_count": 23,
+      "other_count": 1,
+      "log_odds": 5.332242840332455
+    },
+    {
+      "token": "bëggatuma",
+      "intent_count": 6,
+      "other_count": 0,
+      "log_odds": 5.145656884752043
+    },
+    {
+      "token": "dakkalal",
+      "intent_count": 5,
+      "other_count": 0,
+      "log_odds": 4.978602800088877
+    },
+    {
+      "token": "yiy",
+      "intent_count": 5,
+      "other_count": 0,
+      "log_odds": 4.978602800088877
+    },
+    {
+      "token": "léegi-léegi",
+      "intent_count": 3,
+      "other_count": 0,
+      "log_odds": 4.526617676345819
+    },
+    {
+      "token": "noy",
+      "intent_count": 3,
+      "other_count": 0,
+      "log_odds": 4.526617676345819
+    },
+    {
+      "token": "bànk",
+      "intent_count": 37,
+      "other_count": 5,
+      "log_odds": 4.500300368028446
+    },
+    {
+      "token": "dàkkal",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.190145439724606
+    },
+    {
+      "token": "gaawe",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.190145439724606
+    },
+    {
+      "token": "pexe",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.190145439724606
+    },
+    {
+      "token": "téjel",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.190145439724606
+    },
+    {
+      "token": "nar",
+      "intent_count": 5,
+      "other_count": 1,
+      "log_odds": 3.8799905114207673
+    },
+    {
+      "token": "bañu",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.6793198159586162
+    },
+    {
+      "token": "been",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.6793198159586162
+    },
+    {
+      "token": "dakkal",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.6793198159586162
+    },
+    {
+      "token": "dotul",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.6793198159586162
+    },
+    {
+      "token": "dugg",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.6793198159586162
+    },
+    {
+      "token": "lo",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.6793198159586162
+    },
+    {
+      "token": "téj",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.6793198159586162
+    },
+    {
+      "token": "xoolel",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.6793198159586162
+    },
+    {
+      "token": "aw",
+      "intent_count": 6,
+      "other_count": 2,
+      "log_odds": 3.5362189723179425
+    }
+  ],
+  "ingredients_list": [
+    {
+      "token": "dugal",
+      "intent_count": 7,
+      "other_count": 0,
+      "log_odds": 5.318601711475439
+    },
+    {
+      "token": "lane",
+      "intent_count": 3,
+      "other_count": 0,
+      "log_odds": 4.5564616594285425
+    },
+    {
+      "token": "dessert",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.21998942280733
+    },
+    {
+      "token": "guinar",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.21998942280733
+    },
+    {
+      "token": "libi",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.21998942280733
+    },
+    {
+      "token": "pitaayu",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.21998942280733
+    },
+    {
+      "token": "souppu",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.21998942280733
+    },
+    {
+      "token": "yassa",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.21998942280733
+    },
+    {
+      "token": "american",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.7091637990413386
+    },
+    {
+      "token": "araf",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.7091637990413386
+    },
+    {
+      "token": "bahrein",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.7091637990413386
+    },
+    {
+      "token": "biscuit",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.7091637990413386
+    },
+    {
+      "token": "bissap",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.7091637990413386
+    },
+    {
+      "token": "cheesecake",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.7091637990413386
+    },
+    {
+      "token": "cheesesteak",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.7091637990413386
+    },
+    {
+      "token": "chili",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.7091637990413386
+    },
+    {
+      "token": "detroit",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.7091637990413386
+    },
+    {
+      "token": "dienne",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.7091637990413386
+    },
+    {
+      "token": "dog",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.7091637990413386
+    },
+    {
+      "token": "domoda",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.7091637990413386
+    },
+    {
+      "token": "florida",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.7091637990413386
+    },
+    {
+      "token": "ganar",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.7091637990413386
+    },
+    {
+      "token": "guerte",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.7091637990413386
+    },
+    {
+      "token": "harira",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.7091637990413386
+    },
+    {
+      "token": "hot",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.7091637990413386
+    }
+  ],
+  "interest_rate": [
+    {
+      "token": "intere",
+      "intent_count": 25,
+      "other_count": 0,
+      "log_odds": 6.5868231404516315
+    },
+    {
+      "token": "waññé",
+      "intent_count": 5,
+      "other_count": 0,
+      "log_odds": 5.052892780525677
+    },
+    {
+      "token": "dénc",
+      "intent_count": 3,
+      "other_count": 0,
+      "log_odds": 4.60090765678262
+    },
+    {
+      "token": "numu",
+      "intent_count": 3,
+      "other_count": 0,
+      "log_odds": 4.60090765678262
+    },
+    {
+      "token": "xalis",
+      "intent_count": 3,
+      "other_count": 0,
+      "log_odds": 4.60090765678262
+    },
+    {
+      "token": "ñooy",
+      "intent_count": 3,
+      "other_count": 0,
+      "log_odds": 4.60090765678262
+    },
+    {
+      "token": "caytu",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.264435420161407
+    },
+    {
+      "token": "caytul",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.264435420161407
+    },
+    {
+      "token": "ciy",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.264435420161407
+    },
+    {
+      "token": "inetere",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.264435420161407
+    },
+    {
+      "token": "lutax",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.264435420161407
+    },
+    {
+      "token": "tégal",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.264435420161407
+    },
+    {
+      "token": "ëpp",
+      "intent_count": 4,
+      "other_count": 1,
+      "log_odds": 3.753609796395416
+    },
+    {
+      "token": "aab",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.753609796395416
+    },
+    {
+      "token": "ati",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.753609796395416
+    },
+    {
+      "token": "booloo",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.753609796395416
+    },
+    {
+      "token": "bërina",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.753609796395416
+    },
+    {
+      "token": "calculé",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.753609796395416
+    },
+    {
+      "token": "dafmay",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.753609796395416
+    },
+    {
+      "token": "déllo",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.753609796395416
+    },
+    {
+      "token": "ginnàw",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.753609796395416
+    },
+    {
+      "token": "interet",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.753609796395416
+    },
+    {
+      "token": "kontél",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.753609796395416
+    },
+    {
+      "token": "limma",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.753609796395416
+    },
+    {
+      "token": "luko",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.753609796395416
+    }
+  ],
+  "international_visa": [
+    {
+      "token": "wisa",
+      "intent_count": 55,
+      "other_count": 2,
+      "log_odds": 5.731764543103443
+    },
+    {
+      "token": "fépp",
+      "intent_count": 8,
+      "other_count": 0,
+      "log_odds": 5.464885598281426
+    },
+    {
+      "token": "doxantu",
+      "intent_count": 3,
+      "other_count": 0,
+      "log_odds": 4.577582403280523
+    },
+    {
+      "token": "goxu",
+      "intent_count": 3,
+      "other_count": 0,
+      "log_odds": 4.577582403280523
+    },
+    {
+      "token": "ceeac",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.24111016665931
+    },
+    {
+      "token": "espaañ",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.24111016665931
+    },
+    {
+      "token": "mënul",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.24111016665931
+    },
+    {
+      "token": "nikaragoi",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.24111016665931
+    },
+    {
+      "token": "taywan",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.24111016665931
+    },
+    {
+      "token": "yoonu",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.24111016665931
+    },
+    {
+      "token": "ñakk",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.24111016665931
+    },
+    {
+      "token": "amko",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.7302845428933193
+    },
+    {
+      "token": "awma",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.7302845428933193
+    },
+    {
+      "token": "cedeao",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.7302845428933193
+    },
+    {
+      "token": "congo",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.7302845428933193
+    },
+    {
+      "token": "dayy",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.7302845428933193
+    },
+    {
+      "token": "demé",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.7302845428933193
+    },
+    {
+      "token": "divoir",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.7302845428933193
+    },
+    {
+      "token": "ekose",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.7302845428933193
+    },
+    {
+      "token": "foofu",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.7302845428933193
+    },
+    {
+      "token": "foors",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.7302845428933193
+    },
+    {
+      "token": "gatt",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.7302845428933193
+    },
+    {
+      "token": "kanadaa",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.7302845428933193
+    },
+    {
+      "token": "kot",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.7302845428933193
+    },
+    {
+      "token": "koŋ",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.7302845428933193
+    }
+  ],
+  "make_call": [
+    {
+      "token": "woo",
+      "intent_count": 18,
+      "other_count": 0,
+      "log_odds": 6.155365097485496
+    },
+    {
+      "token": "woowal",
+      "intent_count": 17,
+      "other_count": 0,
+      "log_odds": 6.099795246330685
+    },
+    {
+      "token": "wool",
+      "intent_count": 13,
+      "other_count": 0,
+      "log_odds": 5.8402840508456
+    },
+    {
+      "token": "johnson",
+      "intent_count": 7,
+      "other_count": 0,
+      "log_odds": 5.252497385943482
+    },
+    {
+      "token": "susan",
+      "intent_count": 5,
+      "other_count": 0,
+      "log_odds": 4.942342457639642
+    },
+    {
+      "token": "wàllu",
+      "intent_count": 5,
+      "other_count": 0,
+      "log_odds": 4.942342457639642
+    },
+    {
+      "token": "brown",
+      "intent_count": 4,
+      "other_count": 0,
+      "log_odds": 4.741671762177491
+    },
+    {
+      "token": "diallo",
+      "intent_count": 4,
+      "other_count": 0,
+      "log_odds": 4.741671762177491
+    },
+    {
+      "token": "marie",
+      "intent_count": 4,
+      "other_count": 0,
+      "log_odds": 4.741671762177491
+    },
+    {
+      "token": "moom",
+      "intent_count": 4,
+      "other_count": 0,
+      "log_odds": 4.741671762177491
+    },
+    {
+      "token": "traoré",
+      "intent_count": 4,
+      "other_count": 0,
+      "log_odds": 4.741671762177491
+    },
+    {
+      "token": "williams",
+      "intent_count": 4,
+      "other_count": 0,
+      "log_odds": 4.741671762177491
+    },
+    {
+      "token": "aicha",
+      "intent_count": 3,
+      "other_count": 0,
+      "log_odds": 4.4903573338965845
+    },
+    {
+      "token": "anderson",
+      "intent_count": 3,
+      "other_count": 0,
+      "log_odds": 4.4903573338965845
+    },
+    {
+      "token": "el-mahdi",
+      "intent_count": 3,
+      "other_count": 0,
+      "log_odds": 4.4903573338965845
+    },
+    {
+      "token": "fatoumata",
+      "intent_count": 3,
+      "other_count": 0,
+      "log_odds": 4.4903573338965845
+    },
+    {
+      "token": "james",
+      "intent_count": 3,
+      "other_count": 0,
+      "log_odds": 4.4903573338965845
+    },
+    {
+      "token": "kliib",
+      "intent_count": 3,
+      "other_count": 0,
+      "log_odds": 4.4903573338965845
+    },
+    {
+      "token": "mariam",
+      "intent_count": 3,
+      "other_count": 0,
+      "log_odds": 4.4903573338965845
+    },
+    {
+      "token": "mbengue",
+      "intent_count": 3,
+      "other_count": 0,
+      "log_odds": 4.4903573338965845
+    },
+    {
+      "token": "mohamed",
+      "intent_count": 3,
+      "other_count": 0,
+      "log_odds": 4.4903573338965845
+    },
+    {
+      "token": "omar",
+      "intent_count": 3,
+      "other_count": 0,
+      "log_odds": 4.4903573338965845
+    },
+    {
+      "token": "diop",
+      "intent_count": 7,
+      "other_count": 1,
+      "log_odds": 4.153885097275372
+    },
+    {
+      "token": "al-mansouri",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.153885097275372
+    },
+    {
+      "token": "garcia",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.153885097275372
+    }
+  ],
+  "meal_suggestion": [
+    {
+      "token": "ngamay",
+      "intent_count": 26,
+      "other_count": 2,
+      "log_odds": 5.0620826781930655
+    },
+    {
+      "token": "añee",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.310666589509144
+    },
+    {
+      "token": "irlànd",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.310666589509144
+    },
+    {
+      "token": "kongo",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.310666589509144
+    },
+    {
+      "token": "kroasi",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.310666589509144
+    },
+    {
+      "token": "luma",
+      "intent_count": 7,
+      "other_count": 2,
+      "log_odds": 3.7998409657431536
+    },
+    {
+      "token": "angola",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.799840965743153
+    },
+    {
+      "token": "australi",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.799840965743153
+    },
+    {
+      "token": "bulgari",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.799840965743153
+    },
+    {
+      "token": "danemark",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.799840965743153
+    },
+    {
+      "token": "eslovaki",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.799840965743153
+    },
+    {
+      "token": "estoni",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.799840965743153
+    },
+    {
+      "token": "gabon",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.799840965743153
+    },
+    {
+      "token": "gana",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.799840965743153
+    },
+    {
+      "token": "guine",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.799840965743153
+    },
+    {
+      "token": "hongri",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.799840965743153
+    },
+    {
+      "token": "islànd",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.799840965743153
+    },
+    {
+      "token": "letoni",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.799840965743153
+    },
+    {
+      "token": "namibi",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.799840965743153
+    },
+    {
+      "token": "ndekke",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.799840965743153
+    },
+    {
+      "token": "slovaki",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.799840965743153
+    },
+    {
+      "token": "sloveni",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.799840965743153
+    },
+    {
+      "token": "tchad",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.799840965743153
+    },
+    {
+      "token": "uni",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.799840965743153
+    },
+    {
+      "token": "vert",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.799840965743153
+    }
+  ],
+  "min_payment": [
+    {
+      "token": "tuuti",
+      "intent_count": 14,
+      "other_count": 0,
+      "log_odds": 5.861740284598142
+    },
+    {
+      "token": "crédit",
+      "intent_count": 9,
+      "other_count": 0,
+      "log_odds": 5.438883433778108
+    },
+    {
+      "token": "faktuur",
+      "intent_count": 7,
+      "other_count": 0,
+      "log_odds": 5.202494655713878
+    },
+    {
+      "token": "bor",
+      "intent_count": 3,
+      "other_count": 0,
+      "log_odds": 4.440354603666981
+    },
+    {
+      "token": "faktuuru",
+      "intent_count": 3,
+      "other_count": 0,
+      "log_odds": 4.440354603666981
+    },
+    {
+      "token": "carte",
+      "intent_count": 9,
+      "other_count": 1,
+      "log_odds": 4.340271145109998
+    },
+    {
+      "token": "factuuru",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.1038823670457685
+    },
+    {
+      "token": "feyitu-réew",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.1038823670457685
+    },
+    {
+      "token": "konto",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.1038823670457685
+    },
+    {
+      "token": "verizon",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.1038823670457685
+    },
+    {
+      "token": "néew",
+      "intent_count": 33,
+      "other_count": 8,
+      "log_odds": 3.8659237299464175
+    },
+    {
+      "token": "njëlbéen",
+      "intent_count": 4,
+      "other_count": 1,
+      "log_odds": 3.5930567432797775
+    },
+    {
+      "token": "auto",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.5930567432797775
+    },
+    {
+      "token": "berlin",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.5930567432797775
+    },
+    {
+      "token": "caisse",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.5930567432797775
+    },
+    {
+      "token": "djeunde",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.5930567432797775
+    },
+    {
+      "token": "fakturu",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.5930567432797775
+    },
+    {
+      "token": "lijaasa",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.5930567432797775
+    },
+    {
+      "token": "nationale",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.5930567432797775
+    },
+    {
+      "token": "payor",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.5930567432797775
+    },
+    {
+      "token": "sgbs",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.5930567432797775
+    },
+    {
+      "token": "toronto",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.5930567432797775
+    },
+    {
+      "token": "wergi",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.5930567432797775
+    },
+    {
+      "token": "yaram",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.5930567432797775
+    },
+    {
+      "token": "feyug",
+      "intent_count": 2,
+      "other_count": 1,
+      "log_odds": 3.0052700783776585
+    }
+  ],
+  "pay_bill": [
+    {
+      "token": "feyal",
+      "intent_count": 23,
+      "other_count": 0,
+      "log_odds": 6.47886325034761
+    },
+    {
+      "token": "facture",
+      "intent_count": 39,
+      "other_count": 1,
+      "log_odds": 5.899551212436463
+    },
+    {
+      "token": "dimmali",
+      "intent_count": 5,
+      "other_count": 0,
+      "log_odds": 5.026610921435922
+    },
+    {
+      "token": "mbindu",
+      "intent_count": 5,
+      "other_count": 0,
+      "log_odds": 5.026610921435922
+    },
+    {
+      "token": "cart",
+      "intent_count": 4,
+      "other_count": 0,
+      "log_odds": 4.8259402259737705
+    },
+    {
+      "token": "kuranŋ",
+      "intent_count": 3,
+      "other_count": 0,
+      "log_odds": 4.574625797692864
+    },
+    {
+      "token": "kuraŋ",
+      "intent_count": 3,
+      "other_count": 0,
+      "log_odds": 4.574625797692864
+    },
+    {
+      "token": "mbey",
+      "intent_count": 3,
+      "other_count": 0,
+      "log_odds": 4.574625797692864
+    },
+    {
+      "token": "seneau",
+      "intent_count": 3,
+      "other_count": 0,
+      "log_odds": 4.574625797692864
+    },
+    {
+      "token": "senelec",
+      "intent_count": 3,
+      "other_count": 0,
+      "log_odds": 4.574625797692864
+    },
+    {
+      "token": "woyofal",
+      "intent_count": 3,
+      "other_count": 0,
+      "log_odds": 4.574625797692864
+    },
+    {
+      "token": "xeweul",
+      "intent_count": 3,
+      "other_count": 0,
+      "log_odds": 4.574625797692864
+    },
+    {
+      "token": "campusen",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.238153561071652
+    },
+    {
+      "token": "canal",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.238153561071652
+    },
+    {
+      "token": "fixe",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.238153561071652
+    },
+    {
+      "token": "flexeau",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.238153561071652
+    },
+    {
+      "token": "joxel",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.238153561071652
+    },
+    {
+      "token": "jëfandikool",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.238153561071652
+    },
+    {
+      "token": "rapido",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.238153561071652
+    },
+    {
+      "token": "tnt",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.238153561071652
+    },
+    {
+      "token": "ucad",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.238153561071652
+    },
+    {
+      "token": "woyafal",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.238153561071652
+    },
+    {
+      "token": "bala",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.727327937305661
+    },
+    {
+      "token": "capmusen",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.727327937305661
+    },
+    {
+      "token": "cbeao",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.727327937305661
+    }
+  ],
+  "pin_change": [
+    {
+      "token": "pin",
+      "intent_count": 56,
+      "other_count": 0,
+      "log_odds": 7.352565496878277
+    },
+    {
+      "token": "group",
+      "intent_count": 4,
+      "other_count": 0,
+      "log_odds": 4.822402255502157
+    },
+    {
+      "token": "banking",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.234615590600037
+    },
+    {
+      "token": "chase",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.234615590600037
+    },
+    {
+      "token": "diggual",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.234615590600037
+    },
+    {
+      "token": "financial",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.234615590600037
+    },
+    {
+      "token": "first",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.234615590600037
+    },
+    {
+      "token": "guaranty",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.234615590600037
+    },
+    {
+      "token": "gulf",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.234615590600037
+    },
+    {
+      "token": "trust",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.234615590600037
+    },
+    {
+      "token": "union",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.234615590600037
+    },
+    {
+      "token": "wane",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.234615590600037
+    },
+    {
+      "token": "soppil",
+      "intent_count": 6,
+      "other_count": 1,
+      "log_odds": 4.091514746959364
+    },
+    {
+      "token": "access",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.7237899668340466
+    },
+    {
+      "token": "africa",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.7237899668340466
+    },
+    {
+      "token": "alinma",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.7237899668340466
+    },
+    {
+      "token": "aljazira",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.7237899668340466
+    },
+    {
+      "token": "america",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.7237899668340466
+    },
+    {
+      "token": "app",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.7237899668340466
+    },
+    {
+      "token": "arab",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.7237899668340466
+    },
+    {
+      "token": "atlantique",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.7237899668340466
+    },
+    {
+      "token": "atm",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.7237899668340466
+    },
+    {
+      "token": "attijariwafa",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.7237899668340466
+    },
+    {
+      "token": "banque",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.7237899668340466
+    },
+    {
+      "token": "barclays",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.7237899668340466
+    }
+  ],
+  "play_music": [
+    {
+      "token": "misik",
+      "intent_count": 10,
+      "other_count": 0,
+      "log_odds": 5.726415857902835
+    },
+    {
+      "token": "duppe",
+      "intent_count": 5,
+      "other_count": 0,
+      "log_odds": 5.079788692977783
+    },
+    {
+      "token": "playist",
+      "intent_count": 5,
+      "other_count": 0,
+      "log_odds": 5.079788692977783
+    },
+    {
+      "token": "wali",
+      "intent_count": 4,
+      "other_count": 0,
+      "log_odds": 4.879117997515632
+    },
+    {
+      "token": "ngewël",
+      "intent_count": 3,
+      "other_count": 0,
+      "log_odds": 4.627803569234726
+    },
+    {
+      "token": "rap",
+      "intent_count": 3,
+      "other_count": 0,
+      "log_odds": 4.627803569234726
+    },
+    {
+      "token": "sidi",
+      "intent_count": 3,
+      "other_count": 0,
+      "log_odds": 4.627803569234726
+    },
+    {
+      "token": "tegal",
+      "intent_count": 9,
+      "other_count": 1,
+      "log_odds": 4.527720110677744
+    },
+    {
+      "token": "seck",
+      "intent_count": 8,
+      "other_count": 1,
+      "log_odds": 4.416494475567519
+    },
+    {
+      "token": "dh",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.291331332613513
+    },
+    {
+      "token": "doomu",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.291331332613513
+    },
+    {
+      "token": "dàkk",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.291331332613513
+    },
+    {
+      "token": "gnu",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.291331332613513
+    },
+    {
+      "token": "joop",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.291331332613513
+    },
+    {
+      "token": "mbalak",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.291331332613513
+    },
+    {
+      "token": "mujju",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.291331332613513
+    },
+    {
+      "token": "way",
+      "intent_count": 11,
+      "other_count": 2,
+      "log_odds": 4.207949723674462
+    },
+    {
+      "token": "2024",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.7805057088475222
+    },
+    {
+      "token": "adduna",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.7805057088475222
+    },
+    {
+      "token": "bob",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.7805057088475222
+    },
+    {
+      "token": "dakk",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.7805057088475222
+    },
+    {
+      "token": "ek",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.7805057088475222
+    },
+    {
+      "token": "femme",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.7805057088475222
+    },
+    {
+      "token": "gnooy",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.7805057088475222
+    },
+    {
+      "token": "goor",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.7805057088475222
+    }
+  ],
+  "plug_type": [
+    {
+      "token": "adapter",
+      "intent_count": 29,
+      "other_count": 0,
+      "log_odds": 6.5588946840416416
+    },
+    {
+      "token": "carjer",
+      "intent_count": 14,
+      "other_count": 0,
+      "log_odds": 5.848653070122396
+    },
+    {
+      "token": "carjeer",
+      "intent_count": 7,
+      "other_count": 0,
+      "log_odds": 5.189407441238132
+    },
+    {
+      "token": "prise",
+      "intent_count": 6,
+      "other_count": 0,
+      "log_odds": 5.046306597597459
+    },
+    {
+      "token": "charger",
+      "intent_count": 4,
+      "other_count": 0,
+      "log_odds": 4.678581817472141
+    },
+    {
+      "token": "yuy",
+      "intent_count": 10,
+      "other_count": 1,
+      "log_odds": 4.427267389191235
+    },
+    {
+      "token": "dangeen",
+      "intent_count": 3,
+      "other_count": 0,
+      "log_odds": 4.427267389191235
+    },
+    {
+      "token": "digital",
+      "intent_count": 3,
+      "other_count": 0,
+      "log_odds": 4.427267389191235
+    },
+    {
+      "token": "samsung",
+      "intent_count": 3,
+      "other_count": 0,
+      "log_odds": 4.427267389191235
+    },
+    {
+      "token": "tablete",
+      "intent_count": 3,
+      "other_count": 0,
+      "log_odds": 4.427267389191235
+    },
+    {
+      "token": "àdduna",
+      "intent_count": 3,
+      "other_count": 0,
+      "log_odds": 4.427267389191235
+    },
+    {
+      "token": "android",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.090795152570022
+    },
+    {
+      "token": "angalteer",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.090795152570022
+    },
+    {
+      "token": "geneu",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.090795152570022
+    },
+    {
+      "token": "kamera",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.090795152570022
+    },
+    {
+      "token": "ordinateur",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.090795152570022
+    },
+    {
+      "token": "ordinatër",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.090795152570022
+    },
+    {
+      "token": "tunis",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.090795152570022
+    },
+    {
+      "token": "xëtu",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.090795152570022
+    },
+    {
+      "token": "jumtukaay",
+      "intent_count": 18,
+      "other_count": 4,
+      "log_odds": 3.895050575443927
+    },
+    {
+      "token": "jaay",
+      "intent_count": 11,
+      "other_count": 3,
+      "log_odds": 3.6709413070097585
+    },
+    {
+      "token": "st",
+      "intent_count": 4,
+      "other_count": 1,
+      "log_odds": 3.5799695288040314
+    },
+    {
+      "token": "won",
+      "intent_count": 4,
+      "other_count": 1,
+      "log_odds": 3.5799695288040314
+    },
+    {
+      "token": "aduna",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.5799695288040314
+    },
+    {
+      "token": "alxandari",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.5799695288040314
+    }
+  ],
+  "recipe": [
+    {
+      "token": "togge",
+      "intent_count": 14,
+      "other_count": 0,
+      "log_odds": 6.076731072861346
+    },
+    {
+      "token": "defare",
+      "intent_count": 29,
+      "other_count": 1,
+      "log_odds": 5.688360398112482
+    },
+    {
+      "token": "alocoo",
+      "intent_count": 5,
+      "other_count": 0,
+      "log_odds": 5.107330515673242
+    },
+    {
+      "token": "toggu",
+      "intent_count": 4,
+      "other_count": 0,
+      "log_odds": 4.906659820211091
+    },
+    {
+      "token": "bechamel",
+      "intent_count": 3,
+      "other_count": 0,
+      "log_odds": 4.655345391930185
+    },
+    {
+      "token": "lasaañ",
+      "intent_count": 3,
+      "other_count": 0,
+      "log_odds": 4.655345391930185
+    },
+    {
+      "token": "nooy",
+      "intent_count": 3,
+      "other_count": 0,
+      "log_odds": 4.655345391930185
+    },
+    {
+      "token": "sauce",
+      "intent_count": 3,
+      "other_count": 0,
+      "log_odds": 4.655345391930185
+    },
+    {
+      "token": "wanma",
+      "intent_count": 7,
+      "other_count": 1,
+      "log_odds": 4.318873155308972
+    },
+    {
+      "token": "ceebu",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.318873155308972
+    },
+    {
+      "token": "kandia",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.318873155308972
+    },
+    {
+      "token": "pasta",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.318873155308972
+    },
+    {
+      "token": "set",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.318873155308972
+    },
+    {
+      "token": "supp",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.318873155308972
+    },
+    {
+      "token": "atieke",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.8080475315429814
+    },
+    {
+      "token": "boloñéz",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.8080475315429814
+    },
+    {
+      "token": "diwlin",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.8080475315429814
+    },
+    {
+      "token": "farsi",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.8080475315429814
+    },
+    {
+      "token": "fonde",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.8080475315429814
+    },
+    {
+      "token": "futu",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.8080475315429814
+    },
+    {
+      "token": "guedj",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.8080475315429814
+    },
+    {
+      "token": "guinàar",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.8080475315429814
+    },
+    {
+      "token": "guinàr",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.8080475315429814
+    },
+    {
+      "token": "italien",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.8080475315429814
+    },
+    {
+      "token": "jumbo",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.8080475315429814
+    }
+  ],
+  "restaurant_reservation": [
+    {
+      "token": "reserwel",
+      "intent_count": 15,
+      "other_count": 0,
+      "log_odds": 5.845100499565969
+    },
+    {
+      "token": "taabal",
+      "intent_count": 8,
+      "other_count": 0,
+      "log_odds": 5.244326639137039
+    },
+    {
+      "token": "gorée",
+      "intent_count": 6,
+      "other_count": 0,
+      "log_odds": 4.97606265254236
+    },
+    {
+      "token": "palaasu",
+      "intent_count": 6,
+      "other_count": 0,
+      "log_odds": 4.97606265254236
+    },
+    {
+      "token": "ndagane",
+      "intent_count": 4,
+      "other_count": 0,
+      "log_odds": 4.608337872417043
+    },
+    {
+      "token": "yoyu",
+      "intent_count": 4,
+      "other_count": 0,
+      "log_odds": 4.608337872417043
+    },
+    {
+      "token": "16h",
+      "intent_count": 3,
+      "other_count": 0,
+      "log_odds": 4.357023444136137
+    },
+    {
+      "token": "loutcha",
+      "intent_count": 3,
+      "other_count": 0,
+      "log_odds": 4.357023444136137
+    },
+    {
+      "token": "ousmane",
+      "intent_count": 3,
+      "other_count": 0,
+      "log_odds": 4.357023444136137
+    },
+    {
+      "token": "jote",
+      "intent_count": 29,
+      "other_count": 4,
+      "log_odds": 4.291426161650324
+    },
+    {
+      "token": "boru",
+      "intent_count": 13,
+      "other_count": 2,
+      "log_odds": 4.097512248651052
+    },
+    {
+      "token": "3h",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.020551207514924
+    },
+    {
+      "token": "bird",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.020551207514924
+    },
+    {
+      "token": "blue",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.020551207514924
+    },
+    {
+      "token": "brioche",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.020551207514924
+    },
+    {
+      "token": "cabane",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.020551207514924
+    },
+    {
+      "token": "coté",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.020551207514924
+    },
+    {
+      "token": "defalma",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.020551207514924
+    },
+    {
+      "token": "depuis",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.020551207514924
+    },
+    {
+      "token": "farba",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.020551207514924
+    },
+    {
+      "token": "fatick",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.020551207514924
+    },
+    {
+      "token": "ganalé",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.020551207514924
+    },
+    {
+      "token": "gui",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.020551207514924
+    },
+    {
+      "token": "miam",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.020551207514924
+    },
+    {
+      "token": "ndangane",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.020551207514924
+    }
+  ],
+  "restaurant_reviews": [
+    {
+      "token": "biddiiw",
+      "intent_count": 15,
+      "other_count": 0,
+      "log_odds": 5.91586515961093
+    },
+    {
+      "token": "ràññee",
+      "intent_count": 15,
+      "other_count": 0,
+      "log_odds": 5.91586515961093
+    },
+    {
+      "token": "bangkook",
+      "intent_count": 4,
+      "other_count": 0,
+      "log_odds": 4.679102532462004
+    },
+    {
+      "token": "plateau",
+      "intent_count": 4,
+      "other_count": 0,
+      "log_odds": 4.679102532462004
+    },
+    {
+      "token": "bistró",
+      "intent_count": 3,
+      "other_count": 0,
+      "log_odds": 4.427788104181097
+    },
+    {
+      "token": "francisco",
+      "intent_count": 3,
+      "other_count": 0,
+      "log_odds": 4.427788104181097
+    },
+    {
+      "token": "mexico",
+      "intent_count": 3,
+      "other_count": 0,
+      "log_odds": 4.427788104181097
+    },
+    {
+      "token": "mumbai",
+      "intent_count": 3,
+      "other_count": 0,
+      "log_odds": 4.427788104181097
+    },
+    {
+      "token": "tailand",
+      "intent_count": 3,
+      "other_count": 0,
+      "log_odds": 4.427788104181097
+    },
+    {
+      "token": "ababa",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.091315867559884
+    },
+    {
+      "token": "addis",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.091315867559884
+    },
+    {
+      "token": "district",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.091315867559884
+    },
+    {
+      "token": "ethiopian",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.091315867559884
+    },
+    {
+      "token": "gii",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.091315867559884
+    },
+    {
+      "token": "mexiko",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.091315867559884
+    },
+    {
+      "token": "pizzéra",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.091315867559884
+    },
+    {
+      "token": "suushi",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.091315867559884
+    },
+    {
+      "token": "beirut",
+      "intent_count": 4,
+      "other_count": 1,
+      "log_odds": 3.5804902437938937
+    },
+    {
+      "token": "liban",
+      "intent_count": 4,
+      "other_count": 1,
+      "log_odds": 3.5804902437938937
+    },
+    {
+      "token": "njëkk",
+      "intent_count": 4,
+      "other_count": 1,
+      "log_odds": 3.5804902437938937
+    },
+    {
+      "token": "ñeenti",
+      "intent_count": 4,
+      "other_count": 1,
+      "log_odds": 3.5804902437938937
+    },
+    {
+      "token": "aires",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.5804902437938937
+    },
+    {
+      "token": "bangkok",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.5804902437938937
+    },
+    {
+      "token": "buenos",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.5804902437938937
+    },
+    {
+      "token": "corniche",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.5804902437938937
+    }
+  ],
+  "restaurant_suggestion": [
+    {
+      "token": "bakkane",
+      "intent_count": 18,
+      "other_count": 0,
+      "log_odds": 6.192759223967138
+    },
+    {
+      "token": "lekke",
+      "intent_count": 7,
+      "other_count": 0,
+      "log_odds": 5.289891512425124
+    },
+    {
+      "token": "namme",
+      "intent_count": 5,
+      "other_count": 0,
+      "log_odds": 4.979736584121284
+    },
+    {
+      "token": "bereb",
+      "intent_count": 4,
+      "other_count": 0,
+      "log_odds": 4.779065888659132
+    },
+    {
+      "token": "ayib",
+      "intent_count": 10,
+      "other_count": 1,
+      "log_odds": 4.5277514603782265
+    },
+    {
+      "token": "mucc",
+      "intent_count": 10,
+      "other_count": 1,
+      "log_odds": 4.5277514603782265
+    },
+    {
+      "token": "lool",
+      "intent_count": 3,
+      "other_count": 0,
+      "log_odds": 4.5277514603782265
+    },
+    {
+      "token": "xamoo",
+      "intent_count": 3,
+      "other_count": 0,
+      "log_odds": 4.5277514603782265
+    },
+    {
+      "token": "xiif",
+      "intent_count": 3,
+      "other_count": 0,
+      "log_odds": 4.5277514603782265
+    },
+    {
+      "token": "barab",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.191279223757014
+    },
+    {
+      "token": "bo",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.191279223757014
+    },
+    {
+      "token": "béréb",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.191279223757014
+    },
+    {
+      "token": "bérébu",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.191279223757014
+    },
+    {
+      "token": "lako",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.191279223757014
+    },
+    {
+      "token": "mbuum",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.191279223757014
+    },
+    {
+      "token": "retorant",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.191279223757014
+    },
+    {
+      "token": "taaylaand",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.191279223757014
+    },
+    {
+      "token": "xeelal",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.191279223757014
+    },
+    {
+      "token": "amo",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.6804535999910226
+    },
+    {
+      "token": "berebu",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.6804535999910226
+    },
+    {
+      "token": "buleet",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.6804535999910226
+    },
+    {
+      "token": "ceere",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.6804535999910226
+    },
+    {
+      "token": "cereek",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.6804535999910226
+    },
+    {
+      "token": "domodaa",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.6804535999910226
+    },
+    {
+      "token": "epp",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.6804535999910226
+    }
+  ],
+  "share_location": [
+    {
+      "token": "tòlluwaay",
+      "intent_count": 29,
+      "other_count": 0,
+      "log_odds": 6.73798542743272
+    },
+    {
+      "token": "yònne",
+      "intent_count": 20,
+      "other_count": 0,
+      "log_odds": 6.374020050231309
+    },
+    {
+      "token": "maps",
+      "intent_count": 7,
+      "other_count": 0,
+      "log_odds": 5.368498184629211
+    },
+    {
+      "token": "ñi",
+      "intent_count": 5,
+      "other_count": 0,
+      "log_odds": 5.058343256325371
+    },
+    {
+      "token": "application",
+      "intent_count": 4,
+      "other_count": 0,
+      "log_odds": 4.85767256086322
+    },
+    {
+      "token": "xamalal",
+      "intent_count": 3,
+      "other_count": 0,
+      "log_odds": 4.606358132582314
+    },
+    {
+      "token": "yònneel",
+      "intent_count": 3,
+      "other_count": 0,
+      "log_odds": 4.606358132582314
+    },
+    {
+      "token": "yònnel",
+      "intent_count": 3,
+      "other_count": 0,
+      "log_odds": 4.606358132582314
+    },
+    {
+      "token": "amy",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.269885895961101
+    },
+    {
+      "token": "gps",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.269885895961101
+    },
+    {
+      "token": "japsi",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.269885895961101
+    },
+    {
+      "token": "jariño",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.269885895961101
+    },
+    {
+      "token": "jur",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.269885895961101
+    },
+    {
+      "token": "jëfëndikoo",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.269885895961101
+    },
+    {
+      "token": "nabu",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.269885895961101
+    },
+    {
+      "token": "wolof",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.269885895961101
+    },
+    {
+      "token": "bina",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.7590602721951107
+    },
+    {
+      "token": "contact",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.7590602721951107
+    },
+    {
+      "token": "fima",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.7590602721951107
+    },
+    {
+      "token": "fékk",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.7590602721951107
+    },
+    {
+      "token": "josef",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.7590602721951107
+    },
+    {
+      "token": "jëkkër",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.7590602721951107
+    },
+    {
+      "token": "localisation",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.7590602721951107
+    },
+    {
+      "token": "paap",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.7590602721951107
+    },
+    {
+      "token": "papi",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.7590602721951107
+    }
+  ],
+  "shopping_list_update": [
+    {
+      "token": "tànn",
+      "intent_count": 17,
+      "other_count": 0,
+      "log_odds": 6.1647374210358405
+    },
+    {
+      "token": "dollil",
+      "intent_count": 8,
+      "other_count": 0,
+      "log_odds": 5.442602703602643
+    },
+    {
+      "token": "potu",
+      "intent_count": 7,
+      "other_count": 0,
+      "log_odds": 5.317439560648637
+    },
+    {
+      "token": "meew",
+      "intent_count": 6,
+      "other_count": 0,
+      "log_odds": 5.174338717007964
+    },
+    {
+      "token": "bokk",
+      "intent_count": 4,
+      "other_count": 0,
+      "log_odds": 4.806613936882647
+    },
+    {
+      "token": "soble",
+      "intent_count": 4,
+      "other_count": 0,
+      "log_odds": 4.806613936882647
+    },
+    {
+      "token": "yokku",
+      "intent_count": 4,
+      "other_count": 0,
+      "log_odds": 4.806613936882647
+    },
+    {
+      "token": "boole",
+      "intent_count": 3,
+      "other_count": 0,
+      "log_odds": 4.555299508601741
+    },
+    {
+      "token": "booler",
+      "intent_count": 3,
+      "other_count": 0,
+      "log_odds": 4.555299508601741
+    },
+    {
+      "token": "kilo",
+      "intent_count": 3,
+      "other_count": 0,
+      "log_odds": 4.555299508601741
+    },
+    {
+      "token": "xaalu",
+      "intent_count": 3,
+      "other_count": 0,
+      "log_odds": 4.555299508601741
+    },
+    {
+      "token": "xokolat",
+      "intent_count": 3,
+      "other_count": 0,
+      "log_odds": 4.555299508601741
+    },
+    {
+      "token": "dolli",
+      "intent_count": 8,
+      "other_count": 1,
+      "log_odds": 4.343990414934534
+    },
+    {
+      "token": "fàtte",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.218827271980527
+    },
+    {
+      "token": "maynès",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.218827271980527
+    },
+    {
+      "token": "pombiteer",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.218827271980527
+    },
+    {
+      "token": "suukar",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.218827271980527
+    },
+    {
+      "token": "tigadege",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.218827271980527
+    },
+    {
+      "token": "xaal",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.218827271980527
+    },
+    {
+      "token": "limay",
+      "intent_count": 16,
+      "other_count": 4,
+      "log_odds": 3.908672343676688
+    },
+    {
+      "token": "attaaya",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.708001648214537
+    },
+    {
+      "token": "beer",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.708001648214537
+    },
+    {
+      "token": "biiñ",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.708001648214537
+    },
+    {
+      "token": "bokku",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.708001648214537
+    },
+    {
+      "token": "boolel",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.708001648214537
+    }
+  ],
+  "spending_history": [
+    {
+      "token": "dembë",
+      "intent_count": 8,
+      "other_count": 0,
+      "log_odds": 5.352124472052894
+    },
+    {
+      "token": "ayubés",
+      "intent_count": 6,
+      "other_count": 0,
+      "log_odds": 5.0838604854582155
+    },
+    {
+      "token": "bëkk-dembë",
+      "intent_count": 6,
+      "other_count": 0,
+      "log_odds": 5.0838604854582155
+    },
+    {
+      "token": "depasse",
+      "intent_count": 4,
+      "other_count": 0,
+      "log_odds": 4.716135705332897
+    },
+    {
+      "token": "simen",
+      "intent_count": 4,
+      "other_count": 0,
+      "log_odds": 4.716135705332897
+    },
+    {
+      "token": "yére",
+      "intent_count": 4,
+      "other_count": 0,
+      "log_odds": 4.716135705332897
+    },
+    {
+      "token": "depaase",
+      "intent_count": 28,
+      "other_count": 4,
+      "log_odds": 4.364737818495009
+    },
+    {
+      "token": "toll",
+      "intent_count": 13,
+      "other_count": 2,
+      "log_odds": 4.205310081566907
+    },
+    {
+      "token": "aat",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.128349040430779
+    },
+    {
+      "token": "daaw",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.128349040430779
+    },
+    {
+      "token": "dugub",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.128349040430779
+    },
+    {
+      "token": "lujum",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.128349040430779
+    },
+    {
+      "token": "marse",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.128349040430779
+    },
+    {
+      "token": "wessu",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.128349040430779
+    },
+    {
+      "token": "xoola",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.128349040430779
+    },
+    {
+      "token": "alibaba",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.6175234166647883
+    },
+    {
+      "token": "bimay",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.6175234166647883
+    },
+    {
+      "token": "defarate",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.6175234166647883
+    },
+    {
+      "token": "depaas",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.6175234166647883
+    },
+    {
+      "token": "disi",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.6175234166647883
+    },
+    {
+      "token": "dàll",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.6175234166647883
+    },
+    {
+      "token": "gerte",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.6175234166647883
+    },
+    {
+      "token": "luyaas",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.6175234166647883
+    },
+    {
+      "token": "ndékki",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.6175234166647883
+    },
+    {
+      "token": "ngalam",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.6175234166647883
+    }
+  ],
+  "text": [
+    {
+      "token": "bataaxal",
+      "intent_count": 45,
+      "other_count": 0,
+      "log_odds": 7.1568298339489065
+    },
+    {
+      "token": "binde",
+      "intent_count": 6,
+      "other_count": 0,
+      "log_odds": 5.210919684893593
+    },
+    {
+      "token": "tontu",
+      "intent_count": 4,
+      "other_count": 0,
+      "log_odds": 4.843194904768276
+    },
+    {
+      "token": "añ",
+      "intent_count": 3,
+      "other_count": 0,
+      "log_odds": 4.591880476487369
+    },
+    {
+      "token": "bataaxalal",
+      "intent_count": 3,
+      "other_count": 0,
+      "log_odds": 4.591880476487369
+    },
+    {
+      "token": "jànk",
+      "intent_count": 3,
+      "other_count": 0,
+      "log_odds": 4.591880476487369
+    },
+    {
+      "token": "liggéy",
+      "intent_count": 3,
+      "other_count": 0,
+      "log_odds": 4.591880476487369
+    },
+    {
+      "token": "neko",
+      "intent_count": 3,
+      "other_count": 0,
+      "log_odds": 4.591880476487369
+    },
+    {
+      "token": "téla",
+      "intent_count": 3,
+      "other_count": 0,
+      "log_odds": 4.591880476487369
+    },
+    {
+      "token": "bindal",
+      "intent_count": 33,
+      "other_count": 5,
+      "log_odds": 4.452767674024652
+    },
+    {
+      "token": "fomm",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.255408239866156
+    },
+    {
+      "token": "gë",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.255408239866156
+    },
+    {
+      "token": "mangi",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.255408239866156
+    },
+    {
+      "token": "moodu",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.255408239866156
+    },
+    {
+      "token": "namnaako",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.255408239866156
+    },
+    {
+      "token": "sant",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.255408239866156
+    },
+    {
+      "token": "wàcci",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.255408239866156
+    },
+    {
+      "token": "waxko",
+      "intent_count": 9,
+      "other_count": 2,
+      "log_odds": 3.9809713941643965
+    },
+    {
+      "token": "làc",
+      "intent_count": 4,
+      "other_count": 1,
+      "log_odds": 3.744582616100166
+    },
+    {
+      "token": "agsé",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.744582616100166
+    },
+    {
+      "token": "bataaxalu",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.744582616100166
+    },
+    {
+      "token": "bind",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.744582616100166
+    },
+    {
+      "token": "ecool",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.744582616100166
+    },
+    {
+      "token": "facebook",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.744582616100166
+    },
+    {
+      "token": "fanaan",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.744582616100166
+    }
+  ],
+  "time": [
+    {
+      "token": "jot",
+      "intent_count": 43,
+      "other_count": 8,
+      "log_odds": 4.340230958845324
+    },
+    {
+      "token": "fajar",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.316974096681056
+    },
+    {
+      "token": "legui",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.316974096681056
+    },
+    {
+      "token": "fattali",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.8061484729150656
+    },
+    {
+      "token": "fi-mu-nekk",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.8061484729150656
+    },
+    {
+      "token": "gréce",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.8061484729150656
+    },
+    {
+      "token": "ispaañ",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.8061484729150656
+    },
+    {
+      "token": "jap",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.8061484729150656
+    },
+    {
+      "token": "monaako",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.8061484729150656
+    },
+    {
+      "token": "montor",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.8061484729150656
+    },
+    {
+      "token": "nëgëni-sii",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.8061484729150656
+    },
+    {
+      "token": "russi",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.8061484729150656
+    },
+    {
+      "token": "ruwandaa",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.8061484729150656
+    },
+    {
+      "token": "tisbar",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.8061484729150656
+    },
+    {
+      "token": "tollol",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.8061484729150656
+    },
+    {
+      "token": "tugal",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.8061484729150656
+    },
+    {
+      "token": "ukreen",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.8061484729150656
+    },
+    {
+      "token": "yemo",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.8061484729150656
+    },
+    {
+      "token": "yoor",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.8061484729150656
+    },
+    {
+      "token": "ótriis",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.8061484729150656
+    },
+    {
+      "token": "waxtu",
+      "intent_count": 49,
+      "other_count": 24,
+      "log_odds": 3.4108357362709194
+    },
+    {
+      "token": "montar",
+      "intent_count": 4,
+      "other_count": 2,
+      "log_odds": 3.295322849149075
+    },
+    {
+      "token": "canada",
+      "intent_count": 2,
+      "other_count": 1,
+      "log_odds": 3.218361808012947
+    },
+    {
+      "token": "takusaan",
+      "intent_count": 2,
+      "other_count": 1,
+      "log_odds": 3.218361808012947
+    },
+    {
+      "token": "nepaal",
+      "intent_count": 2,
+      "other_count": 2,
+      "log_odds": 2.707536184246956
+    }
+  ],
+  "timezone": [
+    {
+      "token": "fiso",
+      "intent_count": 56,
+      "other_count": 0,
+      "log_odds": 7.39881486635601
+    },
+    {
+      "token": "oreer",
+      "intent_count": 33,
+      "other_count": 0,
+      "log_odds": 6.876119667034635
+    },
+    {
+      "token": "oreeru",
+      "intent_count": 21,
+      "other_count": 0,
+      "log_odds": 6.432627163337231
+    },
+    {
+      "token": "seen",
+      "intent_count": 6,
+      "other_count": 0,
+      "log_odds": 5.236376405105206
+    },
+    {
+      "token": "tënku",
+      "intent_count": 4,
+      "other_count": 0,
+      "log_odds": 4.868651624979888
+    },
+    {
+      "token": "afganistaan",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.7700393363117786
+    },
+    {
+      "token": "albaani",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.7700393363117786
+    },
+    {
+      "token": "andoor",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.7700393363117786
+    },
+    {
+      "token": "ayiti",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.7700393363117786
+    },
+    {
+      "token": "beggoon",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.7700393363117786
+    },
+    {
+      "token": "bulgaari",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.7700393363117786
+    },
+    {
+      "token": "burkina",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.7700393363117786
+    },
+    {
+      "token": "ciili",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.7700393363117786
+    },
+    {
+      "token": "dimalima",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.7700393363117786
+    },
+    {
+      "token": "eleen",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.7700393363117786
+    },
+    {
+      "token": "endoneesi",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.7700393363117786
+    },
+    {
+      "token": "faso",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.7700393363117786
+    },
+    {
+      "token": "guam",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.7700393363117786
+    },
+    {
+      "token": "guwaatemala",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.7700393363117786
+    },
+    {
+      "token": "india",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.7700393363117786
+    },
+    {
+      "token": "iraak",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.7700393363117786
+    },
+    {
+      "token": "irlaand",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.7700393363117786
+    },
+    {
+      "token": "israayil",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.7700393363117786
+    },
+    {
+      "token": "laanka",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.7700393363117786
+    },
+    {
+      "token": "malt",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.7700393363117786
+    }
+  ],
+  "transactions": [
+    {
+      "token": "kart",
+      "intent_count": 12,
+      "other_count": 0,
+      "log_odds": 5.772144709450302
+    },
+    {
+      "token": "wirement",
+      "intent_count": 12,
+      "other_count": 0,
+      "log_odds": 5.772144709450302
+    },
+    {
+      "token": "wéeru",
+      "intent_count": 10,
+      "other_count": 0,
+      "log_odds": 5.597791322305524
+    },
+    {
+      "token": "wann",
+      "intent_count": 7,
+      "other_count": 0,
+      "log_odds": 5.261319085684311
+    },
+    {
+      "token": "wonn",
+      "intent_count": 14,
+      "other_count": 1,
+      "log_odds": 4.821952425900465
+    },
+    {
+      "token": "bànkeer",
+      "intent_count": 4,
+      "other_count": 0,
+      "log_odds": 4.75049346191832
+    },
+    {
+      "token": "mujje",
+      "intent_count": 11,
+      "other_count": 1,
+      "log_odds": 4.590150811843141
+    },
+    {
+      "token": "jëkka",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.162706797016201
+    },
+    {
+      "token": "yépp",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.162706797016201
+    },
+    {
+      "token": "wéer",
+      "intent_count": 4,
+      "other_count": 1,
+      "log_odds": 3.6518811732502106
+    },
+    {
+      "token": "applicasion",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.6518811732502106
+    },
+    {
+      "token": "bërkë-démb",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.6518811732502106
+    },
+    {
+      "token": "feweriyéé",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.6518811732502106
+    },
+    {
+      "token": "fexe",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.6518811732502106
+    },
+    {
+      "token": "gen",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.6518811732502106
+    },
+    {
+      "token": "gennel",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.6518811732502106
+    },
+    {
+      "token": "juróom-ñetti",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.6518811732502106
+    },
+    {
+      "token": "jàppaleme",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.6518811732502106
+    },
+    {
+      "token": "kuran",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.6518811732502106
+    },
+    {
+      "token": "mastercarb",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.6518811732502106
+    },
+    {
+      "token": "oteel",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.6518811732502106
+    },
+    {
+      "token": "rawitayment",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.6518811732502106
+    },
+    {
+      "token": "supermarse",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.6518811732502106
+    },
+    {
+      "token": "tabaski",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.6518811732502106
+    },
+    {
+      "token": "ubbil",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.6518811732502106
+    }
+  ],
+  "transfer": [
+    {
+      "token": "yoone",
+      "intent_count": 20,
+      "other_count": 0,
+      "log_odds": 6.211179158777758
+    },
+    {
+      "token": "déncukaay",
+      "intent_count": 7,
+      "other_count": 0,
+      "log_odds": 5.205657293175659
+    },
+    {
+      "token": "compte",
+      "intent_count": 5,
+      "other_count": 0,
+      "log_odds": 4.89550236487182
+    },
+    {
+      "token": "beneen",
+      "intent_count": 4,
+      "other_count": 0,
+      "log_odds": 4.694831669409669
+    },
+    {
+      "token": "defko",
+      "intent_count": 4,
+      "other_count": 0,
+      "log_odds": 4.694831669409669
+    },
+    {
+      "token": "yónnel",
+      "intent_count": 4,
+      "other_count": 0,
+      "log_odds": 4.694831669409669
+    },
+    {
+      "token": "dipi",
+      "intent_count": 18,
+      "other_count": 2,
+      "log_odds": 4.499087092283573
+    },
+    {
+      "token": "toxal",
+      "intent_count": 3,
+      "other_count": 0,
+      "log_odds": 4.443517241128763
+    },
+    {
+      "token": "bis",
+      "intent_count": 7,
+      "other_count": 1,
+      "log_odds": 4.10704500450755
+    },
+    {
+      "token": "jappalema",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.10704500450755
+    },
+    {
+      "token": "toxalal",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.10704500450755
+    },
+    {
+      "token": "courant",
+      "intent_count": 5,
+      "other_count": 1,
+      "log_odds": 3.7968900762037103
+    },
+    {
+      "token": "boa",
+      "intent_count": 4,
+      "other_count": 1,
+      "log_odds": 3.5962193807415592
+    },
+    {
+      "token": "ama",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.5962193807415592
+    },
+    {
+      "token": "begg",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.5962193807415592
+    },
+    {
+      "token": "benee",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.5962193807415592
+    },
+    {
+      "token": "bitim",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.5962193807415592
+    },
+    {
+      "token": "bnde",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.5962193807415592
+    },
+    {
+      "token": "bsic",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.5962193807415592
+    },
+    {
+      "token": "defe",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.5962193807415592
+    },
+    {
+      "token": "fanta",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.5962193807415592
+    },
+    {
+      "token": "fatumata",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.5962193807415592
+    },
+    {
+      "token": "fnb",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.5962193807415592
+    },
+    {
+      "token": "gualla",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.5962193807415592
+    },
+    {
+      "token": "juni",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.5962193807415592
+    }
+  ],
+  "translate": [
+    {
+      "token": "waxe",
+      "intent_count": 30,
+      "other_count": 1,
+      "log_odds": 5.640386809807755
+    },
+    {
+      "token": "tekkil",
+      "intent_count": 8,
+      "other_count": 0,
+      "log_odds": 5.46133857835877
+    },
+    {
+      "token": "anglais",
+      "intent_count": 7,
+      "other_count": 0,
+      "log_odds": 5.336175435404764
+    },
+    {
+      "token": "arabie",
+      "intent_count": 3,
+      "other_count": 0,
+      "log_odds": 4.5740353833578675
+    },
+    {
+      "token": "espagnol",
+      "intent_count": 3,
+      "other_count": 0,
+      "log_odds": 4.5740353833578675
+    },
+    {
+      "token": "français",
+      "intent_count": 3,
+      "other_count": 0,
+      "log_odds": 4.5740353833578675
+    },
+    {
+      "token": "indo",
+      "intent_count": 3,
+      "other_count": 0,
+      "log_odds": 4.5740353833578675
+    },
+    {
+      "token": "russe",
+      "intent_count": 3,
+      "other_count": 0,
+      "log_odds": 4.5740353833578675
+    },
+    {
+      "token": "tekke",
+      "intent_count": 3,
+      "other_count": 0,
+      "log_odds": 4.5740353833578675
+    },
+    {
+      "token": "allemand",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.237563146736655
+    },
+    {
+      "token": "baat",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.237563146736655
+    },
+    {
+      "token": "basiiru",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.237563146736655
+    },
+    {
+      "token": "chinois",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.237563146736655
+    },
+    {
+      "token": "firi",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.237563146736655
+    },
+    {
+      "token": "japone",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.237563146736655
+    },
+    {
+      "token": "jomaay",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.237563146736655
+    },
+    {
+      "token": "naar",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.237563146736655
+    },
+    {
+      "token": "njiitu",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.237563146736655
+    },
+    {
+      "token": "nuyo",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.237563146736655
+    },
+    {
+      "token": "sid",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.237563146736655
+    },
+    {
+      "token": "souadie",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.237563146736655
+    },
+    {
+      "token": "tekki",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.237563146736655
+    },
+    {
+      "token": "usa",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.237563146736655
+    },
+    {
+      "token": "yar",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.237563146736655
+    },
+    {
+      "token": "ëppukaay",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.237563146736655
+    }
+  ],
+  "travel_notification": [
+    {
+      "token": "yégal",
+      "intent_count": 10,
+      "other_count": 0,
+      "log_odds": 5.504213910812258
+    },
+    {
+      "token": "ropalann",
+      "intent_count": 5,
+      "other_count": 0,
+      "log_odds": 4.857586745887206
+    },
+    {
+      "token": "yégle",
+      "intent_count": 5,
+      "other_count": 0,
+      "log_odds": 4.857586745887206
+    },
+    {
+      "token": "xamle",
+      "intent_count": 8,
+      "other_count": 1,
+      "log_odds": 4.194292528476941
+    },
+    {
+      "token": "dalukaay",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.069129385522936
+    },
+    {
+      "token": "fez",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.069129385522936
+    },
+    {
+      "token": "istanbul",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.069129385522936
+    },
+    {
+      "token": "soppite",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.069129385522936
+    },
+    {
+      "token": "timbuktu",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.069129385522936
+    },
+    {
+      "token": "xiibar",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.069129385522936
+    },
+    {
+      "token": "yëral-leen",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.069129385522936
+    },
+    {
+      "token": "15eelu",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.5583037617569446
+    },
+    {
+      "token": "adventures",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.5583037617569446
+    },
+    {
+      "token": "agsi",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.5583037617569446
+    },
+    {
+      "token": "alerte",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.5583037617569446
+    },
+    {
+      "token": "anam",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.5583037617569446
+    },
+    {
+      "token": "atlas",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.5583037617569446
+    },
+    {
+      "token": "berep",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.5583037617569446
+    },
+    {
+      "token": "boppam",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.5583037617569446
+    },
+    {
+      "token": "buniu",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.5583037617569446
+    },
+    {
+      "token": "bunt",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.5583037617569446
+    },
+    {
+      "token": "demal",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.5583037617569446
+    },
+    {
+      "token": "dox",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.5583037617569446
+    },
+    {
+      "token": "dubaayi",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.5583037617569446
+    },
+    {
+      "token": "dëggu",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.5583037617569446
+    }
+  ],
+  "travel_suggestion": [
+    {
+      "token": "actiwite",
+      "intent_count": 5,
+      "other_count": 0,
+      "log_odds": 4.883424668917729
+    },
+    {
+      "token": "bane",
+      "intent_count": 3,
+      "other_count": 0,
+      "log_odds": 4.431439545174672
+    },
+    {
+      "token": "dexug",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.094967308553459
+    },
+    {
+      "token": "gis-gis",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.094967308553459
+    },
+    {
+      "token": "gëna",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.094967308553459
+    },
+    {
+      "token": "jazz",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.094967308553459
+    },
+    {
+      "token": "wut",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.094967308553459
+    },
+    {
+      "token": "xol",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.094967308553459
+    },
+    {
+      "token": "xool",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.094967308553459
+    },
+    {
+      "token": "taariix",
+      "intent_count": 4,
+      "other_count": 1,
+      "log_odds": 3.5841416847874683
+    },
+    {
+      "token": "actiwité",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.5841416847874683
+    },
+    {
+      "token": "afrig-amerig",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.5841416847874683
+    },
+    {
+      "token": "ballon",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.5841416847874683
+    },
+    {
+      "token": "biir",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.5841416847874683
+    },
+    {
+      "token": "brooklyn",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.5841416847874683
+    },
+    {
+      "token": "cosaanoo",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.5841416847874683
+    },
+    {
+      "token": "cér",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.5841416847874683
+    },
+    {
+      "token": "djoudj",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.5841416847874683
+    },
+    {
+      "token": "fame",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.5841416847874683
+    },
+    {
+      "token": "fasoŋ",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.5841416847874683
+    },
+    {
+      "token": "fexale",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.5841416847874683
+    },
+    {
+      "token": "filadelfi",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.5841416847874683
+    },
+    {
+      "token": "foto",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.5841416847874683
+    },
+    {
+      "token": "féexale",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.5841416847874683
+    },
+    {
+      "token": "gizeh",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.5841416847874683
+    }
+  ],
+  "update_playlist": [
+    {
+      "token": "tànneef",
+      "intent_count": 53,
+      "other_count": 0,
+      "log_odds": 7.270660307289959
+    },
+    {
+      "token": "waññi",
+      "intent_count": 5,
+      "other_count": 0,
+      "log_odds": 4.995726745626423
+    },
+    {
+      "token": "yima",
+      "intent_count": 5,
+      "other_count": 0,
+      "log_odds": 4.995726745626423
+    },
+    {
+      "token": "deglu",
+      "intent_count": 13,
+      "other_count": 2,
+      "log_odds": 4.284230426398282
+    },
+    {
+      "token": "baré",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.207269385262153
+    },
+    {
+      "token": "faral",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.207269385262153
+    },
+    {
+      "token": "fés",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.207269385262153
+    },
+    {
+      "token": "jackson",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.207269385262153
+    },
+    {
+      "token": "xoole",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.207269385262153
+    },
+    {
+      "token": "yimay",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.207269385262153
+    },
+    {
+      "token": "dul",
+      "intent_count": 4,
+      "other_count": 1,
+      "log_odds": 3.6964437614961625
+    },
+    {
+      "token": "gawé",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.6964437614961625
+    },
+    {
+      "token": "légi",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.6964437614961625
+    },
+    {
+      "token": "neexul",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.6964437614961625
+    },
+    {
+      "token": "num",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.6964437614961625
+    },
+    {
+      "token": "samy",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.6964437614961625
+    },
+    {
+      "token": "yook",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.6964437614961625
+    },
+    {
+      "token": "dimba",
+      "intent_count": 4,
+      "other_count": 2,
+      "log_odds": 3.185618137730172
+    },
+    {
+      "token": "waññil",
+      "intent_count": 2,
+      "other_count": 1,
+      "log_odds": 3.1086570965940434
+    },
+    {
+      "token": "ñoo",
+      "intent_count": 6,
+      "other_count": 4,
+      "log_odds": 2.96555625295337
+    },
+    {
+      "token": "woy",
+      "intent_count": 40,
+      "other_count": 35,
+      "log_odds": 2.729600750459176
+    },
+    {
+      "token": "jeeba",
+      "intent_count": 2,
+      "other_count": 2,
+      "log_odds": 2.597831472828053
+    },
+    {
+      "token": "bess",
+      "intent_count": 1,
+      "other_count": 1,
+      "log_odds": 2.597831472828053
+    },
+    {
+      "token": "buko",
+      "intent_count": 1,
+      "other_count": 1,
+      "log_odds": 2.597831472828053
+    },
+    {
+      "token": "jàppsi",
+      "intent_count": 1,
+      "other_count": 1,
+      "log_odds": 2.597831472828053
+    }
+  ],
+  "weather": [
+    {
+      "token": "taw",
+      "intent_count": 11,
+      "other_count": 0,
+      "log_odds": 5.666289210017349
+    },
+    {
+      "token": "saint-louis",
+      "intent_count": 4,
+      "other_count": 0,
+      "log_odds": 4.728019571424419
+    },
+    {
+      "token": "humidité",
+      "intent_count": 3,
+      "other_count": 0,
+      "log_odds": 4.476705143143512
+    },
+    {
+      "token": "mekka",
+      "intent_count": 3,
+      "other_count": 0,
+      "log_odds": 4.476705143143512
+    },
+    {
+      "token": "mii",
+      "intent_count": 3,
+      "other_count": 0,
+      "log_odds": 4.476705143143512
+    },
+    {
+      "token": "nawet",
+      "intent_count": 3,
+      "other_count": 0,
+      "log_odds": 4.476705143143512
+    },
+    {
+      "token": "tornado",
+      "intent_count": 3,
+      "other_count": 0,
+      "log_odds": 4.476705143143512
+    },
+    {
+      "token": "fekkee",
+      "intent_count": 7,
+      "other_count": 1,
+      "log_odds": 4.140232906522299
+    },
+    {
+      "token": "ngelaw",
+      "intent_count": 7,
+      "other_count": 1,
+      "log_odds": 4.140232906522299
+    },
+    {
+      "token": "digle",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.140232906522299
+    },
+    {
+      "token": "kaolaak",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.140232906522299
+    },
+    {
+      "token": "météo",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.140232906522299
+    },
+    {
+      "token": "nowel",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.140232906522299
+    },
+    {
+      "token": "sedd",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.140232906522299
+    },
+    {
+      "token": "température",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.140232906522299
+    },
+    {
+      "token": "tàngooru",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.140232906522299
+    },
+    {
+      "token": "yëngatu",
+      "intent_count": 2,
+      "other_count": 0,
+      "log_odds": 4.140232906522299
+    },
+    {
+      "token": "tàng",
+      "intent_count": 5,
+      "other_count": 1,
+      "log_odds": 3.8300779782184597
+    },
+    {
+      "token": "amuloo",
+      "intent_count": 4,
+      "other_count": 1,
+      "log_odds": 3.6294072827563086
+    },
+    {
+      "token": "al-fitr",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.6294072827563086
+    },
+    {
+      "token": "alegandire",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.6294072827563086
+    },
+    {
+      "token": "alegsàndiri",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.6294072827563086
+    },
+    {
+      "token": "aleksandiri",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.6294072827563086
+    },
+    {
+      "token": "atum",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.6294072827563086
+    },
+    {
+      "token": "bëccëg",
+      "intent_count": 1,
+      "other_count": 0,
+      "log_odds": 3.6294072827563086
+    }
+  ]
+}

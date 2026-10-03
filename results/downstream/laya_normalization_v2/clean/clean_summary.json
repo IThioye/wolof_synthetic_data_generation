@@ -1,0 +1,35 @@
+{
+  "real": {
+    "rows": 638,
+    "accuracy": 0.8087774294670846,
+    "macro_f1": 0.8117716357020083
+  },
+  "tnt_real": {
+    "rows": 638,
+    "accuracy": 0.7789968652037618,
+    "macro_f1": 0.7866762693911235
+  },
+  "clean_accuracy_delta": -0.029780564263322873,
+  "clean_macro_f1_delta": -0.025095366310884826,
+  "clean_harm_rate": 0.03761755485893417,
+  "clean_help_rate": 0.007836990595611285,
+  "net_clean_gain": -19,
+  "paired_counts": {
+    "UNCHANGED_CORRECT": 492,
+    "UNCHANGED_WRONG": 117,
+    "HARMED_CLEAN": 24,
+    "HELPED_CLEAN": 5
+  },
+  "text_preservation": {
+    "rows": 638,
+    "cer": 0.020554563288730125,
+    "wer": 0.055810191426260446,
+    "chrf": 94.90620912400757,
+    "exact_match": 0.4702194357366771,
+    "sentence_identity_rate": 0.4702194357366771,
+    "token_identity_rate": 0.9446525963802379,
+    "changed_sentences": 338,
+    "mean_character_edits": 1.1003134796238245,
+    "mean_modified_tokens": 0.6489028213166145
+  }
+}

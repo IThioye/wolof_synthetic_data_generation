@@ -1,0 +1,23 @@
+{
+  "delta_cer": {
+    "pearson_r": 0.10670781946373728,
+    "pearson_p": 0.006981669986432037,
+    "spearman_rho": 0.13334511822396425,
+    "spearman_p": 0.0007338644316543692,
+    "interpretation": "association only; not a causal estimate"
+  },
+  "delta_wer": {
+    "pearson_r": 0.11789302701463357,
+    "pearson_p": 0.0028601009923047214,
+    "spearman_rho": 0.10260326501542155,
+    "spearman_p": 0.009503593937157738,
+    "interpretation": "association only; not a causal estimate"
+  },
+  "delta_chrf": {
+    "pearson_r": 0.1360984254202381,
+    "pearson_p": 0.0005669033808830028,
+    "spearman_rho": 0.12900766999891866,
+    "spearman_p": 0.0010914465906663986,
+    "interpretation": "association only; not a causal estimate"
+  }
+}

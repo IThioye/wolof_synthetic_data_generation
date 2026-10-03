@@ -1,0 +1,8 @@
+method,applicable,status,reason,intent_preservation
+M0,False,identity_reference,M0 makes no corruption and is represented by REAL.,exact
+M1,True,evaluated,Deterministic Beqi-inspired orthographic generator accepts arbitrary Wolof text.,expected but synthetic; every V1 row was heavily modified
+M2,False,not_applicable,Requires the paired French translation of each source row to constrain Eflomal substitutions; Injongo supplies no French translation.,cannot be established without adding a translation model
+M3,False,not_applicable,Requires paired French text for CMDR candidate scoring and positions; fabricating it would change the method and add a confound.,cannot be established without adding a translation model
+M4,False,not_applicable,"Oolel is an external set of generated formal/informal pairs, not a conditional corruption function for Injongo rows.",not transferable row-wise to Injongo
+M5,True,evaluated_low_coverage,Accepted YouTube-mined lexical mappings can be applied token-wise to arbitrary formal text.,"likely for spelling variants, but mapping errors remain possible"
+M6,True,evaluated_provisional,Gold-train lexical mappings and POS/context character templates accept arbitrary Wolof text with protection rules.,designed for orthographic noise; real-word/context errors remain possible

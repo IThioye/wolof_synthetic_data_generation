@@ -1,0 +1,7 @@
+{
+  "timezone_rows": 16,
+  "noisy_timezone_to_normalized_weather": 8,
+  "switch_rows_with_real_oreer": 8,
+  "switch_rows_where_normalized_lacks_oreer": 8,
+  "switch_rows_real_oreer_not_restored": 8
+}

@@ -1,0 +1,44 @@
+{
+  "experiment": "laya_downstream_analysis_v2",
+  "created_utc": "2026-10-03T10:02:11.851096+00:00",
+  "git_commit_at_execution": "8503ea8344e5f6ddfa2c3b768d21f92de89a2d64",
+  "seed": 2026,
+  "frozen_artifacts": {
+    "laya_checkpoint": "C:\\Users\\thioy\\Desktop\\School\\PFE\\checkpoints\\downstream\\laya_normalization_v1",
+    "laya_model_sha256": "9f3aa8e8040e83db2dcb564e0645e73fd19025a0376b0aa09d8a838bac1396ce",
+    "tnt_checkpoint": "C:\\Users\\thioy\\Desktop\\School\\PFE\\checkpoints\\m7_seq2seq\\tnt_hybrid_v3_optimization_v1\\m1_v3\\seed_2026\\gold_adapt_lr_5e5_word_keep_t050\\attempt_001\\best_model",
+    "tnt_model_sha256": "78b1cbc9777ac8fbb07b189d277cdeb387bea845e5e340f709ae0eaa2d967780",
+    "injongo_test": "C:\\Users\\thioy\\Desktop\\School\\PFE\\data\\external\\injongo_intent_wol\\test.jsonl",
+    "injongo_test_sha256": "97956d275da88024942085b56ae665340b3a5b7045c343be94ae24267b04b01e"
+  },
+  "laya_config_sha256": "e91690ace9b9a6ba5dc573824b596bd9be935a1bc3278c1050c1febf75ebed0a",
+  "tnt_config_sha256": "79fa38d6a9d2bf9f5dfcf64631a48df2c3f6d0079df2c2b659a41aa6416a47ab",
+  "v1_metrics_sha256": "d0e04856ab83b7dfeb8b55fcdd06c08c540d9682a232f85a6ac6f99ca9e5a3cc",
+  "real_baseline_reproduced": {
+    "rows": 638,
+    "accuracy": 0.8087774294670846,
+    "macro_f1": 0.8117716357020083
+  },
+  "m1_severity": [
+    {
+      "name": "light",
+      "target_mean_operations": 2.0,
+      "application_probability": 0.2147786567917859,
+      "description": "Each eligible M1 occurrence is retained by a deterministic hash threshold of 2/9.31."
+    },
+    {
+      "name": "medium",
+      "target_mean_operations": 5.0,
+      "application_probability": 0.5369466419794647,
+      "description": "Each eligible M1 occurrence is retained by a deterministic hash threshold of 5/9.31."
+    },
+    {
+      "name": "heavy",
+      "target_mean_operations": 9.31191222570533,
+      "application_probability": 1.0,
+      "description": "Exact V1 M1 generator: every ordered rule occurrence is applied."
+    }
+  ],
+  "test_rows": 638,
+  "no_training_performed": true
+}

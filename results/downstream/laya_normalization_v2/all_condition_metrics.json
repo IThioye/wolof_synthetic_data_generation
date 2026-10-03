@@ -1,0 +1,62 @@
+{
+  "REAL": {
+    "rows": 638,
+    "accuracy": 0.8087774294670846,
+    "macro_f1": 0.8117716357020083
+  },
+  "TNT_REAL": {
+    "rows": 638,
+    "accuracy": 0.7789968652037618,
+    "macro_f1": 0.7866762693911235
+  },
+  "NOISY_LIGHT": {
+    "rows": 638,
+    "accuracy": 0.7429467084639498,
+    "macro_f1": 0.7443690713741343
+  },
+  "NORMALIZED_LIGHT": {
+    "rows": 638,
+    "accuracy": 0.7225705329153606,
+    "macro_f1": 0.7290659205739773
+  },
+  "NOISY_MEDIUM": {
+    "rows": 638,
+    "accuracy": 0.6394984326018809,
+    "macro_f1": 0.6419807218600507
+  },
+  "NORMALIZED_MEDIUM": {
+    "rows": 638,
+    "accuracy": 0.6677115987460815,
+    "macro_f1": 0.6770974684559489
+  },
+  "NOISY_HEAVY": {
+    "rows": 638,
+    "accuracy": 0.48589341692789967,
+    "macro_f1": 0.4596851589967839
+  },
+  "NORMALIZED_HEAVY": {
+    "rows": 638,
+    "accuracy": 0.603448275862069,
+    "macro_f1": 0.6087104006914915
+  },
+  "NOISY_M5": {
+    "rows": 638,
+    "accuracy": 0.8103448275862069,
+    "macro_f1": 0.8126950525953625
+  },
+  "NORMALIZED_M5": {
+    "rows": 638,
+    "accuracy": 0.7774294670846394,
+    "macro_f1": 0.7857342481715328
+  },
+  "NOISY_M6": {
+    "rows": 638,
+    "accuracy": 0.7774294670846394,
+    "macro_f1": 0.7823174264202144
+  },
+  "NORMALIZED_M6": {
+    "rows": 638,
+    "accuracy": 0.7570532915360502,
+    "macro_f1": 0.7638805578860808
+  }
+}
