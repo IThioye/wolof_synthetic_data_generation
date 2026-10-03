@@ -1,0 +1,57 @@
+{
+  "experiment": "normalization_router_audit_v1",
+  "created_utc": "2026-10-03T10:39:25.841958+00:00",
+  "git_commit_at_execution": "678042e5d5ec35847db3ae4a304d59b74105eefd",
+  "seed": 2026,
+  "no_laya_or_tnt_training": true,
+  "frozen_artifacts": {
+    "laya_checkpoint": "C:\\Users\\thioy\\Desktop\\School\\PFE\\checkpoints\\downstream\\laya_normalization_v1",
+    "laya_model_sha256": "9f3aa8e8040e83db2dcb564e0645e73fd19025a0376b0aa09d8a838bac1396ce",
+    "tnt_checkpoint": "C:\\Users\\thioy\\Desktop\\School\\PFE\\checkpoints\\m7_seq2seq\\tnt_hybrid_v3_optimization_v1\\m1_v3\\seed_2026\\gold_adapt_lr_5e5_word_keep_t050\\attempt_001\\best_model",
+    "tnt_model_sha256": "78b1cbc9777ac8fbb07b189d277cdeb387bea845e5e340f709ae0eaa2d967780",
+    "injongo_test": "C:\\Users\\thioy\\Desktop\\School\\PFE\\data\\external\\injongo_intent_wol\\test.jsonl",
+    "injongo_test_sha256": "97956d275da88024942085b56ae665340b3a5b7045c343be94ae24267b04b01e"
+  },
+  "source_result_hashes": {
+    "results\\downstream\\laya_normalization_v2\\clean\\clean_paired_analysis.csv": "ff285edcb2473ae3e41c50d73a8317fdff1d99a39524ab4d7bd275db5a873edf",
+    "results\\downstream\\laya_normalization_v2\\predictions\\real.csv": "40dcea694905af3a976bc3afeaf9bcd78de477bcc79ca1b0d53ab92d105bc494",
+    "results\\downstream\\laya_normalization_v2\\predictions\\tnt_real.csv": "f90070e9d7987519463102278aeebf0f0ed5c055981fab95af57c31dc4cd121b",
+    "results\\downstream\\laya_normalization_v2\\severity\\paired_light.csv": "028125d25bac3ec6f37c86f6c3145b1271f0befa2070e3281f4e24874c50e06a",
+    "results\\downstream\\laya_normalization_v2\\conditions\\noisy_light.csv": "ba8f0b8fb32050eedc65f4588a411824312bf91f39b30a77d06af0000d30ac2a",
+    "results\\downstream\\laya_normalization_v2\\predictions\\noisy_light.csv": "2d1229085103e52172c4673510968e7fd8a012af5e7fd9cd485a642a6aac5be3",
+    "results\\downstream\\laya_normalization_v2\\predictions\\normalized_light.csv": "e35f12b2a818ac7ba1455e0ffb8987aec2f0cd6bb16ddacc07a20d3576d7b53c",
+    "results\\downstream\\laya_normalization_v2\\severity\\paired_medium.csv": "5fce97cc6e646f1e123f428af4e2573377ab2bad660c598b0c6f489f333a5e52",
+    "results\\downstream\\laya_normalization_v2\\conditions\\noisy_medium.csv": "33dc8b62a52babf15d2852fa1aa56a9c5a9f7655d028ca87331deb520240c7c6",
+    "results\\downstream\\laya_normalization_v2\\predictions\\noisy_medium.csv": "407c27376559aa3c9fed32f88a65bfbdba8560e0c060fb04ada3578936eb453b",
+    "results\\downstream\\laya_normalization_v2\\predictions\\normalized_medium.csv": "c9554fa10a0b64ddff740d18da046a9d53c66572057e8c14df05f6b91d9ebde7",
+    "results\\downstream\\laya_normalization_v2\\severity\\paired_heavy.csv": "7c00e37fb22945e140051497ad254198a5e75a9be85c048200befcae2272f8bb",
+    "results\\downstream\\laya_normalization_v2\\conditions\\noisy_heavy.csv": "b5dc3848f823c12980b14f6ea6cd0d0d9f4ca7772ab8a884773c0998e392ec2c",
+    "results\\downstream\\laya_normalization_v2\\predictions\\noisy_heavy.csv": "2ddb8c94909cafc5df669f81fd7cda7fd64f0d3d95c5d93e04d5e5bad3f7b0e4",
+    "results\\downstream\\laya_normalization_v2\\predictions\\normalized_heavy.csv": "0897cafe5dd0ed635c5b30bcd865585371f4ff799f591ef13b5202c08a796fdb",
+    "results\\downstream\\laya_normalization_v2\\cross_method\\paired_m5.csv": "f52ab9ff06528874887b20f3c0a8d054e4bd5e264239d3b1bc04fd3e44b1bce3",
+    "results\\downstream\\laya_normalization_v2\\conditions\\noisy_m5.csv": "43866373fa9c43e99b056ce34994e49f7720e1e176091f21fa7243afce1e7a13",
+    "results\\downstream\\laya_normalization_v2\\predictions\\noisy_m5.csv": "eeb85d5a3e788a9e2290b2a28970ae226df9ec1bf9d6cbffbabb2522ffc3103f",
+    "results\\downstream\\laya_normalization_v2\\predictions\\normalized_m5.csv": "2fe4c416ab78bae0c2462919d328bc8c07a91840fc08db4945ccd845daec41b9",
+    "results\\downstream\\laya_normalization_v2\\cross_method\\paired_m6.csv": "96dc49eaba55f544d814ea7fe6ed64f083b09527eb2cf92841f3c382b634ab16",
+    "results\\downstream\\laya_normalization_v2\\conditions\\noisy_m6.csv": "87eefe4fb69e8bbd9deb071ab754c63efa776f8660e9bf291e85a384c274d9eb",
+    "results\\downstream\\laya_normalization_v2\\predictions\\noisy_m6.csv": "30587bf2d5a0a15a77753ab184a49e8da0f6a8473d6c71ebdcf0a031099e1ce1",
+    "results\\downstream\\laya_normalization_v2\\predictions\\normalized_m6.csv": "d1f476466c29dd49ddd52ea9e5b8b05271f255ac9d70d0a65b6374682e51d544"
+  },
+  "formal_vocabulary": {
+    "path": "data\\vocabulary.txt",
+    "sha256": "52098f61c7f0f5444e7cd6c10f6a68db8a530d74e46e0d589bc614f9c9e31389"
+  },
+  "rows": 3828,
+  "conditions": [
+    "REAL",
+    "M1_LIGHT",
+    "M1_MEDIUM",
+    "M1_HEAVY",
+    "M5",
+    "M6"
+  ],
+  "grouping_key": "routing_group_id (= row_id; raw example_id repeats across intents)",
+  "outer_group_folds": 5,
+  "inner_group_folds": 4,
+  "best_deployable_strategy": "grouped_logistic_regression"
+}
